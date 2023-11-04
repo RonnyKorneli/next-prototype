@@ -1,0 +1,224 @@
+.content-box {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  background-color: $color-white;
+  border: 1px solid $color-grey-30;
+  border-top: 3px solid $color-blue;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  max-width: 1330px;
+  overflow: hidden;
+
+  a:not(.btn-basic) {
+    color: $color-blue;
+    text-decoration: underline;
+
+    &:hover {
+      color: $color-blue-60;
+
+      svg {
+        color: $color-blue-60;
+      }
+    }
+  }
+
+  u {
+    text-decoration: underline;
+  }
+
+  ::selection {
+    color: $color-white;
+    background-color: $color-blue;
+  }
+
+  > .header {
+    display: flex;
+    align-items: center;
+    padding: 14px 7%;
+
+    @include media-breakpoint-up(md) {
+      padding: 14px 5%;
+    }
+
+    @include media-breakpoint-up(lg) {
+      padding: 28px 0 18px 6.66667%;
+    }
+
+    > .icon {
+      height: auto;
+      max-width: 48px;
+      width: 100%;
+      fill: $color-blue;
+      margin-right: 28px;
+
+      @include media-breakpoint-up(lg) {
+        max-width: 55px;
+      }
+    }
+
+    .title {
+      font-size: 1.125rem;
+      line-height: 20px;
+      font-weight: bold;
+      margin: 0 0 3px;
+
+      @include media-breakpoint-up(lg) {
+        line-height: 1;
+        font-size: 1.375rem;
+      }
+
+      &.-blue {
+        color: $color-blue;
+
+        .icon {
+          fill: $color-blue;
+        }
+
+        .tooltip {
+          fill: $color-blue;
+          stroke: $color-blue;
+        }
+      }
+    }
+
+    .subtitle {
+      display: block;
+      line-height: 1.225rem;
+    }
+  }
+
+  hr {
+    color: $color-grey-30;
+    padding: 0 5px;
+    margin: 0 5px 1rem;
+  }
+
+  p,
+  .content {
+    padding: 0 7%;
+    margin-bottom: 15px;
+
+    @include media-breakpoint-up(md) {
+      padding: 0 5%;
+    }
+
+    @include media-breakpoint-up(lg) {
+      padding: 0 6.66667%;
+    }
+  }
+
+  ul {
+    padding: 0 calc(7% + 40px);
+    margin: 0 0 15px;
+
+    @include media-breakpoint-up(md) {
+      padding: 0 calc(5% + 40px);
+    }
+
+    @include media-breakpoint-up(lg) {
+      padding: 0 calc(6.66667% + 40px);
+    }
+
+    &.-aligned {
+      padding: 0 0 0 1rem;
+    }
+  }
+
+  .spacing {
+    padding-left: 7%;
+    padding-right: 7%;
+
+    @include media-breakpoint-up(md) {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+
+    @include media-breakpoint-up(lg) {
+      padding-left: 6.6667%;
+      padding-right: 6.6667%;
+    }
+  }
+
+  > h2 {
+    @include subheadline('blue');
+    width: 100%;
+  }
+
+  > h3 {
+    @include subheadline('grey');
+    width: 100%;
+  }
+
+  .minor-headline {
+    font-weight: bold;
+  }
+
+  &.-single {
+    > .header {
+      padding-top: 20px;
+
+      > .title {
+        font-size: 1rem;
+        font-weight: normal;
+        line-height: 1.2;
+
+        > .tooltip-container .icon {
+          width: 13px;
+          height: 13px;
+          margin-bottom: 7px;
+          cursor: pointer;
+        }
+      }
+
+      > .tooltip {
+        cursor: pointer;
+        height: 13px;
+        width: 13px;
+        margin-bottom: 7px;
+        margin-left: 4px;
+      }
+    }
+    a {
+      text-decoration: none;
+      color: $color-grey;
+    }
+
+    &.-grey {
+      border-top: 3px solid $color-grey-60;
+
+      > .header {
+        > .title {
+          &.-grey {
+            color: $color-grey-60;
+
+            .icon {
+              fill: $color-grey-60;
+            }
+          }
+        }
+
+        .tooltip {
+          fill: $color-grey-60;
+        }
+      }
+    }
+
+    &.-blue {
+      > .header {
+        > .title {
+          &.-grey {
+            color: $color-blue;
+
+            .icon {
+              fill: $color-blue;
+            }
+          }
+        }
+
+        .tooltip {
+          fill: $color-blue;
+        }
+      }
+    }
+  }
+}

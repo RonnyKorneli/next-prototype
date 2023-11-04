@@ -1,0 +1,316 @@
+query getProductDetails($id: ID!, $productId: String!) {
+  product(id: $id) {
+    id
+    name
+    url
+    robotsIndex
+    classification
+    status
+    created
+    manufacturerId
+    alternativeName
+    isGeneralProduct
+    isTireCategory
+    isLightingCategory
+    seoTitle
+    seoDescription
+    breadcrumb {
+      id
+      shortName
+      name
+      url
+    }
+    images {
+      sd
+      hd
+      width
+      height
+      text
+      imageSlug
+      setLinkToSource
+      urlOrigin
+    }
+    videos {
+      url
+      image
+      code
+    }
+    preisdeRank
+    categoryRank
+    classification
+    variantCount
+    offerCount
+    offerCountBStock
+    offerCountFastDelivery
+    minPrice {
+      price
+      euro
+      cent
+      formattedPrice
+    }
+    minPriceBStock {
+      price
+      euro
+      cent
+      formattedPrice
+    }
+    minBaseprice
+    maxPrice {
+      price
+      formattedPrice
+    }
+    parentCategory {
+      id
+      name
+      productViewStyle
+      status
+      url
+    }
+    energyLabel {
+      energyDatasheetUrl
+      efficiencyClass
+      efficiencyRangeMin
+      efficiencyRangeMax
+      label2021
+      labelUrl
+      tireFuelEfficiency
+      tireWetGripEfficiency
+      tireExternalRollingNoise
+      tireExternalRollingNoiseClass
+      tireIceGrip
+      tireSnowGrip
+    }
+    overallRating
+    amazonRating {
+      id
+      asin
+      averageRating
+      ratingCount
+      ratio
+      ratingUrl
+      fiveStarRatingCount
+      fourStarRatingCount
+      threeStarRatingCount
+      twoStarRatingCount
+      oneStarRatingCount
+      lastAmazonCheckFormatted
+    }
+
+    testContext {
+      testCount
+      gradeName
+      gradeValue
+      ratio
+      testAverageValue
+      productTestWithText {
+        imagesd
+        imagehd
+        publisherName
+        gradeName
+        gradeValue
+        edition
+        text
+      }
+      productTestWithoutText {
+        imagesd
+        imagehd
+        publisherName
+        gradeName
+        gradeValue
+        edition
+      }
+    }
+    productRecommendation {
+      iconFileName
+      recommendationLabel {
+        name
+      }
+      createdFormatted
+      content
+    }
+    productWarning {
+      name
+      value
+    }
+    productDepositInfo {
+      name
+      value
+    }
+    productKeyfacts {
+      keyfact
+    }
+    shortDescription
+    description
+    nextCategoryRecommendation {
+      editor {
+        name
+        image
+      }
+      category {
+        name
+      }
+    }
+    productProContras {
+      type
+      argument
+    }
+    userManualUrl
+    manufacturer {
+      name
+      url
+      homepage
+    }
+    attributes {
+      name
+      description
+      stringValues
+      unit
+    }
+    productNumbers {
+      name
+      values
+    }
+    bestOffer {
+      openerOutLink(productId: $productId, pagination: 1, qid: 0, action: "oop")
+      price {
+        price
+        euro
+        cent
+        formattedPrice
+      }
+      baseprice
+      minShippingCost {
+        price
+        formattedPrice
+      }
+      delivery {
+        color
+        text
+      }
+      deliveryText
+      shopInfoUrl
+      shop {
+        name
+      }
+      merchantName
+      modified
+    }
+    averagePrice {
+      euro
+      cent
+    }
+    defaultDesiredPrice
+    savingRate
+    priceTrend {
+      id
+    }
+    parentProduct {
+      url
+      images {
+        sd
+        hd
+        width
+        height
+      }
+      name
+      energyLabel {
+        label2021
+        efficiencyClass
+        efficiencyRangeMin
+        efficiencyRangeMax
+      }
+      badges {
+        name
+        value
+      }
+    }
+
+    productVariants {
+      id
+      url
+      name
+      variantName
+      images {
+        sd
+        hd
+        width
+        height
+      }
+      energyLabel {
+        label2021
+        efficiencyClass
+        efficiencyRangeMin
+        efficiencyRangeMax
+      }
+      badges {
+        name
+        value
+      }
+      minPrice {
+        euro
+        cent
+      }
+      minPriceBStock {
+        euro
+        cent
+      }
+      minBaseprice
+    }
+    topProductsByCategory {
+      id
+      name
+      url
+      images(limit: 1) {
+        sd
+        hd
+        width
+        height
+      }
+      minPrice {
+        euro
+        cent
+        formattedPrice
+      }
+      minPriceBStock {
+        euro
+        cent
+        formattedPrice
+      }
+      minBaseprice
+      energyLabel {
+        efficiencyClass
+        efficiencyRangeMin
+        efficiencyRangeMax
+        label2021
+      }
+    }
+    topProductsByManufacturer {
+      id
+      name
+      url
+      images(limit: 1) {
+        sd
+        hd
+        width
+        height
+      }
+      minPrice {
+        euro
+        cent
+        formattedPrice
+      }
+      minPriceBStock {
+        euro
+        cent
+        formattedPrice
+      }
+      minBaseprice
+      energyLabel {
+        efficiencyClass
+        efficiencyRangeMin
+        efficiencyRangeMax
+        label2021
+      }
+    }
+  }
+}

@@ -1,0 +1,304 @@
+.price {
+  font-size: 1.375rem;
+  line-height: 1.3;
+  font-family: $base-font-family;
+  text-decoration: none;
+  font-weight: bold;
+  color: $color-grey-80;
+
+  // States
+  &:hover {
+    text-decoration: none;
+  }
+
+  > .value sub {
+    font-size: 1.25rem;
+    vertical-align: baseline;
+  }
+
+  > .prefix {
+    font-weight: normal;
+    font-size: 0.875rem;
+  }
+
+  > .suffix {
+    font-size: 1.25rem;
+  }
+
+  > .subline {
+    display: block;
+    font-weight: normal;
+    color: $color-grey-60;
+    font-size: 0.6875rem;
+    text-align: right;
+    margin: 0 0 6px;
+  }
+
+  /**
+   * Sizes
+   */
+  &.-mini {
+    font-size: 0.9375rem;
+
+    > .value sub,
+    > .prefix,
+    > .suffix {
+      font-size: 0.78125rem;
+    }
+  }
+  &.-small {
+    font-size: 1rem;
+
+    > .value sub,
+    > .prefix,
+    > .suffix {
+      font-size: 0.875rem;
+    }
+  }
+
+  &.-medium {
+    font-size: 1.375rem;
+
+    > .prefix {
+      font-size: 0.875rem;
+    }
+
+    > .value sub,
+    > .suffix {
+      font-size: 1.25rem;
+    }
+  }
+
+  &.-large {
+    font-size: 1.5rem;
+
+    > .prefix {
+      font-size: 1rem;
+    }
+
+    > .value sub,
+    > .suffix {
+      font-size: 1.375rem;
+    }
+  }
+
+  &.-same-size {
+    > .value sub,
+    > .prefix {
+      font-size: inherit;
+    }
+  }
+
+  &.-small.-scale-85 {
+    font-size: 0.85rem;
+    > .prefix,
+    > .suffix {
+      font-size: 0.74rem;
+    }
+  }
+
+  &.-medium.-scale-85 {
+    font-size: 1.165rem;
+
+    > .prefix {
+      font-size: 0.74rem;
+    }
+
+    > .value sub,
+    > .suffix {
+      font-size: 1.06rem;
+    }
+  }
+
+  &.-large.-scale-85 {
+    font-size: 1.275rem;
+    > .prefix {
+      font-size: 0.85rem;
+    }
+
+    > .value sub,
+    > .suffix {
+      font-size: 1.165rem;
+    }
+  }
+}
+
+.price-with-arrow {
+  display: flex;
+  align-items: center;
+
+  > .arrow {
+    fill: $color-green;
+    vertical-align: text-bottom;
+  }
+
+  //colors
+  &.-green .arrow {
+    fill: $color-green;
+  }
+  &.-pink .arrow {
+    fill: $color-pink;
+  }
+
+  //sizes
+  &.-small {
+    > .arrow {
+      height: 18px;
+      width: 18px;
+    }
+  }
+
+  &.-medium {
+    font-size: 1.165rem;
+
+    > .arrow {
+      align-self: flex-start;
+      margin-top: 2px;
+      height: 26px;
+      width: 26px;
+    }
+  }
+
+  &.-large {
+    font-size: 1.275rem;
+
+    > .arrow {
+      align-self: flex-start;
+      margin-top: 2px;
+      height: 30px;
+      width: 30px;
+    }
+  }
+}
+
+.price-with-cta {
+  display: flex;
+  justify-self: flex-end;
+  align-self: flex-end;
+  text-decoration: none;
+  width: fit-content;
+
+  .total-amount {
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+  }
+
+  .shipping {
+    font-size: 0.6875rem;
+    line-height: 1.2;
+    justify-self: flex-end;
+  }
+
+  .price {
+    justify-self: flex-end;
+    > .value {
+      border-bottom: 2px solid transparent;
+    }
+
+    @media (pointer: fine) {
+      &:hover > .value {
+        border-bottom-color: $color-grey;
+      }
+    }
+
+    &.-pink {
+      .value,
+      .suffix {
+        color: $color-pink;
+      }
+
+      @media (pointer: fine) {
+        &:hover > .value {
+          border-bottom-color: $color-pink;
+        }
+      }
+    }
+  }
+
+  > .arrow-button {
+    align-self: flex-start;
+    margin-top: 5px;
+
+    &.-pink svg {
+      fill: $color-pink;
+    }
+    &.-green svg {
+      fill: $color-green;
+    }
+
+    > .thick-arrow-right {
+      width: 25px;
+      height: 24px;
+      margin: 0 5px 0 10px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      position: relative;
+      margin-left: 10px;
+
+      &:not(.-small)::before {
+        content: 'Zum Shop';
+        position: absolute;
+        top: 10px;
+        left: 15px;
+        color: $color-white;
+        font-size: 0.9375rem;
+        line-height: 1.3;
+        font-weight: bold;
+      }
+
+      > .arrow-background {
+        width: 112px;
+        height: 40px;
+      }
+    }
+  }
+}
+
+.price-with-crossprice {
+  .price {
+    color: $color-pink;
+  }
+
+  .crossedPrice {
+    text-decoration: line-through;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 0.875rem;
+    color: $color-grey;
+    height: 16px;
+    align-self: flex-end;
+    justify-self: flex-end;
+    margin-right: 2px;
+
+    &.-small {
+      font-size: 0.688rem;
+    }
+
+    &.-medium {
+      font-size: 1.165rem;
+    }
+
+    &.-large {
+      font-size: 1.275rem;
+    }
+  }
+}
+
+.price-with-cta.price-with-crossprice {
+  .crossedPrice {
+    text-decoration: none;
+
+    > .line-through {
+      display: block;
+      width: 120%;
+      margin: -13px -10% 0;
+      height: 100%;
+      background: url('/images/pages/globals/strike.png') no-repeat center
+        center;
+      background-size: contain;
+    }
+  }
+}

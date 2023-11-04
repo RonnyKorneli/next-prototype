@@ -1,0 +1,54 @@
+.eek-icon-list {
+  display: flex;
+
+  &.-transparence {
+    background-color: rgba($color-white, 0.85);
+    padding: 4px 28px 1px;
+  }
+
+  &.-large .icon {
+    width: 15px;
+    height: 15px;
+  }
+
+  &.-clickable:hover {
+    .icon {
+      fill: $color-blue-70;
+    }
+
+    .text {
+      color: $color-blue-70;
+    }
+  }
+}
+
+.eek-tire-info {
+  margin-right: 6px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  .icon {
+    margin-right: 4px;
+    width: 11px;
+    height: 11px;
+    fill: $color-grey;
+  }
+
+  .text {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 0.6875rem;
+    line-height: 17px;
+    color: $color-grey;
+  }
+
+  &.-clickable:hover {
+    .icon {
+      fill: $color-blue-70;
+    }
+
+    .text {
+      color: $color-blue-70;
+    }
+  }
+}

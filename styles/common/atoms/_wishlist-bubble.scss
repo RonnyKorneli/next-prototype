@@ -1,0 +1,117 @@
+@import '../base/colors';
+@import '../base/layout';
+
+.wishlist-bubble {
+  position: absolute;
+  right: -11px;
+  top: 66px;
+  text-align: left;
+  font-size: 0.75rem;
+  background-color: $color-white;
+  width: 260px;
+  border: 1px solid $color-grey-30;
+  z-index: 1;
+  transition: opacity 1s ease-in;
+  box-shadow: 1px 1px 3px rgba($color-black, 0.1);
+  padding: 10px;
+
+  @include media-breakpoint-up(md) {
+    right: 12px;
+    top: 82px;
+  }
+
+  &:before,
+  &:after {
+    display: block;
+    position: absolute;
+    top: -20px;
+    right: 30px;
+    content: '';
+    border: 10px solid transparent;
+    height: 0px;
+    width: 0px;
+    border-color: transparent transparent $color-grey-30 transparent;
+  }
+
+  &:after {
+    top: -19px;
+    border-color: transparent transparent $color-white transparent;
+  }
+
+  > .close {
+    display: none;
+  }
+
+  > .title {
+    font-weight: 700;
+    line-height: 16px;
+    margin-bottom: 8px;
+  }
+
+  > .content {
+    display: flex;
+
+    > .media {
+      width: 70px;
+      height: 70px;
+      margin: 0 5px;
+
+      > .image {
+        max-height: 100%;
+      }
+    }
+
+    > .body {
+      line-height: 1.3;
+      margin-bottom: 5px;
+    }
+  }
+
+  &.-empty {
+    > .content {
+      > .media {
+        width: 15rem;
+
+        > .image {
+          display: none;
+        }
+      }
+    }
+
+    > .body {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    > .close {
+      display: block;
+      position: absolute;
+      right: 7px;
+      top: 7px;
+      fill: $color-grey;
+      font-weight: 400;
+      z-index: 2;
+      width: 12px;
+      height: 12px;
+    }
+  }
+
+  &.-show {
+    animation: fade-in-and-out 6s ease-in-out;
+  }
+}
+
+@keyframes fade-in-and-out {
+  from,
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+  25% {
+    opacity: 1;
+    visibility: visible;
+  }
+  75% {
+    opacity: 1;
+    visibility: visible;
+  }
+}

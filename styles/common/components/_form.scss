@@ -1,0 +1,57 @@
+@import '../atoms/input';
+
+.form-field {
+  .label {
+    color: $color-grey-80;
+    font-size: 0.875rem;
+
+    &.-grey-80 {
+      color: $color-grey-80;
+    }
+  }
+
+  select,
+  textarea {
+    -webkit-appearance: none;
+    border: 1px solid $color-grey-60;
+    padding: 15px 10px;
+    max-width: 100%;
+    margin-top: 3px;
+    color: $color-blue;
+    border-radius: 1px;
+
+    &::placeholder {
+      color: $color-grey-50 !important;
+    }
+
+    &.focus-visible,
+    &:focus {
+      border: 1.5px solid $color-blue;
+    }
+
+    &.-valid {
+      border-color: $color-blue-60;
+    }
+
+    &.-invalid {
+      color: $color-error;
+      border-color: $color-error;
+    }
+  }
+
+  select {
+    -webkit-appearance: listbox;
+  }
+
+  textarea {
+    resize: none;
+    min-height: 150px;
+  }
+
+  .btn-basic[disabled] {
+    background-color: transparent !important;
+    color: $color-blue-60 !important;
+    border: 1px solid $color-blue-60 !important;
+    cursor: not-allowed !important;
+  }
+}

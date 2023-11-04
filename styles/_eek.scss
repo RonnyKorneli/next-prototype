@@ -1,0 +1,206 @@
+@import './base/_colors.scss';
+@import './base/_layout.scss';
+@import './base/_vars.scss';
+
+.eek-badge-wrapper {
+  position: absolute;
+  top: 5px;
+  left: -1px;
+  z-index: 1;
+}
+
+.eek-badge {
+  &.-clickable {
+    cursor: pointer;
+  }
+}
+
+.eek-badge.-old {
+  font-weight: bold;
+  color: $color-white;
+  text-align: left;
+  position: relative;
+  display: inline-block;
+  min-width: 33px;
+  line-height: 1;
+  padding: 1px 1px 3px 9px;
+  background-color: $color-grey;
+  border-color: $color-grey;
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+  }
+
+  // Sizes
+  &.-small {
+    font-size: 1rem;
+    padding: 1px 1px 1px 9px;
+
+    &:after {
+      border-bottom: 9px solid transparent;
+      border-left: 9px solid $color-white;
+      border-left-color: inherit;
+      border-top: 9px solid transparent;
+      right: -9px;
+    }
+  }
+  &.-medium {
+    font-size: 1.25rem;
+
+    &:after {
+      border-bottom: 12px solid transparent;
+      border-left: 12px solid $color-white;
+      border-left-color: inherit;
+      border-top: 12px solid transparent;
+      right: -12px;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 1.375rem;
+
+      &:after {
+        border-bottom: 13px solid transparent;
+        border-left: 13px solid $color-white;
+        border-left-color: inherit;
+        border-top: 13px solid transparent;
+        right: -13px;
+      }
+    }
+  }
+
+  // Colors
+  &.-cls-appp {
+    background-color: $color-energylabel-appp;
+    border-color: $color-energylabel-appp;
+  }
+  &.-cls-app {
+    background-color: $color-energylabel-app;
+    border-color: $color-energylabel-app;
+  }
+  &.-cls-ap {
+    background-color: $color-energylabel-ap;
+    border-color: $color-energylabel-ap;
+  }
+  &.-cls-a {
+    background-color: $color-energylabel-a;
+    border-color: $color-energylabel-a;
+  }
+  &.-cls-b {
+    background-color: $color-energylabel-b;
+    border-color: $color-energylabel-b;
+  }
+  &.-cls-c {
+    background-color: $color-energylabel-c;
+    border-color: $color-energylabel-c;
+  }
+  &.-cls-d {
+    background-color: $color-energylabel-d;
+    border-color: $color-energylabel-d;
+  }
+  &.-cls-e {
+    background-color: $color-energylabel-e;
+    border-color: $color-energylabel-e;
+  }
+  &.-cls-f {
+    background-color: $color-energylabel-f;
+    border-color: $color-energylabel-f;
+  }
+  &.-cls-g {
+    background-color: $color-energylabel-g;
+    border-color: $color-energylabel-g;
+  }
+}
+
+.eek-badge.-new {
+  font-weight: bold;
+  color: $color-white;
+  width: auto;
+  text-align: left;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0;
+
+  > .label {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  > svg {
+    .bg-left {
+      fill: $color-white;
+    }
+    path.arrow {
+      stroke: $color-black;
+      stroke-width: 0.8;
+    }
+    text.spectrum {
+      fill: $color-black;
+      font-family: Tahoma, Arial, Helvetica, sans-serif;
+      font-size: 0.6875rem;
+      font-weight: bold;
+    }
+  }
+
+  // Colors
+  &.-cls-a svg .bg-right {
+    fill: $color-energylabel2021-a;
+  }
+  &.-cls-b svg .bg-right {
+    fill: $color-energylabel2021-b;
+  }
+  &.-cls-c svg .bg-right {
+    fill: $color-energylabel2021-c;
+  }
+  &.-cls-d svg .bg-right {
+    fill: $color-energylabel2021-d;
+  }
+  &.-cls-e svg .bg-right {
+    fill: $color-energylabel2021-e;
+  }
+  &.-cls-f svg .bg-right {
+    fill: $color-energylabel2021-f;
+  }
+  &.-cls-g svg .bg-right {
+    fill: $color-energylabel2021-g;
+  }
+
+  // Sizes
+  &.-small {
+    font-size: 1rem;
+    padding: 0;
+    svg {
+      width: 38px;
+      height: 22px;
+    }
+
+    > .label {
+      font-size: 1rem;
+      line-height: 20px;
+      padding: 0 0 0 15px;
+    }
+  }
+
+  &.-medium {
+    font-size: 1.25rem;
+    padding: 0;
+
+    svg {
+      width: 40px;
+      height: 24px;
+    }
+    > .label {
+      font-size: 1.25rem;
+      line-height: 23px;
+      padding: 0 0 0 14px;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 1.375rem;
+      .label {
+        font-size: 1.375rem;
+      }
+    }
+  }
+}

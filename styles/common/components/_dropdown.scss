@@ -1,0 +1,156 @@
+@import '../base/_colors.scss';
+.dropdown-list {
+  .dropdown-toggle {
+    display: inline-block;
+    position: static;
+    white-space: nowrap;
+    line-height: 1.5;
+    height: 40px;
+    min-height: 26px;
+    text-overflow: ellipsis;
+    padding: 10px 30px 10px 15px;
+    overflow: hidden;
+    width: auto;
+    min-width: 120px;
+    color: $color-blue;
+    font-size: 0.875rem;
+    background: 0 0 !important;
+    border: 0;
+    border-radius: 0;
+    font-weight: 400;
+    cursor: pointer;
+    user-select: none;
+
+    &:hover,
+    &:active,
+    &:focus {
+      background: 0 0 !important;
+    }
+
+    .arrow {
+      position: absolute;
+      right: 10px;
+      bottom: 50%;
+      cursor: pointer;
+      z-index: 8;
+      transform: translate3d(0, 50%, 0) rotate(90deg);
+    }
+    .arrow-up {
+      transform: rotate(180deg);
+    }
+
+    &.bottom::after {
+      height: 20px;
+      width: 20px;
+    }
+  }
+
+  .dropdown-menu {
+    display: none;
+    font-size: 0.75rem;
+    padding: 0;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    min-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transform: translate3d(0, 40px, 0);
+    will-change: transform;
+    color: $color-grey;
+    text-align: left;
+    list-style: none;
+    background-color: $color-white;
+    background-clip: padding-box;
+    border: 1px solid $color-grey-40;
+    border-top: none;
+    margin: 1px 0 0 -1px;
+
+    .dropdown-item {
+      display: block;
+      width: 100%;
+      padding: 5px 15px;
+      clear: both;
+      font-weight: bold;
+      text-align: inherit;
+      white-space: nowrap;
+      background: none;
+      border: 0;
+      overflow: hidden;
+      cursor: pointer;
+
+      &:focus,
+      &:hover {
+        > .link {
+          color: $color-white;
+        }
+      }
+      &:active {
+        cursor: initial;
+        > .link {
+          color: $color-white;
+        }
+      }
+    }
+    &.multi-select {
+      width: 350px;
+      padding: 25px 17px 15px;
+      background-color: $color-grey-10;
+      .close {
+        float: right;
+        cursor: pointer;
+      }
+    }
+  }
+
+  &.-blue {
+    .dropdown-menu .dropdown-item {
+      &:focus,
+      &:active,
+      &:hover {
+        background-color: $color-blue;
+      }
+      &.-active {
+        background-color: $color-blue;
+        > .link {
+          color: $color-white;
+        }
+        cursor: initial;
+      }
+    }
+  }
+
+  &.-show {
+    .dropdown-toggle {
+      color: $color-grey;
+      .arrow {
+        transform: translate3d(0, 50%, 0) rotate(-90deg);
+      }
+    }
+  }
+  .toggle-container {
+    .arrow-container {
+      margin-left: 20px;
+    }
+    button {
+      border: 1px solid;
+      border-color: $color-grey-40;
+    }
+  }
+  .toggle-container + .dropdown-menu {
+    min-width: 200px;
+    margin-top: 16px;
+    margin-left: 16px;
+    > ul {
+      padding-inline-start: 0px;
+      list-style-type: none;
+    }
+  }
+}
+
+.-show {
+  > .dropdown-menu {
+    display: block;
+  }
+}

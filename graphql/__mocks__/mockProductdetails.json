@@ -1,0 +1,1754 @@
+{
+  "product": {
+    "id": "8155003",
+    "name": "Apple iPhone 13 ohne Vertrag",
+    "url": "/produkte/Apple-iPhone-13-ohne-Vertrag/8155003.html",
+    "robotsIndex": true,
+    "classification": "main",
+    "status": 100,
+    "created": "1631828167000",
+    "manufacturerId": "394",
+    "alternativeName": "Apple iPhone13 ohne Vertrag",
+    "isGeneralProduct": false,
+    "isTireCategory": false,
+    "isLightingCategory": false,
+    "seoTitle": "Apple iPhone 13 ohne Vertrag ab 718,00 € im Preisvergleich kaufen",
+    "seoDescription": "iPhone mit viel Leistung  | Aktuell bereits ab 718,00 € bei Preis.de ➤ Jetzt Angebote online vergleichen & Geld sparen! ✚ Geprüfte Shops ✓ Versandinfos ✓ Produktvideo  ✓ Günstig, schnell und einfach shoppen mit der kostenlosen Preissuchmaschine!",
+    "breadcrumb": [
+      {
+        "id": "10",
+        "shortName": null,
+        "name": "Elektronik & Computer",
+        "url": "/katalog/Elektronik-Computer/10.html"
+      },
+      {
+        "id": "4",
+        "shortName": null,
+        "name": "Kommunikation",
+        "url": "/katalog/Kommunikation/4.html"
+      },
+      {
+        "id": "396",
+        "shortName": null,
+        "name": "Handy ohne Vertrag",
+        "url": "/katalog/Handy-ohne-Vertrag/396.html"
+      },
+      {
+        "id": "5220",
+        "shortName": null,
+        "name": "Smartphone ohne Vertrag",
+        "url": "/katalog/Smartphone-ohne-Vertrag/5220.html"
+      },
+      {
+        "id": "6007",
+        "shortName": "Apple iPhones",
+        "name": "Apple iPhone",
+        "url": "/katalog/Apple-iPhone/6007.html"
+      }
+    ],
+    "images": [
+      {
+        "sd": "https://cdn.preis.de/p/8155003/200x200/85/1/Apple-iPhone-13-ohne-Vertrag-1632130582581.jpg",
+        "hd": "https://cdn.preis.de/p/8155003/400x400/25/1/Apple-iPhone-13-ohne-Vertrag-1632130582581.jpg",
+        "width": 1500,
+        "height": 1500,
+        "text": "Beispielbild",
+        "imageSlug": "Apple-iPhone-13-ohne-Vertrag-1632130582581.jpg",
+        "setLinkToSource": false,
+        "urlOrigin": "https://www.electronic4you.de/media/import/220227.jpg"
+      },
+      {
+        "sd": "https://cdn.preis.de/p/8155003/200x200/85/1/Apple-iPhone-13-ohne-Vertrag-1640785968837.jpg",
+        "hd": "https://cdn.preis.de/p/8155003/400x400/25/1/Apple-iPhone-13-ohne-Vertrag-1640785968837.jpg",
+        "width": 1600,
+        "height": 1600,
+        "text": null,
+        "imageSlug": "Apple-iPhone-13-ohne-Vertrag-1640785968837.jpg",
+        "setLinkToSource": null,
+        "urlOrigin": "http://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_87346706/ebay_1600_1600_jpeg"
+      },
+      {
+        "sd": "https://cdn.preis.de/p/8155003/200x200/85/1/Apple-iPhone-13-ohne-Vertrag-1632130583813.jpg",
+        "hd": "https://cdn.preis.de/p/8155003/400x400/25/1/Apple-iPhone-13-ohne-Vertrag-1632130583813.jpg",
+        "width": 1500,
+        "height": 1500,
+        "text": null,
+        "imageSlug": "Apple-iPhone-13-ohne-Vertrag-1632130583813.jpg",
+        "setLinkToSource": null,
+        "urlOrigin": "https://www.electronic4you.de/media/import/220219.jpg"
+      },
+      {
+        "sd": "https://cdn.preis.de/p/8155003/200x200/85/1/Apple-iPhone-13-ohne-Vertrag-1632130585062.jpg",
+        "hd": "https://cdn.preis.de/p/8155003/400x400/25/1/Apple-iPhone-13-ohne-Vertrag-1632130585062.jpg",
+        "width": 1500,
+        "height": 1500,
+        "text": null,
+        "imageSlug": "Apple-iPhone-13-ohne-Vertrag-1632130585062.jpg",
+        "setLinkToSource": null,
+        "urlOrigin": "https://www.electronic4you.de/media/import/220215.jpg"
+      },
+      {
+        "sd": "https://cdn.preis.de/p/8155003/200x200/85/1/Apple-iPhone-13-ohne-Vertrag-1640785969357.jpg",
+        "hd": "https://cdn.preis.de/p/8155003/400x400/25/1/Apple-iPhone-13-ohne-Vertrag-1640785969357.jpg",
+        "width": 1500,
+        "height": 1500,
+        "text": null,
+        "imageSlug": "Apple-iPhone-13-ohne-Vertrag-1640785969357.jpg",
+        "setLinkToSource": null,
+        "urlOrigin": "https://www.electronic4you.de/media/import/220218.jpg"
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube-nocookie.com/embed/8cbvvJfwhNM?showinfo=0&enablejsapi=1",
+        "image": "//img.youtube.com/vi/8cbvvJfwhNM/0.jpg",
+        "code": "Apple iPhone 13 mini 512GB Blau ohne Vertrag - Review"
+      }
+    ],
+    "preisdeRank": 4,
+    "categoryRank": 1,
+    "variantCount": 18,
+    "offerCount": 1196,
+    "offerCountBStock": 300,
+    "offerCountFastDelivery": 578,
+    "minPrice": {
+      "price": 718,
+      "euro": "718",
+      "cent": "00",
+      "formattedPrice": "718,00 €"
+    },
+    "minPriceBStock": {
+      "price": 519.99,
+      "euro": "519",
+      "cent": "99",
+      "formattedPrice": "519,99 €"
+    },
+    "minBaseprice": null,
+    "maxPrice": {
+      "price": 1827.35,
+      "formattedPrice": "1.827,35 €"
+    },
+    "parentCategory": {
+      "id": "6007",
+      "name": "Apple iPhone",
+      "productViewStyle": "liste",
+      "status": 100,
+      "url": "/katalog/Apple-iPhone/6007.html"
+    },
+    "energyLabel": null,
+    "overallRating": "86.0",
+    "amazonRating": null,
+    "testContext": {
+      "testCount": 10,
+      "gradeName": "gut",
+      "gradeValue": "1,7",
+      "ratio": "40%",
+      "testAverageValue": 86,
+      "productTestWithText": [
+        {
+          "imagesd": "https://cdn.preis.de/publisher/772/200x200/computerbild.png",
+          "imagehd": "https://cdn.preis.de/publisher/772/400x400/computerbild.png",
+          "publisherName": "ComputerBild",
+          "gradeName": "gut",
+          "gradeValue": "1,7",
+          "edition": "online",
+          "text": "Laut Computer Bild hat Apple sinnvolle Verbesserungen vorgenommen. Die Display-Helligkeit und die Akkulaufzeit können nun voll überzeugen. 120 Hz gibt es zwar nicht, doch das werden wohl nur anspruchsvolle Nerds vermissen."
+        },
+        {
+          "imagesd": "https://cdn.preis.de/publisher/137/200x200/chip-de.png",
+          "imagehd": "https://cdn.preis.de/publisher/137/400x400/chip-de.png",
+          "publisherName": "chip.de",
+          "gradeName": "sehr gut",
+          "gradeValue": "1,3",
+          "edition": "online",
+          "text": "Leistung: sehr gut (1,1) – Ausstattung: sehr gut (1,5) – Akku: sehr gut (1,2) – Display: sehr gut (1,4) – Kamera: gut (1,9) – Appstore: sehr gut (1,0)"
+        },
+        {
+          "imagesd": "https://cdn.preis.de/publisher/24/200x200/stiftung-warentest.png",
+          "imagehd": "https://cdn.preis.de/publisher/24/400x400/stiftung-warentest.png",
+          "publisherName": "Stiftung Warentest",
+          "gradeName": "gut",
+          "gradeValue": "1,8",
+          "edition": "12/2021 und online",
+          "text": "Wer ein leistungsstarkes Smartphone mit tollem Display und starker Kamera sucht, ist hier richtig. Das iPhone ist laut Stiftung Warentest zudem ausdauernd und stabil gebaut."
+        },
+        {
+          "imagesd": "https://cdn.preis.de/publisher/772/200x200/computerbild.png",
+          "imagehd": "https://cdn.preis.de/publisher/772/400x400/computerbild.png",
+          "publisherName": "ComputerBild",
+          "gradeName": "sehr gut",
+          "gradeValue": "1,4",
+          "edition": "online",
+          "text": "Laut Computer Bild hat Apple sinnvolle Verbesserungen vorgenommen. Die Display-Helligkeit und die Akkulaufzeit können nun voll überzeugen. 120 Hz gibt es zwar nicht, doch das werden wohl nur anspruchsvolle Nerds vermissen."
+        },
+        {
+          "imagesd": "https://cdn.preis.de/publisher/1355/200x200/netzwelt.png",
+          "imagehd": "https://cdn.preis.de/publisher/1355/400x400/netzwelt.png",
+          "publisherName": "netzwelt",
+          "gradeName": "sehr gut",
+          "gradeValue": "1,4",
+          "edition": "online",
+          "text": "Design und Verarbeitung: 10 – Ausstattung und Bedienung: 9,0 – Sprachqualität: 8,0 – Akkulaufzeit: 9,0 – Kamera und Multimedia: 9,0"
+        },
+        {
+          "imagesd": "https://cdn.preis.de/publisher/532/200x200/teltarif-de.png",
+          "imagehd": "https://cdn.preis.de/publisher/532/400x400/teltarif-de.png",
+          "publisherName": "teltarif.de",
+          "gradeName": "gut",
+          "gradeValue": "1,8",
+          "edition": "online",
+          "text": "Gehäuse: 10/10 – Display: 9/10 – Leistung: 10/10 – Software: 10/10 – Internet: 9/10 – Telefonie: 8/10 – Schnittstellen / Sensoren: 6/10 – Speicher: 6/10 – Akku: 7/10 – Kamera: 8/10"
+        }
+      ],
+      "productTestWithoutText": [
+        {
+          "imagesd": "https://cdn.preis.de/publisher/3/200x200/connect.png",
+          "imagehd": "https://cdn.preis.de/publisher/3/400x400/connect.png",
+          "publisherName": "connect",
+          "gradeName": "gut",
+          "gradeValue": "2,1",
+          "edition": "12/2021"
+        },
+        {
+          "imagesd": "https://cdn.preis.de/publisher/233/200x200/konsument.png",
+          "imagehd": "https://cdn.preis.de/publisher/233/400x400/konsument.png",
+          "publisherName": "Konsument",
+          "gradeName": "gut",
+          "gradeValue": "2,0",
+          "edition": "12/2021"
+        },
+        {
+          "imagesd": "https://cdn.preis.de/publisher/54/200x200/notebookcheck.png",
+          "imagehd": "https://cdn.preis.de/publisher/54/400x400/notebookcheck.png",
+          "publisherName": "notebookcheck",
+          "gradeName": "gut",
+          "gradeValue": "1,6",
+          "edition": "online"
+        },
+        {
+          "imagesd": "https://cdn.preis.de/publisher/1365/200x200/digit.png",
+          "imagehd": "https://cdn.preis.de/publisher/1365/400x400/digit.png",
+          "publisherName": "digit",
+          "gradeName": "gut",
+          "gradeValue": "2,1",
+          "edition": "online"
+        }
+      ]
+    },
+    "productRecommendation": null,
+    "productWarning": null,
+    "productDepositInfo": null,
+    "productKeyfacts": [],
+    "shortDescription": "iPhone mit viel Leistung",
+    "description": "<p>Das&nbsp;Apple iPhone 13 ohne Vertrag l&auml;sst dich den ganzen Tag dank seiner<strong> stark verbesserten Akkuleistung</strong> nicht im Stich. Nutze leistungshungrige Spiele oder Apps, ohne das dem Smartphone die Power ausgeht. M&ouml;glich macht das der <strong>Bionic A15&nbsp; Chip</strong> von Apple.&nbsp;</p>\n<table>\n<thead>\n<tr>\n<th colspan=\"2\">Produkteigenschaften</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>RAM-Speicher</strong></td>\n<td>6 GB</td>\n</tr>\n<tr>\n<td><strong>Displayhelligkeit</strong></td>\n<td>800 cd/m&sup2;</td>\n</tr>\n<tr>\n<td><strong>Art d. Displays</strong></td>\n<td>OLED-Display</td>\n</tr>\n<tr>\n<td><strong>Displaygr&ouml;&szlig;e</strong></td>\n<td>6,10 Zoll</td>\n</tr>\n<tr>\n<td><strong>Ausf&uuml;hrung d. Kamera</strong></td>\n<td>optische Bildstabilisierung / 4k-Videoaufnahme / Dual-Kamera</td>\n</tr>\n<tr>\n<td><strong>Prozessorkern</strong></td>\n<td>Hexa-Core (6)</td>\n</tr>\n</tbody>\n</table>\n<h3 class=\"title\">Starke H&uuml;lle&nbsp;</h3>\n<p>Apple entwickelt das&nbsp;Apple iPhone 13 mit einem besonders <strong>robusten Design</strong>. Daf&uuml;r flacht der Hersteller die Kanten ab. So liegt es trotz seiner kantigen Form bequem in deiner Hand. Zudem ist es besser bei St&uuml;rzen gesch&uuml;tzt. Um vor Kratzern zu bewahren ist zudem<strong> Ceramic Shield-Glas</strong> verbaut. Dieses h&auml;lt noch mehr St&uuml;rze aus als das Glas des Vorg&auml;ngers.&nbsp;</p>\n<h3 class=\"title\">Zwei Kamera f&uuml;r neue M&ouml;glichkeiten</h3>\n<p>Das <strong>Zwei-Kamera-System</strong> besteht nun aus zwei diagonal angeordneten Kameras mit<strong> besonders gro&szlig;en Sensoren</strong>.&nbsp;Auf diese Weise ist genug Platz f&uuml;r einen <strong>Bildstabilisator</strong>. Er sorgt daf&uuml;r, dass du selbst bei wenig Licht tolle Fotos machst und unterst&uuml;tzt dich beim Dreh deiner Videos.&nbsp;</p>",
+    "nextCategoryRecommendation": {
+      "editor": {
+        "name": "Tobias",
+        "image": "https://cdn.preis.de/recommendations/editors/90x90/90/1/tobias_1.jpg"
+      },
+      "category": {
+        "name": "Smartphone ohne Vertrag"
+      }
+    },
+    "productProContras": [],
+    "userManualUrl": "",
+    "manufacturer": {
+      "name": "Apple",
+      "url": "/hersteller/Apple/394.html",
+      "homepage": "https://www.apple.com/de/"
+    },
+    "attributes": [
+      {
+        "name": "1. Kamera",
+        "description": null,
+        "stringValues": ["12MP", "26mm", "OIS", "Weitwinkel", "f/1.6"],
+        "unit": null
+      },
+      {
+        "name": "1. Selfie-Kamera",
+        "description": null,
+        "stringValues": ["12MP", "23mm", "Weitwinkel", "f/2.2"],
+        "unit": null
+      },
+      {
+        "name": "2. Kamera",
+        "description": null,
+        "stringValues": ["120°", "12MP", "13mm", "Ultra-Weitwinkel", "f/2.4"],
+        "unit": null
+      },
+      {
+        "name": "Akku-Eigenschaften",
+        "description": null,
+        "stringValues": [
+          "Schnellladefunktion",
+          "fest verbauter Akku",
+          "kabelloses Laden"
+        ],
+        "unit": null
+      },
+      {
+        "name": "Akkukapazität",
+        "description": "Die Leistungsfähigkeit moderner kompakter Akkus wird in mAh (Milli-Ampere-Stunden)  angegeben. Je höher die Kapazität, desto mehr bzw. länger kann der Akku Energie bereitstellen.",
+        "stringValues": ["3240"],
+        "unit": "mAh"
+      },
+      {
+        "name": "App vorinstalliert",
+        "description": null,
+        "stringValues": ["App Store"],
+        "unit": null
+      },
+      {
+        "name": "Art d. Displays",
+        "description": "Die Display-Technik hat entscheidenden Einfluss auf Schärfe, Kontrastqualität und Blickwinkelstabilität. Die Auswahl reicht von herkömmlichen LC- über Super AMOLED- bis hin zu Retina-Displays. Letztere werden primär in Apple-Geräten verwendet.",
+        "stringValues": ["OLED"],
+        "unit": null
+      },
+      {
+        "name": "Artikelgewicht",
+        "description": null,
+        "stringValues": ["173"],
+        "unit": "g"
+      },
+      {
+        "name": "Audio-Feature(s)",
+        "description": "Darunter fallen alle Eigenschaften, die etwas mit dem Ton zu tun haben.",
+        "stringValues": ["Stereo-Lautsprecher"],
+        "unit": null
+      },
+      {
+        "name": "Audiowiedergabe mögl.",
+        "description": null,
+        "stringValues": ["bis zu 75 h"],
+        "unit": null
+      },
+      {
+        "name": "Auflösung d. Displays",
+        "description": "Die Auflösung ist der zentrale Indikator für die Bildschärfe des Displays. Je höher die Auflösung desto präziser werden deine Apps, Grafiken und Fotos auf dem Display dargestellt. Insbesondere Geräte ab 5\" sollten min. 1.280 x 720 Pixel aufweisen.",
+        "stringValues": ["2.532 x 1.170"],
+        "unit": "Pixel"
+      },
+      {
+        "name": "Auflösung d. Frontkamera",
+        "description": null,
+        "stringValues": ["12"],
+        "unit": "Megapixel"
+      },
+      {
+        "name": "Auflösung d. Kamera",
+        "description": "Die Auflösung der Kamera determiniert die Schärfe deiner Fotos. Generell gilt: Je höher die Anzahl der Megapixel, desto besser. Wenn du deine Fotos großformatig ausdrucken oder am PC bearbeiten willst, sollte die Kamera min. 5 MP oder mehr aufweisen.",
+        "stringValues": ["12"],
+        "unit": "MP"
+      },
+      {
+        "name": "Ausführung d. Kamera",
+        "description": null,
+        "stringValues": [
+          "4k-Videoaufnahme",
+          "Dual-Kamera",
+          "optische Bildstabilisierung"
+        ],
+        "unit": null
+      },
+      {
+        "name": "Barrierefreiheit",
+        "description": null,
+        "stringValues": [
+          "Anzeigevergrößerung",
+          "Freisprechen",
+          "Hörgerätekompatibel",
+          "Sprachsteuerung",
+          "TTY-Unterstützung",
+          "Text-to-Speech",
+          "Vibrationsalarm"
+        ],
+        "unit": null
+      },
+      {
+        "name": "Bauart",
+        "description": null,
+        "stringValues": ["Barren Handy"],
+        "unit": null
+      },
+      {
+        "name": "Besonderheiten Display",
+        "description": null,
+        "stringValues": [
+          "Display-Notch",
+          "HDR-Display",
+          "Haptic Touch",
+          "Super Retina XDR Display",
+          "True-Tone-Display"
+        ],
+        "unit": null
+      },
+      {
+        "name": "Betriebssystem",
+        "description": null,
+        "stringValues": ["iOS 16"],
+        "unit": null
+      },
+      {
+        "name": "Betriebssystem",
+        "description": "Die Benutzeroberfläche sowie das Bedienkonzept unterscheiden sich abhängig von dem verwendeten Betriebssystem. Die dominierenden Betriebssysteme sind iOS (Apple) und Android. Zudem verfügen Windows-Phones und Blackberrys über eigene Betriebssysteme.",
+        "stringValues": ["iOS 16"],
+        "unit": null
+      },
+      {
+        "name": "Betriebssystem (install.)",
+        "description": "Gibt an, welches Betriebssystem vorinstalliert ist. ",
+        "stringValues": ["iOS 15"],
+        "unit": null
+      },
+      {
+        "name": "Bildstabilisator",
+        "description": "Bildstabilisierung wird in der Foto- und Videotechnik eingesetzt, um Umschärfen, die durch Verwacklungen hervorgerufen werden können, zu vermeiden.",
+        "stringValues": ["optisch (OIS)"],
+        "unit": null
+      },
+      {
+        "name": "Bildwiederholfrequenz",
+        "description": "Die Bildwiederholfrequenz in Hertz gibt im Grunde die Anzahl vollständiger oder halber Bilder an, die innerhalb einer Zeitspanne (1 Sekunde) dargestellt werden können.",
+        "stringValues": ["60"],
+        "unit": "Hz"
+      },
+      {
+        "name": "Blitzlicht",
+        "description": null,
+        "stringValues": ["Dual Tone LED-Blitz"],
+        "unit": null
+      },
+      {
+        "name": "Bluetooth-Version",
+        "description": "Die Bluetooth-Version beschreibt den Standard der integrierten Bluetooth-Schnittstelle. Moderne Geräte verfügen über Bluetooth 4.0 Schnittstellen oder höher. Bei älteren Versionen könnte es unter Umständen zu Kompatibilitätsproblemen kommen.",
+        "stringValues": ["5.0"],
+        "unit": null
+      },
+      {
+        "name": "CPU-Hersteller",
+        "description": "Gibt an von welchem Hersteller der Prozessor stammt. ",
+        "stringValues": ["Apple"],
+        "unit": null
+      },
+      {
+        "name": "Displaygröße",
+        "description": "Gibt die Größe des Displays in Zoll an (1 Zoll = 2,54 cm). ",
+        "stringValues": ["6.1"],
+        "unit": "Zoll"
+      },
+      {
+        "name": "Displaygröße",
+        "description": "Beschreibt die Displaydiagonale in cm.",
+        "stringValues": ["15,494"],
+        "unit": "cm"
+      },
+      {
+        "name": "Displayhelligkeit",
+        "description": "Die Helligkeit von Displays wird in cd/m² gemessen. Je höher der Wert, desto heller ist der Display und umso weniger musst du dich beim Lesen anstrengen.",
+        "stringValues": ["800"],
+        "unit": "cd/m²"
+      },
+      {
+        "name": "Displaymerkmale",
+        "description": "Hier werden bestimmte Merkmale aufgezeigt, über die das jeweilige Display verfügt.",
+        "stringValues": ["kratzfest"],
+        "unit": null
+      },
+      {
+        "name": "Dual-SIM",
+        "description": null,
+        "stringValues": ["Dual-SIM Nano/eSIM", "Dual-SIM Standby"],
+        "unit": null
+      },
+      {
+        "name": "DxO Mark (Rating)",
+        "description": "Der DxO Mark ist ein Test, bei dem Smartphones bezüglich der Kamera, aufgenommener Fotos, Videos sowie App-Kompatibilität bewertet werden.",
+        "stringValues": ["149 (vergebener max Wert 11/2022)"],
+        "unit": null
+      },
+      {
+        "name": "DxO-Mark",
+        "description": null,
+        "stringValues": ["130"],
+        "unit": null
+      },
+      {
+        "name": "Fokusfunktion(en)",
+        "description": "Die Funktionen beschäftigen sich ausschließlich mit der Fokussierung und helfen dir dabei, dass deine Bilder auch wirklich scharf sind. ",
+        "stringValues": [
+          "Dual Pixel Autofokus",
+          "Kontinuierlicher Autofokus (CAF)",
+          "Phasen-Fokus (PDAF)"
+        ],
+        "unit": null
+      },
+      {
+        "name": "Frequenzband (WLAN)",
+        "description": "Es gibt verschiedene Frequenzbereiche, die für unterschiedliche Anwendungen genutzt werden. Dabei verfügt jeder Bereich über mehrere Kanäle und unterschiedliche Reichweiten. ",
+        "stringValues": ["2,4 GHz", "5 GHz"],
+        "unit": null
+      },
+      {
+        "name": "Gehäuse (Material)",
+        "description": null,
+        "stringValues": ["Aluminium Rahmen", "Glas"],
+        "unit": null
+      },
+      {
+        "name": "Gehäusemerkmal(e)",
+        "description": null,
+        "stringValues": ["staubdicht", "wasserdicht"],
+        "unit": null
+      },
+      {
+        "name": "Kamerafunktion",
+        "description": "Zeigt dir alle Funktionen an, die du bei der Kamera nutzen kannst. Die Funktionen sollen dir dabei helfen eine bessere Bild- bzw. Videoqualität zu erzielen.",
+        "stringValues": [
+          "Bokeh-Modus",
+          "Bokeh-Videos",
+          "HDR",
+          "Nachtmodus",
+          "Panorama",
+          "Portraitmodus",
+          "Profi-Modus",
+          "Rote Augen Korrektur",
+          "Selbstauslöser",
+          "Stereo-Videoaufnahme",
+          "Zeitlupe",
+          "Zeitraffer"
+        ],
+        "unit": null
+      },
+      {
+        "name": "Kontrast",
+        "description": null,
+        "stringValues": ["2.000.000:1"],
+        "unit": null
+      },
+      {
+        "name": "Ladestromvorgabe",
+        "description": null,
+        "stringValues": [
+          "15W MagSafe Wireless Charging",
+          "20W",
+          "7,5W Wireless Charging"
+        ],
+        "unit": null
+      },
+      {
+        "name": "Ladezeit",
+        "description": null,
+        "stringValues": ["50% in 30min"],
+        "unit": null
+      },
+      {
+        "name": "Marktstart",
+        "description": "Zeigt dir das Jahr an, in dem das Produkt auf den Markt gekommen ist.",
+        "stringValues": ["2021"],
+        "unit": null
+      },
+      {
+        "name": "Nachhaltigkeit",
+        "description": null,
+        "stringValues": ["Einsatz recycelter Materialien", "Recyclingprogramm"],
+        "unit": null
+      },
+      {
+        "name": "Pixeldichte (PPI)",
+        "description": "Die Pixeldichte beschreibt die Auflösung im Vergleich zur Fläche. Entscheidend ist der Abstand zum Display. Wenn der Abstand zum Display besonders gering ist (Smartphone), ist ein hoher ppi-Wert enorm wichtig, um scharfe Bildergebnisse zu generieren.",
+        "stringValues": ["460"],
+        "unit": "ppi"
+      },
+      {
+        "name": "Position d. Anschlusses",
+        "description": "Zeigt dir sowohl die Position der Schnittstelle an, als auch die Art des jeweiligen Anschlusses.",
+        "stringValues": ["Lightning unten"],
+        "unit": null
+      },
+      {
+        "name": "Produktart",
+        "description": null,
+        "stringValues": ["5G Handy", "Dual-SIM Handy", "LTE Smartphone"],
+        "unit": null
+      },
+      {
+        "name": "Produktbesonderheiten",
+        "description": null,
+        "stringValues": [
+          "Ultra Wideband (UWB)",
+          "neuester Mobilfunkstandard 5G",
+          "neuester WLAN-Standard Wi-Fi 6(ax)"
+        ],
+        "unit": null
+      },
+      {
+        "name": "Produktbreite",
+        "description": null,
+        "stringValues": ["71.5"],
+        "unit": "mm"
+      },
+      {
+        "name": "Produkthöhe",
+        "description": null,
+        "stringValues": ["146.7"],
+        "unit": "mm"
+      },
+      {
+        "name": "Produkttiefe",
+        "description": null,
+        "stringValues": ["7.65"],
+        "unit": "mm"
+      },
+      {
+        "name": "Prozessorkern",
+        "description": "Viele Prozessoren verfügen über mehrere Prozessorkerne zur Steigerung der Rechenleistung. Außerdem kann auf diese Weise die Effizienz der CPU gesteigert und der Stromverbrauch gesenkt werden.",
+        "stringValues": ["Hexa-Core (6)"],
+        "unit": null
+      },
+      {
+        "name": "Prozessortyp",
+        "description": "Prozessoren sind die zentrale Steuereinheit eines PC´s und bestehen zum Teil aus mehreren Kernen. Die gängigsten Modelle stammen von AMD bzw. Intel.",
+        "stringValues": ["A15 Bionic"],
+        "unit": null
+      },
+      {
+        "name": "RAM-Speicher",
+        "description": "RAM wird geläufig als Arbeitsspeicher bezeichnet. In den Arbeitsspeicher werden Daten geladen, die während der Nutzung von PC, Notebook, Smartphone, Tablet etc. anfallen. Je größer der RAM desto mehr Programme/Apps können gleichzeitig geladen werden.",
+        "stringValues": ["4"],
+        "unit": "GB"
+      },
+      {
+        "name": "Reihe",
+        "description": null,
+        "stringValues": ["Apple iPhone"],
+        "unit": null
+      },
+      {
+        "name": "SIM-Karte (Typ)",
+        "description": "Die SIM-Karte ist notwendig, damit das Handy den Kontakt zum jeweiligen Mobilfunk-Netz herstellen kann. Neben der herkömmlichen SIM-Karte sind Mini-, Micro- und Nano-SIM-Karten verbreitet. Abhängig von dem Handy-Typ können Adapter erforderlich sein.",
+        "stringValues": ["Nano-SIM", "eSIM"],
+        "unit": null
+      },
+      {
+        "name": "Schnittstelle",
+        "description": null,
+        "stringValues": ["Lightning"],
+        "unit": null
+      },
+      {
+        "name": "Schutzart",
+        "description": "Die Schutzart informiert dich über die Eignung von verschiedenen Geräten in den unterschiedlichsten Umgebungen. Eine Möglichkeit ist daher die Einteilung der Produkte über einen IP-Code.",
+        "stringValues": ["IP68"],
+        "unit": null
+      },
+      {
+        "name": "Seitenverhältnis Display",
+        "description": null,
+        "stringValues": ["19,5:9"],
+        "unit": null
+      },
+      {
+        "name": "Selfie Kamera Blitz",
+        "description": null,
+        "stringValues": ["Display-Blitz"],
+        "unit": null
+      },
+      {
+        "name": "Sensor",
+        "description": null,
+        "stringValues": [
+          "Annäherungssensor",
+          "Barometer",
+          "Beschleunigungssensor (G-Sensor)",
+          "Helligkeitssensor",
+          "Kreiselsensor (Gyroskop)",
+          "Magnetometer"
+        ],
+        "unit": null
+      },
+      {
+        "name": "Sicherheitssystem",
+        "description": null,
+        "stringValues": ["Gesichtserkennung"],
+        "unit": null
+      },
+      {
+        "name": "Smartphoneklasse",
+        "description": null,
+        "stringValues": ["High-End"],
+        "unit": null
+      },
+      {
+        "name": "Speicherkarte",
+        "description": "Speicherkarten haben unterschiedliche Formate, die sich in ihrer Größe unterscheiden. Für jedes Gerät ist ein spezielles Format nötig, welches nicht durch andere ersetzt werden kann.",
+        "stringValues": ["ohne Slot"],
+        "unit": null
+      },
+      {
+        "name": "Speicherzelle (Akku)",
+        "description": "Es können verschiedene Akku-Technologien zum Einsatz kommen. Unterschiede finden sich entsprechend beispielsweise in der Kapazität und dem Verhalten bei Energieabgabe und -aufnahme.",
+        "stringValues": ["Li-Ionen"],
+        "unit": null
+      },
+      {
+        "name": "Umfang d. Lieferung",
+        "description": null,
+        "stringValues": ["Kurzanleitung", "Lightning-Kabel"],
+        "unit": null
+      },
+      {
+        "name": "Videoaufnahme Frontkamera",
+        "description": null,
+        "stringValues": ["4K (60/30/24fps)", "Full HD (120/60/30fps)"],
+        "unit": null
+      },
+      {
+        "name": "Videoaufnahme Rückkamera",
+        "description": "Hiermit ist die Auflösung der Kamera gemeint. Diese wird in Pixel angegeben und gibt dir einen Überblick über die Bildqualität.",
+        "stringValues": ["4K (60/30/24fps)", "Full HD (240/120/60/30fps)"],
+        "unit": null
+      },
+      {
+        "name": "Videostabilisator",
+        "description": null,
+        "stringValues": ["optisch (OIS)"],
+        "unit": null
+      },
+      {
+        "name": "Videowiedergabe mögl.",
+        "description": null,
+        "stringValues": ["bis zu 19 h"],
+        "unit": null
+      },
+      {
+        "name": "WLAN-Standard",
+        "description": "WLAN-Standards geben dir eine Auskunft über die Modulation und die Breite der Kanäle. Außerdem erfährst du so etwas über die möglichen Übertragungsraten sowie die Qualität der Übertragung. Alles baut auf den Standard IEEE 802.11 auf.",
+        "stringValues": [
+          "WiFi 1 (b)",
+          "WiFi 2 (a)",
+          "WiFi 3 (g)",
+          "WiFi 4 (n)",
+          "WiFi 5 (ac)",
+          "WiFi 6 (ax)"
+        ],
+        "unit": null
+      },
+      {
+        "name": "Zoom (digital)",
+        "description": "Der digitale Zoom ist eine Vergrößerung eines Bildausschnittes durch eine Interpolation der Bildinformationen. Der Zoom wird im Verhältnis angegeben und zeigt, um das wie viel fache etwas vergrößert werden kann.",
+        "stringValues": ["5"],
+        "unit": "fach"
+      },
+      {
+        "name": "besondere Eigenschaften",
+        "description": null,
+        "stringValues": ["NFC", "WiFi 6", "wasserdicht"],
+        "unit": null
+      },
+      {
+        "name": "besonderes Kameramerkmal",
+        "description": null,
+        "stringValues": [
+          "Cinematic Mode",
+          "Deep Fusion",
+          "Dolby Vision HDR",
+          "HEIF Format",
+          "Sensor Shift",
+          "Smart HDR 4"
+        ],
+        "unit": null
+      },
+      {
+        "name": "biometrisches Entsperren",
+        "description": "Gibt an, mithilfe welcher Methoden das Gerät entsperrt werden kann. ",
+        "stringValues": ["per Gesicht"],
+        "unit": null
+      },
+      {
+        "name": "lokale Verbindung",
+        "description": "Die lokale Verbindung zeigt dir an, wie du ein Gerät mit dem lokalen Netzwerk verbinden kannst. ",
+        "stringValues": [
+          "AirDrop",
+          "AirPlay",
+          "Bluetooth",
+          "Dualband WLan",
+          "MIMO-WLan",
+          "NFC",
+          "Ultrabreitband-Sensor (UWB)",
+          "WLAN"
+        ],
+        "unit": null
+      },
+      {
+        "name": "mobile Datenkommunikation",
+        "description": "Die mobile Datenkommunikation beschreibt den verwendeten Übertragungsstandard für die Nutzung des mobilen Internets. Für frustfreies Surfen im mobilen Internet sollte min. der 3G-/HSDPA-Standard unterstützt werden. Video-Streaming erfordert LTE/4G.",
+        "stringValues": [
+          "EDGE",
+          "GPRS",
+          "GSM",
+          "LTE",
+          "UMTS",
+          "VoLTE",
+          "WCDMA"
+        ],
+        "unit": null
+      },
+      {
+        "name": "physikalische Tasten",
+        "description": "Physikalische Tasten sind Tasten, die du wirklich irgendwo reindrücken kannst. Das Gegenteil davon wäre ein Touchscreen, bei dem bereits eine kleine Berührung ausreicht.",
+        "stringValues": ["Alarm Slider", "Ein/Aus-Taste", "Lautstärke-Regler"],
+        "unit": null
+      },
+      {
+        "name": "vorhandener Ortungsdienst",
+        "description": "Zeigt dir das Ortungssystem an, welches auf dem Gerät vorinstalliert ist. Es gibt unterschiedliche Varianten, die auf verschiedene Satelliten zurückgreifen.",
+        "stringValues": ["A-GPS", "GLONASS", "GPS", "Galileo", "QZSS"],
+        "unit": null
+      },
+      {
+        "name": "wasserdicht",
+        "description": "Die Wasserdichte wird in verschiedenen Skalen bemessen und gibt dir einen Aufschluss über den Schutz der Materialien. Bei Uhren wird die Wasserdichte beispielsweise in bar angegeben, da Uhren nur bis zu einem Gewissen Druck wasserdicht sind.",
+        "stringValues": ["bis 6,0m für 30 min"],
+        "unit": null
+      }
+    ],
+    "productNumbers": [],
+    "bestOffer": {
+      "openerOutLink": "/opener_out.htm?SEC&PA=1&B=1&OKEY=cbdecedc63a0c469cf450404b079d2c3&V=0&EL&PID=745&AKT=oop&AID=3513506223565570532&QID=0&CID=8155003",
+      "price": {
+        "price": 718,
+        "euro": "718",
+        "cent": "00",
+        "formattedPrice": "718,00 €"
+      },
+      "baseprice": null,
+      "minShippingCost": {
+        "price": 0,
+        "formattedPrice": "0,00 €"
+      },
+      "delivery": {
+        "color": "yellow",
+        "text": "mit Lieferzeit"
+      },
+      "deliveryText": "Lieferung innerhalb von 4 - 8 Werktagen nach Zahlungseingang.",
+      "shopInfoUrl": "http://rover.ebay.com/rover/1/707-53477-19255-0/1/?ff3=4&pub=5574635388&toolid=10001&campid=5337771981&mpre=https%3A%2F%2Ffeedback.ebay.de%2Fws%2FeBayISAPI.dll%3FViewFeedback2%26userid%3Dikauf66",
+      "shop": {
+        "name": "eBay"
+      },
+      "merchantName": "ikauf66",
+      "modified": "09.02.2023, 10:31"
+    },
+    "averagePrice": {
+      "euro": "969",
+      "cent": "86"
+    },
+    "defaultDesiredPrice": "678,00",
+    "savingRate": 26,
+    "priceTrend": {
+      "id": "5874942520"
+    },
+    "parentProduct": null,
+    "productVariants": [
+      {
+        "id": "8155009",
+        "url": "/produkte/Apple-iPhone-13-128GB-Blau-ohne-Vertrag/8155009.html",
+        "name": "Apple iPhone 13 128GB Blau ohne Vertrag",
+        "variantName": "128GB Blau",
+        "images": [
+          {
+            "sd": "https://cdn.preis.de/p/8155009/200x200/85/1/Apple-iPhone-13-128GB-Blau-ohne-Vertrag-1641300752146.jpg",
+            "hd": "https://cdn.preis.de/p/8155009/400x400/25/1/Apple-iPhone-13-128GB-Blau-ohne-Vertrag-1641300752146.jpg",
+            "width": 1500,
+            "height": 1500
+          }
+        ],
+        "energyLabel": null,
+        "badges": [null],
+        "minPrice": {
+          "euro": "718",
+          "cent": "00"
+        },
+        "minPriceBStock": {
+          "euro": "639",
+          "cent": "00"
+        },
+        "minBaseprice": null
+      },
+      {
+        "id": "8442438",
+        "url": "/produkte/Apple-iPhone-13-128GB-Gruen/8442438.html",
+        "name": "Apple iPhone 13 128GB Grün",
+        "variantName": "128GB Grün",
+        "images": [
+          {
+            "sd": "https://cdn.preis.de/p/8442438/200x200/85/1/Apple-iPhone-13-128GB-Gruen-1655112339943.jpg",
+            "hd": "https://cdn.preis.de/p/8442438/400x400/25/1/Apple-iPhone-13-128GB-Gruen-1655112339943.jpg",
+            "width": 1108,
+            "height": 1500
+          }
+        ],
+        "energyLabel": null,
+        "badges": [null],
+        "minPrice": {
+          "euro": "725",
+          "cent": "00"
+        },
+        "minPriceBStock": {
+          "euro": "602",
+          "cent": "14"
+        },
+        "minBaseprice": null
+      },
+      {
+        "id": "8155074",
+        "url": "/produkte/Apple-iPhone-13-128GB-Mitternacht-ohne-Vertrag/8155074.html",
+        "name": "Apple iPhone 13 128GB Mitternacht ohne Vertrag",
+        "variantName": "128GB Mitternacht",
+        "images": [
+          {
+            "sd": "https://cdn.preis.de/p/8155074/200x200/85/1/Apple-iPhone-13-128GB-Mitternacht-ohne-Vertrag-1644302789692.jpg",
+            "hd": "https://cdn.preis.de/p/8155074/400x400/25/1/Apple-iPhone-13-128GB-Mitternacht-ohne-Vertrag-1644302789692.jpg",
+            "width": 3000,
+            "height": 3000
+          }
+        ],
+        "energyLabel": null,
+        "badges": [null],
+        "minPrice": {
+          "euro": "718",
+          "cent": "00"
+        },
+        "minPriceBStock": {
+          "euro": "519",
+          "cent": "99"
+        },
+        "minBaseprice": null
+      },
+      {
+        "id": "8155070",
+        "url": "/produkte/Apple-iPhone-13-128GB-Polarstern-ohne-Vertrag/8155070.html",
+        "name": "Apple iPhone 13 128GB Polarstern ohne Vertrag",
+        "variantName": "128GB Polarstern",
+        "images": [
+          {
+            "sd": "https://cdn.preis.de/p/8155070/200x200/85/1/Apple-iPhone-13-128GB-Polarstern-ohne-Vertrag-1652254146193.jpg",
+            "hd": "https://cdn.preis.de/p/8155070/400x400/25/1/Apple-iPhone-13-128GB-Polarstern-ohne-Vertrag-1652254146193.jpg",
+            "width": 3000,
+            "height": 3000
+          }
+        ],
+        "energyLabel": null,
+        "badges": [null],
+        "minPrice": {
+          "euro": "718",
+          "cent": "00"
+        },
+        "minPriceBStock": {
+          "euro": "616",
+          "cent": "46"
+        },
+        "minBaseprice": null
+      },
+      {
+        "id": "8155069",
+        "url": "/produkte/Apple-iPhone-13-128GB-RED-ohne-Vertrag/8155069.html",
+        "name": "Apple iPhone 13 128GB RED ohne Vertrag",
+        "variantName": "128GB RED",
+        "images": [
+          {
+            "sd": "https://cdn.preis.de/p/8155069/200x200/85/1/Apple-iPhone-13-128GB-RED-ohne-Vertrag.jpg",
+            "hd": "https://cdn.preis.de/p/8155069/400x400/25/1/Apple-iPhone-13-128GB-RED-ohne-Vertrag.jpg",
+            "width": -1,
+            "height": -1
+          }
+        ],
+        "energyLabel": null,
+        "badges": [null],
+        "minPrice": {
+          "euro": "749",
+          "cent": "00"
+        },
+        "minPriceBStock": {
+          "euro": "599",
+          "cent": "40"
+        },
+        "minBaseprice": null
+      },
+      {
+        "id": "8155073",
+        "url": "/produkte/Apple-iPhone-13-128GB-Rose-ohne-Vertrag/8155073.html",
+        "name": "Apple iPhone 13 128GB Rose ohne Vertrag",
+        "variantName": "128GB Rose",
+        "images": [
+          {
+            "sd": "https://cdn.preis.de/p/8155073/200x200/85/1/Apple-iPhone-13-128GB-Rose-ohne-Vertrag-1652253320742.jpg",
+            "hd": "https://cdn.preis.de/p/8155073/400x400/25/1/Apple-iPhone-13-128GB-Rose-ohne-Vertrag-1652253320742.jpg",
+            "width": 3000,
+            "height": 3000
+          }
+        ],
+        "energyLabel": null,
+        "badges": [null],
+        "minPrice": {
+          "euro": "718",
+          "cent": "00"
+        },
+        "minPriceBStock": {
+          "euro": "629",
+          "cent": "00"
+        },
+        "minBaseprice": null
+      },
+      {
+        "id": "8155061",
+        "url": "/produkte/Apple-iPhone-13-256GB-Blau-ohne-Vertrag/8155061.html",
+        "name": "Apple iPhone 13 256GB Blau ohne Vertrag",
+        "variantName": "256GB Blau",
+        "images": [
+          {
+            "sd": "https://cdn.preis.de/p/8155061/200x200/85/1/Apple-iPhone-13-256GB-Blau-ohne-Vertrag-1652077419502.jpg",
+            "hd": "https://cdn.preis.de/p/8155061/400x400/25/1/Apple-iPhone-13-256GB-Blau-ohne-Vertrag-1652077419502.jpg",
+            "width": 1600,
+            "height": 1600
+          }
+        ],
+        "energyLabel": null,
+        "badges": [null],
+        "minPrice": {
+          "euro": "809",
+          "cent": "00"
+        },
+        "minPriceBStock": {
+          "euro": "672",
+          "cent": "75"
+        },
+        "minBaseprice": null
+      },
+      {
+        "id": "8442442",
+        "url": "/produkte/Apple-iPhone-13-256GB-Gruen/8442442.html",
+        "name": "Apple iPhone 13 256GB Grün",
+        "variantName": "256GB Grün",
+        "images": [
+          {
+            "sd": "https://cdn.preis.de/p/8442442/200x200/85/1/Apple-iPhone-13-256GB-Gruen-1655877098130.jpg",
+            "hd": "https://cdn.preis.de/p/8442442/400x400/25/1/Apple-iPhone-13-256GB-Gruen-1655877098130.jpg",
+            "width": 3000,
+            "height": 3000
+          }
+        ],
+        "energyLabel": null,
+        "badges": [null],
+        "minPrice": {
+          "euro": "849",
+          "cent": "00"
+        },
+        "minPriceBStock": {
+          "euro": "689",
+          "cent": "00"
+        },
+        "minBaseprice": null
+      },
+      {
+        "id": "8155093",
+        "url": "/produkte/Apple-iPhone-13-256GB-Mitternacht-ohne-Vertrag/8155093.html",
+        "name": "Apple iPhone 13 256GB Mitternacht ohne Vertrag",
+        "variantName": "256GB Mitternacht",
+        "images": [
+          {
+            "sd": "https://cdn.preis.de/p/8155093/200x200/85/1/Apple-iPhone-13-256GB-Mitternacht-ohne-Vertrag-1638788971644.jpg",
+            "hd": "https://cdn.preis.de/p/8155093/400x400/25/1/Apple-iPhone-13-256GB-Mitternacht-ohne-Vertrag-1638788971644.jpg",
+            "width": 1104,
+            "height": 1500
+          }
+        ],
+        "energyLabel": null,
+        "badges": [null],
+        "minPrice": {
+          "euro": "829",
+          "cent": "00"
+        },
+        "minPriceBStock": {
+          "euro": "678",
+          "cent": "90"
+        },
+        "minBaseprice": null
+      },
+      {
+        "id": "8155098",
+        "url": "/produkte/Apple-iPhone-13-256GB-Polarstern-ohne-Vertrag/8155098.html",
+        "name": "Apple iPhone 13 256GB Polarstern ohne Vertrag",
+        "variantName": "256GB Polarstern",
+        "images": [
+          {
+            "sd": "https://cdn.preis.de/p/8155098/200x200/85/1/Apple-iPhone-13-256GB-Polarstern-ohne-Vertrag-1654847452446.jpg",
+            "hd": "https://cdn.preis.de/p/8155098/400x400/25/1/Apple-iPhone-13-256GB-Polarstern-ohne-Vertrag-1654847452446.jpg",
+            "width": 3000,
+            "height": 3000
+          }
+        ],
+        "energyLabel": null,
+        "badges": [null],
+        "minPrice": {
+          "euro": "870",
+          "cent": "92"
+        },
+        "minPriceBStock": {
+          "euro": "689",
+          "cent": "00"
+        },
+        "minBaseprice": null
+      },
+      {
+        "id": "8155099",
+        "url": "/produkte/Apple-iPhone-13-256GB-RED-ohne-Vertrag/8155099.html",
+        "name": "Apple iPhone 13 256GB RED ohne Vertrag",
+        "variantName": "256GB RED",
+        "images": [
+          {
+            "sd": "https://cdn.preis.de/p/8155099/200x200/85/1/Apple-iPhone-13-256GB-RED-ohne-Vertrag-1655793214553.jpg",
+            "hd": "https://cdn.preis.de/p/8155099/400x400/25/1/Apple-iPhone-13-256GB-RED-ohne-Vertrag-1655793214553.jpg",
+            "width": 1104,
+            "height": 1500
+          }
+        ],
+        "energyLabel": null,
+        "badges": [null],
+        "minPrice": {
+          "euro": "870",
+          "cent": "92"
+        },
+        "minPriceBStock": {
+          "euro": "689",
+          "cent": "00"
+        },
+        "minBaseprice": null
+      },
+      {
+        "id": "8155100",
+        "url": "/produkte/Apple-iPhone-13-256GB-Rose-ohne-Vertrag/8155100.html",
+        "name": "Apple iPhone 13 256GB Rose ohne Vertrag",
+        "variantName": "256GB Rose",
+        "images": [
+          {
+            "sd": "https://cdn.preis.de/p/8155100/200x200/85/1/Apple-iPhone-13-256GB-Rose-ohne-Vertrag-1665390770297.jpg",
+            "hd": "https://cdn.preis.de/p/8155100/400x400/25/1/Apple-iPhone-13-256GB-Rose-ohne-Vertrag-1665390770297.jpg",
+            "width": 3000,
+            "height": 3000
+          }
+        ],
+        "energyLabel": null,
+        "badges": [null],
+        "minPrice": {
+          "euro": "870",
+          "cent": "92"
+        },
+        "minPriceBStock": {
+          "euro": "689",
+          "cent": "00"
+        },
+        "minBaseprice": null
+      },
+      {
+        "id": "8155097",
+        "url": "/produkte/Apple-iPhone-13-512GB-Blau-ohne-Vertrag/8155097.html",
+        "name": "Apple iPhone 13 512GB Blau ohne Vertrag",
+        "variantName": "512GB Blau",
+        "images": [
+          {
+            "sd": "https://cdn.preis.de/p/8155097/200x200/85/1/Apple-iPhone-13-512GB-Blau-ohne-Vertrag.jpg",
+            "hd": "https://cdn.preis.de/p/8155097/400x400/25/1/Apple-iPhone-13-512GB-Blau-ohne-Vertrag.jpg",
+            "width": -1,
+            "height": -1
+          }
+        ],
+        "energyLabel": null,
+        "badges": [null],
+        "minPrice": {
+          "euro": "945",
+          "cent": "00"
+        },
+        "minPriceBStock": {
+          "euro": "859",
+          "cent": "00"
+        },
+        "minBaseprice": null
+      },
+      {
+        "id": "8442466",
+        "url": "/produkte/Apple-iPhone-13-512GB-Gruen/8442466.html",
+        "name": "Apple iPhone 13 512GB Grün",
+        "variantName": "512GB Grün",
+        "images": [
+          {
+            "sd": "https://cdn.preis.de/p/8442466/200x200/85/1/Apple-iPhone-13-512GB-Gruen.jpg",
+            "hd": "https://cdn.preis.de/p/8442466/400x400/25/1/Apple-iPhone-13-512GB-Gruen.jpg",
+            "width": -1,
+            "height": -1
+          }
+        ],
+        "energyLabel": null,
+        "badges": [null],
+        "minPrice": {
+          "euro": "949",
+          "cent": "00"
+        },
+        "minPriceBStock": {
+          "euro": "854",
+          "cent": "00"
+        },
+        "minBaseprice": null
+      },
+      {
+        "id": "8155096",
+        "url": "/produkte/Apple-iPhone-13-512GB-MItternacht-ohne-Vertrag/8155096.html",
+        "name": "Apple iPhone 13 512GB MItternacht ohne Vertrag",
+        "variantName": "512GB MItternacht",
+        "images": [
+          {
+            "sd": "https://cdn.preis.de/p/8155096/200x200/85/1/Apple-iPhone-13-512GB-MItternacht-ohne-Vertrag.jpg",
+            "hd": "https://cdn.preis.de/p/8155096/400x400/25/1/Apple-iPhone-13-512GB-MItternacht-ohne-Vertrag.jpg",
+            "width": -1,
+            "height": -1
+          }
+        ],
+        "energyLabel": null,
+        "badges": [null],
+        "minPrice": {
+          "euro": "949",
+          "cent": "00"
+        },
+        "minPriceBStock": {
+          "euro": "808",
+          "cent": "63"
+        },
+        "minBaseprice": null
+      },
+      {
+        "id": "8155101",
+        "url": "/produkte/Apple-iPhone-13-512GB-Polarstern-ohne-Vertrag/8155101.html",
+        "name": "Apple iPhone 13 512GB Polarstern ohne Vertrag",
+        "variantName": "512GB Polarstern",
+        "images": [
+          {
+            "sd": "https://cdn.preis.de/p/8155101/200x200/85/1/Apple-iPhone-13-512GB-Polarstern-ohne-Vertrag.jpg",
+            "hd": "https://cdn.preis.de/p/8155101/400x400/25/1/Apple-iPhone-13-512GB-Polarstern-ohne-Vertrag.jpg",
+            "width": -1,
+            "height": -1
+          }
+        ],
+        "energyLabel": null,
+        "badges": [null],
+        "minPrice": {
+          "euro": "1.082",
+          "cent": "00"
+        },
+        "minPriceBStock": {
+          "euro": "829",
+          "cent": "00"
+        },
+        "minBaseprice": null
+      },
+      {
+        "id": "8155102",
+        "url": "/produkte/Apple-iPhone-13-512GB-RED-ohne-Vertrag/8155102.html",
+        "name": "Apple iPhone 13 512GB RED ohne Vertrag",
+        "variantName": "512GB RED",
+        "images": [
+          {
+            "sd": "https://cdn.preis.de/p/8155102/200x200/85/1/Apple-iPhone-13-512GB-RED-ohne-Vertrag.jpg",
+            "hd": "https://cdn.preis.de/p/8155102/400x400/25/1/Apple-iPhone-13-512GB-RED-ohne-Vertrag.jpg",
+            "width": -1,
+            "height": -1
+          }
+        ],
+        "energyLabel": null,
+        "badges": [null],
+        "minPrice": {
+          "euro": "955",
+          "cent": "00"
+        },
+        "minPriceBStock": {
+          "euro": "859",
+          "cent": "00"
+        },
+        "minBaseprice": null
+      },
+      {
+        "id": "8155103",
+        "url": "/produkte/Apple-iPhone-13-512GB-Rose-ohne-Vertrag/8155103.html",
+        "name": "Apple iPhone 13 512GB Rose ohne Vertrag",
+        "variantName": "512GB Rose",
+        "images": [
+          {
+            "sd": "https://cdn.preis.de/p/8155103/200x200/85/1/Apple-iPhone-13-512GB-Rose-ohne-Vertrag-1663569739304.jpg",
+            "hd": "https://cdn.preis.de/p/8155103/400x400/25/1/Apple-iPhone-13-512GB-Rose-ohne-Vertrag-1663569739304.jpg",
+            "width": 769,
+            "height": 1034
+          }
+        ],
+        "energyLabel": null,
+        "badges": [null],
+        "minPrice": {
+          "euro": "929",
+          "cent": "00"
+        },
+        "minPriceBStock": {
+          "euro": "819",
+          "cent": "00"
+        },
+        "minBaseprice": null
+      }
+    ],
+    "topProductsByCategory": [
+      {
+        "id": "6693152",
+        "name": "Apple iPhone 12 ohne Vertrag",
+        "url": "/produkte/Apple-iPhone-12-ohne-Vertrag/6693152.html",
+        "images": [
+          {
+            "sd": "https://cdn.preis.de/p/6693152/200x200/85/1/Apple-iPhone-12-1604657842156.jpg",
+            "hd": "https://cdn.preis.de/p/6693152/400x400/25/1/Apple-iPhone-12-1604657842156.jpg",
+            "width": 1600,
+            "height": 1600
+          }
+        ],
+        "minPrice": {
+          "euro": "629",
+          "cent": "00",
+          "formattedPrice": "629,00 €"
+        },
+        "minPriceBStock": {
+          "euro": "358",
+          "cent": "08",
+          "formattedPrice": "358,08 €"
+        },
+        "minBaseprice": null,
+        "energyLabel": null
+      },
+      {
+        "id": "8155007",
+        "name": "Apple iPhone 13 Pro ohne Vertrag",
+        "url": "/produkte/Apple-iPhone-13-Pro-ohne-Vertrag/8155007.html",
+        "images": [
+          {
+            "sd": "https://cdn.preis.de/p/8155007/200x200/85/1/Apple-iPhone-13-Pro-ohne-Vertrag-1632132841348.jpg",
+            "hd": "https://cdn.preis.de/p/8155007/400x400/25/1/Apple-iPhone-13-Pro-ohne-Vertrag-1632132841348.jpg",
+            "width": 1500,
+            "height": 1500
+          }
+        ],
+        "minPrice": {
+          "euro": "1.039",
+          "cent": "00",
+          "formattedPrice": "1.039,00 €"
+        },
+        "minPriceBStock": {
+          "euro": "835",
+          "cent": "49",
+          "formattedPrice": "835,49 €"
+        },
+        "minBaseprice": null,
+        "energyLabel": null
+      },
+      {
+        "id": "8155005",
+        "name": "Apple iPhone 13 Pro Max ohne Vertrag",
+        "url": "/produkte/Apple-iPhone-13-Pro-Max-ohne-Vertrag/8155005.html",
+        "images": [
+          {
+            "sd": "https://cdn.preis.de/p/8155005/200x200/85/1/Apple-iPhone-13-Pro-Max-ohne-Vertrag-1632133499965.jpg",
+            "hd": "https://cdn.preis.de/p/8155005/400x400/25/1/Apple-iPhone-13-Pro-Max-ohne-Vertrag-1632133499965.jpg",
+            "width": 1500,
+            "height": 1500
+          }
+        ],
+        "minPrice": {
+          "euro": "1.249",
+          "cent": "00",
+          "formattedPrice": "1.249,00 €"
+        },
+        "minPriceBStock": {
+          "euro": "803",
+          "cent": "75",
+          "formattedPrice": "803,75 €"
+        },
+        "minBaseprice": null,
+        "energyLabel": null
+      },
+      {
+        "id": "5646926",
+        "name": "Apple iPhone 11 ohne Vertrag",
+        "url": "/produkte/Apple-iPhone-11-ohne-Vertrag/5646926.html",
+        "images": [
+          {
+            "sd": "https://cdn.preis.de/p/5646926/200x200/85/1/Apple-iPhone-11-ohne-Vertrag-1568357269790.jpg",
+            "hd": "https://cdn.preis.de/p/5646926/400x400/25/1/Apple-iPhone-11-ohne-Vertrag-1568357269790.jpg",
+            "width": 1500,
+            "height": 1500
+          }
+        ],
+        "minPrice": {
+          "euro": "469",
+          "cent": "00",
+          "formattedPrice": "469,00 €"
+        },
+        "minPriceBStock": {
+          "euro": "239",
+          "cent": "99",
+          "formattedPrice": "239,99 €"
+        },
+        "minBaseprice": null,
+        "energyLabel": null
+      },
+      {
+        "id": "8671527",
+        "name": "Apple iPhone 14 Pro",
+        "url": "/produkte/Apple-iPhone-14-Pro/8671527.html",
+        "images": [
+          {
+            "sd": "https://cdn.preis.de/p/8671527/200x200/85/1/Apple-iPhone-14-Pro-1663056053796.jpg",
+            "hd": "https://cdn.preis.de/p/8671527/400x400/25/1/Apple-iPhone-14-Pro-1663056053796.jpg",
+            "width": 1500,
+            "height": 1500
+          }
+        ],
+        "minPrice": {
+          "euro": "1.139",
+          "cent": "00",
+          "formattedPrice": "1.139,00 €"
+        },
+        "minPriceBStock": {
+          "euro": "1.069",
+          "cent": "00",
+          "formattedPrice": "1.069,00 €"
+        },
+        "minBaseprice": null,
+        "energyLabel": null
+      },
+      {
+        "id": "8147147",
+        "name": "Apple iPhone 13 mini ohne Vertrag",
+        "url": "/produkte/Apple-iPhone-13-mini-ohne-Vertrag/8147147.html",
+        "images": [
+          {
+            "sd": "https://cdn.preis.de/p/8147147/200x200/85/1/Apple-iPhone-13-mini-ohne-Vertrag-1632129591188.jpg",
+            "hd": "https://cdn.preis.de/p/8147147/400x400/25/1/Apple-iPhone-13-mini-ohne-Vertrag-1632129591188.jpg",
+            "width": 1500,
+            "height": 1500
+          }
+        ],
+        "minPrice": {
+          "euro": "668",
+          "cent": "00",
+          "formattedPrice": "668,00 €"
+        },
+        "minPriceBStock": {
+          "euro": "541",
+          "cent": "96",
+          "formattedPrice": "541,96 €"
+        },
+        "minBaseprice": null,
+        "energyLabel": null
+      },
+      {
+        "id": "6693178",
+        "name": "Apple iPhone 12 mini ohne Vertrag",
+        "url": "/produkte/Apple-iPhone-12-mini-ohne-Vertrag/6693178.html",
+        "images": [
+          {
+            "sd": "https://cdn.preis.de/p/6693178/200x200/85/1/Apple-iPhone-12-mini-1615795199392.jpg",
+            "hd": "https://cdn.preis.de/p/6693178/400x400/25/1/Apple-iPhone-12-mini-1615795199392.jpg",
+            "width": 3000,
+            "height": 3000
+          }
+        ],
+        "minPrice": {
+          "euro": "549",
+          "cent": "00",
+          "formattedPrice": "549,00 €"
+        },
+        "minPriceBStock": {
+          "euro": "269",
+          "cent": "99",
+          "formattedPrice": "269,99 €"
+        },
+        "minBaseprice": null,
+        "energyLabel": null
+      },
+      {
+        "id": "8671526",
+        "name": "Apple iPhone 14 Pro Max",
+        "url": "/produkte/Apple-iPhone-14-Pro-Max/8671526.html",
+        "images": [
+          {
+            "sd": "https://cdn.preis.de/p/8671526/200x200/85/1/Apple-iPhone-14-Pro-Max-1663056955936.jpg",
+            "hd": "https://cdn.preis.de/p/8671526/400x400/25/1/Apple-iPhone-14-Pro-Max-1663056955936.jpg",
+            "width": 1500,
+            "height": 1500
+          }
+        ],
+        "minPrice": {
+          "euro": "1.233",
+          "cent": "00",
+          "formattedPrice": "1.233,00 €"
+        },
+        "minPriceBStock": {
+          "euro": "1.199",
+          "cent": "00",
+          "formattedPrice": "1.199,00 €"
+        },
+        "minBaseprice": null,
+        "energyLabel": null
+      },
+      {
+        "id": "6209248",
+        "name": "Apple iPhone SE (2020) ohne Vertrag",
+        "url": "/produkte/Apple-iPhone-SE-2020-ohne-Vertrag/6209248.html",
+        "images": [
+          {
+            "sd": "https://cdn.preis.de/p/6209248/200x200/85/1/Apple-iPhone-SE-2020-ohne-Vertrag-1593087883263.jpg",
+            "hd": "https://cdn.preis.de/p/6209248/400x400/25/1/Apple-iPhone-SE-2020-ohne-Vertrag-1593087883263.jpg",
+            "width": 2000,
+            "height": 2000
+          }
+        ],
+        "minPrice": {
+          "euro": "329",
+          "cent": "00",
+          "formattedPrice": "329,00 €"
+        },
+        "minPriceBStock": {
+          "euro": "143",
+          "cent": "10",
+          "formattedPrice": "143,10 €"
+        },
+        "minBaseprice": null,
+        "energyLabel": null
+      },
+      {
+        "id": "5646927",
+        "name": "Apple iPhone 11 Pro Max ohne Vertrag",
+        "url": "/produkte/Apple-iPhone-11-Pro-Max-ohne-Vertrag/5646927.html",
+        "images": [
+          {
+            "sd": "https://cdn.preis.de/p/5646927/200x200/85/1/Apple-iPhone-11-Pro-Max-ohne-Vertrag-1640774119798.jpg",
+            "hd": "https://cdn.preis.de/p/5646927/400x400/25/1/Apple-iPhone-11-Pro-Max-ohne-Vertrag-1640774119798.jpg",
+            "width": 2000,
+            "height": 2000
+          }
+        ],
+        "minPrice": {
+          "euro": "775",
+          "cent": "90",
+          "formattedPrice": "775,90 €"
+        },
+        "minPriceBStock": {
+          "euro": "379",
+          "cent": "99",
+          "formattedPrice": "379,99 €"
+        },
+        "minBaseprice": null,
+        "energyLabel": null
+      }
+    ],
+    "topProductsByManufacturer": [
+      {
+        "id": "6863711",
+        "name": "Apple Airpods Max",
+        "url": "/produkte/Apple-Airpods-Max/6863711.html",
+        "images": [
+          {
+            "sd": "https://cdn.preis.de/p/6863711/200x200/85/1/Apple-Airpods-Max-1630910184602.jpg",
+            "hd": "https://cdn.preis.de/p/6863711/400x400/25/1/Apple-Airpods-Max-1630910184602.jpg",
+            "width": 4000,
+            "height": 4000
+          }
+        ],
+        "minPrice": {
+          "euro": "459",
+          "cent": "00",
+          "formattedPrice": "459,00 €"
+        },
+        "minPriceBStock": {
+          "euro": "479",
+          "cent": "00",
+          "formattedPrice": "479,00 €"
+        },
+        "minBaseprice": null,
+        "energyLabel": null
+      },
+      {
+        "id": "8673250",
+        "name": "Apple Watch Ultra",
+        "url": "/produkte/Apple-Watch-Ultra/8673250.html",
+        "images": [
+          {
+            "sd": "https://cdn.preis.de/p/8673250/200x200/85/1/Apple-Watch-Ultra-1663140789812.jpg",
+            "hd": "https://cdn.preis.de/p/8673250/400x400/25/1/Apple-Watch-Ultra-1663140789812.jpg",
+            "width": 1500,
+            "height": 1500
+          }
+        ],
+        "minPrice": {
+          "euro": "891",
+          "cent": "00",
+          "formattedPrice": "891,00 €"
+        },
+        "minPriceBStock": {
+          "euro": "829",
+          "cent": "49",
+          "formattedPrice": "829,49 €"
+        },
+        "minBaseprice": null,
+        "energyLabel": null
+      },
+      {
+        "id": "8195229",
+        "name": "Apple Watch Series 7",
+        "url": "/produkte/Apple-Watch-Series-7/8195229.html",
+        "images": [
+          {
+            "sd": "https://cdn.preis.de/p/8195229/200x200/85/1/Apple-Watch-Series-7-1638458379406.jpg",
+            "hd": "https://cdn.preis.de/p/8195229/400x400/25/1/Apple-Watch-Series-7-1638458379406.jpg",
+            "width": 3000,
+            "height": 3000
+          }
+        ],
+        "minPrice": {
+          "euro": "394",
+          "cent": "68",
+          "formattedPrice": "394,68 €"
+        },
+        "minPriceBStock": {
+          "euro": "249",
+          "cent": "00",
+          "formattedPrice": "249,00 €"
+        },
+        "minBaseprice": null,
+        "energyLabel": null
+      },
+      {
+        "id": "6780422",
+        "name": "Apple MacBook Air 13\" 2020 M1",
+        "url": "/produkte/Apple-MacBook-Air-13-2020-M1/6780422.html",
+        "images": [
+          {
+            "sd": "https://cdn.preis.de/p/6780422/200x200/85/1/Apple-MacBook-Air-13-2020-M1-1609842009680.jpg",
+            "hd": "https://cdn.preis.de/p/6780422/400x400/25/1/Apple-MacBook-Air-13-2020-M1-1609842009680.jpg",
+            "width": 4000,
+            "height": 4000
+          }
+        ],
+        "minPrice": {
+          "euro": "909",
+          "cent": "00",
+          "formattedPrice": "909,00 €"
+        },
+        "minPriceBStock": {
+          "euro": "845",
+          "cent": "00",
+          "formattedPrice": "845,00 €"
+        },
+        "minBaseprice": null,
+        "energyLabel": null
+      },
+      {
+        "id": "8675793",
+        "name": "Apple AirPods Pro 2",
+        "url": "/produkte/Apple-AirPods-Pro-2/8675793.html",
+        "images": [
+          {
+            "sd": "https://cdn.preis.de/p/8675793/200x200/85/1/Apple-AirPods-Pro-2-1663141154494.jpg",
+            "hd": "https://cdn.preis.de/p/8675793/400x400/25/1/Apple-AirPods-Pro-2-1663141154494.jpg",
+            "width": 1500,
+            "height": 1500
+          }
+        ],
+        "minPrice": {
+          "euro": "259",
+          "cent": "00",
+          "formattedPrice": "259,00 €"
+        },
+        "minPriceBStock": {
+          "euro": "258",
+          "cent": "00",
+          "formattedPrice": "258,00 €"
+        },
+        "minBaseprice": null,
+        "energyLabel": null
+      },
+      {
+        "id": "6605926",
+        "name": "Apple Watch Series 6",
+        "url": "/produkte/Apple-Watch-Series-6/6605926.html",
+        "images": [
+          {
+            "sd": "https://cdn.preis.de/p/6605926/200x200/85/1/Apple-Watch-Series-6-1608727375565.jpg",
+            "hd": "https://cdn.preis.de/p/6605926/400x400/25/1/Apple-Watch-Series-6-1608727375565.jpg",
+            "width": 4000,
+            "height": 4000
+          }
+        ],
+        "minPrice": {
+          "euro": "350",
+          "cent": "00",
+          "formattedPrice": "350,00 €"
+        },
+        "minPriceBStock": {
+          "euro": "199",
+          "cent": "99",
+          "formattedPrice": "199,99 €"
+        },
+        "minBaseprice": null,
+        "energyLabel": null
+      },
+      {
+        "id": "4902359",
+        "name": "Apple HomePod",
+        "url": "/produkte/Apple-HomePod/4902359.html",
+        "images": [
+          {
+            "sd": "https://cdn.preis.de/p/4902359/200x200/85/1/Apple-HomePod-1529669202368.jpg",
+            "hd": "https://cdn.preis.de/p/4902359/400x400/25/1/Apple-HomePod-1529669202368.jpg",
+            "width": 836,
+            "height": 1000
+          }
+        ],
+        "minPrice": null,
+        "minPriceBStock": {
+          "euro": "229",
+          "cent": "99",
+          "formattedPrice": "229,99 €"
+        },
+        "minBaseprice": null,
+        "energyLabel": null
+      },
+      {
+        "id": "7759328",
+        "name": "Apple iPad Pro 12.9 (2021)",
+        "url": "/produkte/Apple-iPad-Pro-12-9-2021/7759328.html",
+        "images": [
+          {
+            "sd": "https://cdn.preis.de/p/7759328/200x200/85/1/Apple-iPad-Pro-12-9-2021-1633945716903.jpg",
+            "hd": "https://cdn.preis.de/p/7759328/400x400/25/1/Apple-iPad-Pro-12-9-2021-1633945716903.jpg",
+            "width": 2160,
+            "height": 2160
+          }
+        ],
+        "minPrice": {
+          "euro": "1.139",
+          "cent": "00",
+          "formattedPrice": "1.139,00 €"
+        },
+        "minPriceBStock": {
+          "euro": "857",
+          "cent": "00",
+          "formattedPrice": "857,00 €"
+        },
+        "minBaseprice": null,
+        "energyLabel": null
+      }
+    ]
+  }
+}

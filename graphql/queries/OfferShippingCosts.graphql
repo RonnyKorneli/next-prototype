@@ -1,0 +1,13 @@
+query getShippingCosts($id: String!) {
+  offerDeliveryCosts(offerId: $id) {
+    offerId
+    price
+    priceWithOfferFormatted {
+      formattedPrice
+    }
+    priceFormatted {
+      formattedPrice
+    }
+    label
+  }
+}

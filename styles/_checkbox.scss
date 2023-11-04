@@ -1,0 +1,277 @@
+@import './base/_colors.scss';
+
+.checkbox {
+  display: flex;
+  width: fit-content;
+
+  label {
+    transition: color 300ms;
+    display: flex;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+    margin: 0;
+    width: 100%;
+  }
+
+  .checkmark {
+    position: relative;
+    cursor: pointer;
+    border: 1px solid $color-grey-light-30;
+    border-radius: 2px;
+    background-color: $color-white;
+
+    &:before {
+      content: '';
+      position: absolute;
+      border-right: 2px solid transparent;
+      border-bottom: 2px solid transparent;
+    }
+  }
+
+  input[type='checkbox'] {
+    height: 0;
+    width: 0;
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+
+    &:focus {
+      border-width: 1px;
+    }
+
+    &:focus-visible,
+    .focus-visible {
+      + label {
+        color: $color-pink-primary;
+      }
+      + label .checkmark {
+        border-color: $color-pink-primary;
+      }
+    }
+  }
+
+  &.-small {
+    padding: 2px 0;
+    margin-right: 5px;
+
+    label {
+      font-size: 0.75rem;
+      line-height: 18px;
+    }
+
+    .checkmark {
+      width: 18px;
+      height: 18px;
+      flex: 0 0 18px;
+      margin-right: 7px;
+      &:before {
+        top: 1px;
+        left: -5px;
+      }
+    }
+
+    input[type='checkbox'] {
+      padding: 10px 3px;
+      &:checked + label > .checkmark {
+        max-width: 18px;
+        border: 9px solid;
+      }
+    }
+  }
+
+  &.-medium {
+    padding: 5px 0;
+    margin-right: 10px;
+
+    label {
+      font-size: 0.875rem;
+      line-height: 20px;
+    }
+
+    .checkmark {
+      margin-right: 7px;
+      width: 21px;
+      height: 21px;
+      flex: 0 0 21px;
+      &:before {
+        top: 1px;
+        left: -5px;
+      }
+    }
+
+    input[type='checkbox'] {
+      &:checked + label > .checkmark {
+        max-width: 21px; /*wichtig für IE 11*/
+        border-width: 10px;
+        border-style: solid;
+      }
+    }
+  }
+
+  &.-large {
+    padding: 5px 0;
+    margin-right: 10px;
+
+    label {
+      font-size: 0.875rem;
+      line-height: 20px;
+    }
+
+    .checkmark {
+      margin-right: 7px;
+      width: 24px;
+      height: 24px;
+      flex: 0 0 24px;
+      &:before {
+        top: 1px;
+        left: -6px;
+      }
+    }
+
+    input[type='checkbox'] {
+      &:checked + label > .checkmark {
+        max-width: 24px; /*wichtig für IE 11*/
+        border: 12px solid;
+      }
+    }
+  }
+
+  &.-blue input[type='checkbox']:checked + label .checkmark {
+    border-color: $color-blue-primary;
+  }
+
+  &.-grey input[type='checkbox']:checked + label .checkmark {
+    border-color: $color-grey;
+  }
+
+  &.-light-grey input[type='checkbox']:checked + label .checkmark {
+    border-color: $color-grey-light-20;
+  }
+
+  &.-green input[type='checkbox']:checked + label .checkmark {
+    border-color: $color-green-primary;
+  }
+
+  &.-disabled {
+    cursor: default;
+
+    label {
+      color: $color-grey-light-20;
+      cursor: default;
+    }
+
+    .checkmark {
+      cursor: default;
+      border-color: $color-grey-light-40;
+    }
+  }
+
+  &.-animated {
+    .checkmark {
+      transition: all 200ms cubic-bezier(0.3, 0, 0.4, 1);
+    }
+
+    input[type='checkbox']:checked + label > .checkmark {
+      animation: 200ms cubic-bezier(0.4, 0, 0.23, 1) shrink-bounce;
+
+      &:before {
+        animation: checkbox-check 125ms 250ms cubic-bezier(0.4, 0, 0.23, 1)
+          forwards;
+      }
+    }
+  }
+
+  &:not(.-animated) {
+    input[type='checkbox'] + label,
+    input[type='checkbox'] + label > .checkmark {
+      transition: none;
+    }
+
+    input[type='checkbox']:checked + label > .checkmark:before {
+      width: 6px;
+      height: 10px;
+      border-color: $color-white;
+      transform: translate3d(3px, -7px, 0) rotate(45deg);
+    }
+  }
+}
+
+/* mouse, touch pad */
+@media (hover: hover) and (pointer: fine) {
+  .checkbox.-blue:not(.-disabled):hover {
+    label {
+      color: $color-blue-primary;
+    }
+    .checkmark {
+      border-color: $color-blue-primary;
+    }
+  }
+
+  .checkbox.-grey:not(.-disabled):hover {
+    label {
+      color: $color-grey;
+    }
+    .checkmark {
+      border-color: $color-grey;
+    }
+  }
+
+  .checkbox.-light-grey:not(.-disabled):hover {
+    label {
+      color: $color-grey-light-20;
+    }
+    .checkmark {
+      border-color: $color-grey-light-20;
+    }
+  }
+
+  .checkbox.-green:not(.-disabled):hover {
+    label {
+      color: $color-green-primary;
+    }
+    .checkmark {
+      border-color: $color-green-primary;
+    }
+  }
+
+  .checkbox.-no-text-hover:not(.-disabled):hover {
+    label {
+      color: $color-grey;
+    }
+  }
+}
+
+/* Animation Keyframes */
+@keyframes shrink-bounce {
+  0% {
+    transform: scale(1);
+  }
+  33% {
+    transform: scale(0.85);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes checkbox-check {
+  0% {
+    width: 0;
+    height: 0;
+    border-color: $color-white;
+    transform: translate3d(3px, 0, 0) rotate(45deg);
+  }
+  33% {
+    width: 5px;
+    height: 0;
+    border-color: $color-white;
+    transform: translate3d(3px, 0, 0) rotate(45deg);
+  }
+  100% {
+    width: 5px;
+    height: 10px;
+    border-color: $color-white;
+    transform: translate3d(3px, -7px, 0) rotate(45deg);
+  }
+}

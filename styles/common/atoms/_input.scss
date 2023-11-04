@@ -1,0 +1,73 @@
+@import '../base/_colors.scss';
+@import '../base/_layout.scss';
+@import '../base/_vars.scss';
+
+.input {
+  -webkit-appearance: none;
+  border: 1px solid $color-grey-60;
+  padding: 15px 10px;
+  max-width: 100%;
+  color: $color-blue;
+  border-radius: 1px;
+  width: 330px;
+  height: 50px;
+  font-size: 1rem;
+
+  &::placeholder {
+    color: $color-grey-50 !important;
+  }
+
+  //MS Edge remove x
+  &.desiredPrice::-ms-clear {
+    display: none;
+  }
+
+  &:-internal-autofill-selected {
+    color: $color-blue;
+    background-color: $color-white;
+  }
+
+  &.-large {
+    @include media-breakpoint-up(md) {
+      width: 400px;
+    }
+  }
+
+  &.-light {
+    border: 1px solid $color-grey-50;
+  }
+
+  &.-invalid {
+    border-color: $color-error;
+  }
+
+  &.-valid {
+    border-color: $color-blue-60;
+  }
+
+  &.focus-visible,
+  &:focus {
+    border-color: $color-blue;
+  }
+}
+
+.error {
+  color: $color-error;
+  margin-top: 10px;
+  display: inline-block;
+  font-size: 14px;
+
+  &:empty {
+    display: none;
+  }
+}
+
+.currency {
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 14px;
+  top: 13px;
+  color: $color-grey-50;
+  line-height: 1.2;
+}

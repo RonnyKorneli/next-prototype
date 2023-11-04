@@ -1,0 +1,238 @@
+#trend-details-wrapper {
+  h2 {
+    background-color: transparent;
+    color: $color-grey;
+    padding: 0;
+  }
+  .wishlist-status {
+    position: absolute;
+    right: 10px;
+
+    @include media-breakpoint-up(md) {
+      top: 25px;
+      right: 25px;
+      border-radius: initial;
+    }
+  }
+}
+
+.trend-details {
+  .trend-chart {
+    @include media-breakpoint-up(lg) {
+      max-width: 74%;
+    }
+  }
+
+  .trend-info {
+    border-top: 1px solid $color-grey-30;
+    margin: 10px 0 10px 20px;
+    padding-top: 10px;
+
+    @include media-breakpoint-up(md) {
+      margin: 10px 20px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      border-left: 1px solid $color-grey-30;
+      border-top: none;
+      margin: 10px 0 10px 15px;
+      padding: 0 0 0 15px;
+    }
+  }
+
+  .price {
+    &.-average {
+      color: $color-grey;
+    }
+  }
+
+  .alarm-activate {
+    margin: 10px 0 15px;
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
+  hr.vertical {
+    margin: 20px 5px 20px 0;
+
+    @include media-breakpoint-up(md) {
+      margin: 20px 15px 20px 0;
+    }
+
+    @include media-breakpoint-only(md) {
+      border-left: 1px solid $color-grey-30;
+      height: 220px;
+      padding: 0;
+      margin: 0 15px 0 0;
+    }
+  }
+
+  .datetime {
+    font-size: 0.6875rem;
+  }
+
+  .price-with-cta {
+    max-width: 150px;
+    margin: 15px 0 5px;
+
+    @include media-breakpoint-up(lg) {
+      max-width: none;
+    }
+
+    .shipping {
+      color: $color-grey;
+    }
+  }
+
+  a.cta-link,
+  a.shopinfo {
+    text-decoration: none;
+  }
+
+  .delivery {
+    width: 100%;
+    display: flex;
+
+    .icon {
+      margin-right: 10px;
+    }
+  }
+
+  .delivery {
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+    margin-left: 0;
+
+    .tip {
+      left: -14px;
+    }
+  }
+
+  .trend-hover-date {
+    position: absolute;
+    bottom: 0;
+    transform: rotate(-50deg);
+    background: $color-white;
+    display: inline;
+    line-height: 1;
+    color: $color-pink;
+    font-weight: bold;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .trend-ttip {
+    min-width: 170px;
+    padding: 5px;
+    background: $color-blue-70;
+    border-radius: 3px;
+    color: $color-white;
+    pointer-events: none;
+    position: absolute;
+    transform: translate(-50%, 0px);
+    transition: all 0.1s ease 0s;
+    font-size: 0.75rem;
+    z-index: 1;
+
+    @include media-breakpoint-up(md) {
+      min-width: 200px;
+      padding: 10px;
+      font-size: 0.875rem;
+    }
+
+    > table {
+      margin: 0;
+      > tbody {
+        > tr {
+          height: 17px;
+          font-size: 0.75rem;
+
+          &.highlight {
+            height: 25px;
+            font-size: 0.875rem;
+            font-weight: bold;
+          }
+        }
+      }
+
+      tr,
+      th {
+        border-width: 0;
+        background-color: inherit;
+      }
+
+      .legend {
+        display: none;
+        @include media-breakpoint-up(md) {
+          border-width: 2px;
+          margin-right: 5px;
+          height: 10px;
+          width: 10px;
+          display: inline-block;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}
+
+.trend {
+  margin-top: 20px;
+  position: relative;
+
+  > .buttons {
+    > .trend-btn {
+      margin: 0 10px;
+      &.active {
+        @extend .-blue;
+      }
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+  }
+
+  > .canvas-wrapper {
+    position: relative;
+    height: 300px;
+    width: 100%;
+
+    @include media-breakpoint-up(md) {
+      height: 400px;
+      width: 100vw;
+      max-width: 100%;
+    }
+  }
+  > .liability {
+    margin-left: 20px;
+    font-size: 0.6875rem;
+    display: flex;
+    align-items: center;
+
+    @include media-breakpoint-up(md) {
+      position: absolute;
+      bottom: 5px;
+    }
+
+    .tooltip-container .icon {
+      fill: $color-grey-50;
+      margin-right: 5px;
+    }
+  }
+}
+
+[data-browser='IE'] {
+  .trend {
+    .buttons,
+    #trend_details_box,
+    .liability {
+      display: none;
+    }
+  }
+}

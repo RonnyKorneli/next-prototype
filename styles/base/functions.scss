@@ -1,0 +1,59 @@
+@import '../base/colors';
+@import '../base/layout';
+
+/*******************************
+    Mixins for Headlines
+*******************************/
+// $size in rem
+// $lineheight in _
+// $family: "deco", default: primary
+// $thickness: usually 400, 500 or 700
+// $color default: black
+@mixin headline($size, $lineheight, $family, $thickness, $color) {
+  font-size: $size;
+  line-height: $lineheight;
+  font-weight: $thickness;
+  @if $family == 'deco' {
+    font-family: 'Dosis', Tahoma, Helvetica neue, Helvetica, Arial, sans-serif;
+  } @else {
+    font-family: Tahoma, Helvetica neue, Helvetica, Arial, sans-serif;
+  }
+
+  @if $color {
+    color: $color;
+  }
+}
+
+/*******************************
+    Mixins for Subheadlines
+*******************************/
+// $color: blue or grey
+@mixin subheadline($color) {
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 25px 0;
+
+  @if $color == 'blue' {
+    font-size: 1.125rem;
+    background-color: $color-blue-20;
+    color: $color-blue;
+    padding: 15px 7%;
+  }
+
+  @if $color == 'grey' {
+    font-size: 1rem;
+    background-color: $color-grey-10;
+    color: $color-grey;
+    padding: 8px 7%;
+  }
+
+  @include media-breakpoint-up(md) {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding-left: 6.66667%;
+    padding-right: 6.66667%;
+  }
+}

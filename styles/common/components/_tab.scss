@@ -1,0 +1,17 @@
+@import '../base/colors';
+@import '../base/_layout.scss';
+
+.tab {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  > div {
+    width: 50%;
+  }
+  li {
+    list-style-type: none;
+    margin-bottom: 1rem;
+    padding: 0;
+  }
+}

@@ -1,0 +1,97 @@
+.title {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1rem;
+}
+.upperBoarder {
+  border: 1px solid #dddddd;
+  border-top: 3px solid #878787;
+  height: 410px;
+  padding-bottom: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 50px;
+  background-color: white;
+}
+
+.swiperNavNext,
+.swiperNavPrev {
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+  z-index: 700;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: white;
+  border-radius: 50%;
+  fill: #878787;
+}
+.swiperNavPrev {
+  left: -13px;
+  transform: rotate(180deg) translateY(50%);
+}
+.swiperNavNext {
+  right: -7px;
+}
+@media (hover: none) and (pointer: coarse) {
+  .swiperNavPrev,
+  .swiperNavNext {
+    display: none;
+  }
+}
+.productTooltip {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 3px;
+  position: relative;
+}
+.productTooltip::after {
+  content: '';
+  border-left: 1px solid #646464;
+  border-bottom: 1px solid #646464;
+  background-color: #fff;
+  width: 15px;
+  height: 15px;
+  transform: translateY(245%) translateX(-10%) rotate(135deg)
+    scale(var(--scale)) !important;
+  transition: 190ms transform !important;
+}
+.productTooltip:hover::after {
+  transition-property: 400ms transform !important;
+}
+.productTooltip::before,
+.productTooltip::after {
+  --scale: 0;
+  position: absolute;
+  top: -0.25rem;
+  left: 50%;
+  transform: translateX(-20%) translateY(55%) scale(var(--scale));
+  z-index: 300;
+  transition: 350ms transform;
+  transform-origin: top center;
+  //content: attr(data-tooltip);
+}
+.productTooltip::before {
+  content: attr(data-tooltip);
+  padding: 0.5rem;
+  background-color: #fff;
+  border: 1px solid #646464;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  color: #646464;
+  width: max-content;
+  max-width: 300px;
+}
+
+.productTooltip:hover::before,
+.productTooltip:hover::after {
+  --scale: 1;
+}

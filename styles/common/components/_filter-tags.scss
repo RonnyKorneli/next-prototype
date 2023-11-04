@@ -1,0 +1,85 @@
+@import '../base/_colors.scss';
+
+.filter-tag {
+  position: relative;
+  display: block;
+  float: left;
+  background: $color-white;
+  color: $color-blue-50;
+  border: 1px solid $color-blue-50;
+  border-radius: 20px;
+  font-weight: normal;
+  font-size: 0.75rem;
+  line-height: 2.2;
+  padding: 0 25px 0 7px;
+  margin: 0 5px 10px 0;
+  opacity: 1;
+  transition: opacity 0.7s linear;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 60px;
+  text-align: center;
+
+  &.fadeIn {
+    opacity: 0;
+  }
+
+  > .body {
+    cursor: default;
+    font-weight: bold;
+  }
+
+  > .close {
+    float: right;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    padding-right: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 26px;
+
+    > .icon {
+      width: 16px;
+      height: 16px;
+      fill: $color-blue-50;
+      padding: 3px;
+      border-radius: 50%;
+
+      &.-green {
+        fill: $color-white;
+      }
+    }
+
+    &:hover {
+      > .icon {
+        background: $color-blue-50;
+        fill: $color-white;
+
+        &.-green {
+          background: $color-white;
+          fill: $color-green;
+        }
+      }
+    }
+  }
+
+  &:last-of-type {
+    margin-right: 17px;
+  }
+
+  &.-green {
+    color: $color-white;
+    border: 1px solid $color-green;
+    background: $color-green;
+  }
+}
+
+.filter-tag-reset {
+  &.-green {
+    color: $color-grey;
+    border-color: $color-grey;
+  }
+}

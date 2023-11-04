@@ -1,0 +1,17 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "..",
+    "paths": {
+      "@components/*": ["./components/*"],
+      "@store/*": ["./store/*"],
+      "@icons/*": ["./icons/*"],
+      "@model/*": ["./Model/*"],
+      "@helpers/*": ["./helpers/*"],
+      "@graphql/*": ["./graphql/__mocks__/*"]
+    },
+    "types": ["node"]
+  },
+  "include": ["@types/*", "next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,50 @@
+@import '../base/_colors.scss';
+
+.info-list {
+  list-style: none;
+  padding: 0 !important;
+  margin: 0;
+
+  .listelement {
+    display: grid;
+    grid-template-columns: 0.1fr 4fr;
+    line-height: 18px;
+  }
+
+  .icon {
+    width: 9px;
+    height: 9px;
+    margin-right: 10px;
+    margin-top: 5px;
+
+    &.-blue-light {
+      fill: $color-blue-60;
+    }
+
+    &.-blue {
+      fill: $color-blue;
+    }
+
+    &.-green {
+      fill: $color-green-dark;
+    }
+
+    &.-pink {
+      fill: $color-pink;
+    }
+
+    &.-small {
+      width: 7px;
+      height: 7px;
+    }
+  }
+
+  &.-large {
+    font-size: 0.875rem;
+
+    .listelement {
+      margin-bottom: 12px;
+      grid-template-columns: 0.2fr 4fr;
+    }
+  }
+}

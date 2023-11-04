@@ -1,0 +1,16 @@
+.stars-with-count {
+  display: flex;
+  align-items: center;
+
+  .rating-stars {
+    &.-large,
+    &.-medium,
+    &.-small {
+      margin-right: 5px;
+    }
+
+    &.-extrasmall {
+      margin-right: 3px;
+    }
+  }
+}

@@ -1,0 +1,126 @@
+/*******************************
+     Breakpoints and columns
+*******************************/
+$breakpoint-sm: 640px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+$breakpoint-xl: 1280px;
+
+/* max-width for the container */
+$container-lg: 1024px;
+$container-xl: 1340px;
+
+/*******************************
+    Mixins for Media Queries
+*******************************/
+
+@mixin media-breakpoint-only($media) {
+  @if $media==xs {
+    @media only screen and (max-width: $breakpoint-sm - 1) {
+      @content;
+    }
+  } @else if $media==sm {
+    @media only screen and (min-width: $breakpoint-sm) and (max-width: $breakpoint-md - 1) {
+      @content;
+    }
+  } @else if $media==md {
+    @media only screen and (min-width: $breakpoint-md) and (max-width: $breakpoint-lg - 1) {
+      @content;
+    }
+  } @else if $media==lg {
+    @media only screen and (min-width: $breakpoint-lg) and (max-width: $breakpoint-xl - 1) {
+      @content;
+    }
+  } @else if $media==xl {
+    @media only screen and (min-width: $breakpoint-xl) {
+      @content;
+    }
+  }
+}
+
+@mixin media-breakpoint-down($media) {
+  @if $media==xs {
+    @media only screen and (max-width: $breakpoint-sm - 1) {
+      @content;
+    }
+  } @else if $media==sm {
+    @media only screen and (max-width: $breakpoint-md - 1) {
+      @content;
+    }
+  } @else if $media==md {
+    @media only screen and (max-width: $breakpoint-lg - 1) {
+      @content;
+    }
+  } @else if $media==lg {
+    @media only screen and (max-width: $breakpoint-xl - 1) {
+      @content;
+    }
+  }
+}
+
+@mixin media-breakpoint-up($media) {
+  @if $media==sm {
+    @media only screen and (min-width: $breakpoint-sm) {
+      @content;
+    }
+  } @else if $media==md {
+    @media only screen and (min-width: $breakpoint-md) {
+      @content;
+    }
+  } @else if $media==lg {
+    @media only screen and (min-width: $breakpoint-lg) {
+      @content;
+    }
+  } @else if $media==xl {
+    @media only screen and (min-width: $breakpoint-xl) {
+      @content;
+    }
+  }
+}
+
+/*******************************
+    Container
+*******************************/
+
+.container {
+  max-width: $container-xl;
+  width: 100%;
+  padding: 0 0.75rem;
+
+  @include media-breakpoint-up(lg) {
+    margin: 0 auto;
+  }
+
+  @include media-breakpoint-only(lg) {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  @include media-breakpoint-only(xl) {
+    padding-left: 0.3125rem;
+    padding-right: 0.3125rem;
+  }
+
+  &.-full-width {
+    padding: 0;
+  }
+}
+
+.container-narrow {
+  max-width: $container-lg;
+  width: 100%;
+  margin: 0 auto;
+
+  @include media-breakpoint-down(md) {
+    padding: 0 0.75rem;
+  }
+
+  @include media-breakpoint-only(lg) {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  &.-full-width {
+    padding: 0;
+  }
+}

@@ -1,0 +1,17 @@
+# Frontend-Service Settings
+FRONTEND_SERVICE_ENDPOINT='graphql endpoint'
+NEXT_API_HOST=http://localhost:3000
+NEXT_PUBLIC_API_HOST=http://localhost:3000
+NEXT_PUBLIC_WISHLIST_API_ENDPOINT='/api/wishlist'
+
+# Search-Service Settings
+SEARCH_SERVICE_URL= "http://search-offer-live.pde:8080/offersearch/api/sem/facet/"
+
+# OFFERIMAGE
+NEXT_OFFER_IMAGE_ENCRYPTION_KEY=
+
+# GOOGLE TAGMANAGER
+NEXT_PUBLIC_GOOGLE_TAGMANAGER_ID="GTM-M5PLHB5"
+
+# IMAGE SERVER URL
+IMAGE_SERVER_URL = 'https://cdn.preis.de'

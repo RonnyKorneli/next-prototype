@@ -1,0 +1,17 @@
+#test_results {
+  h2 {
+    background-color: transparent;
+    color: $color-grey;
+    padding: 0;
+  }
+
+  h3 {
+    @include subheadline('blue');
+    width: 100%;
+  }
+
+  .test-table {
+    @include subheadline('grey');
+    width: 100%;
+  }
+}

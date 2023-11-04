@@ -1,0 +1,74 @@
+// base
+@import './../../base/colors';
+@import './../../base/layout';
+@import './../../base/utils';
+@import './../../base/functions';
+@import './../../base/dosis';
+@import './../../base/table';
+
+// components
+@import './../../common/components/content-box.scss';
+@import './../../common/components/breadcrumb.scss';
+@import './../../common/atoms/card';
+@import './../../common/atoms/price';
+@import './../../common/atoms/test-grade';
+@import './../../common/atoms/alarm-button';
+@import './../../common/atoms/delivery';
+@import './../../common/atoms/button';
+@import './../../common/atoms/checkbox';
+@import './../../common/atoms/rating-stars';
+@import './../../common/atoms/rating-count';
+@import './../../common/atoms/shopinfo';
+@import './../../common/atoms/eek';
+@import './../../common/atoms/eek-tire';
+@import './../../common/atoms/wishlist-button';
+@import './../../common/atoms/wishlist-status';
+@import './../../common/components/grid-item-offer';
+@import './../../common/components/_tooltip';
+@import './../../common/components/_swiper';
+
+//partials
+@import './partials/gallery-modal';
+@import './partials/notice-bubble';
+@import './partials/product-stage';
+@import './partials/offer-filter';
+@import './partials/offer-modal';
+//@import './partials/list-item-offer';
+@import './partials/pagination';
+@import './partials/product-details';
+@import './partials/test-results';
+@import './partials/offer-modal';
+
+.offer-section {
+  position: relative;
+
+  &.grid-view {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -5px;
+  }
+}
+
+.offer-pagination {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+
+  @include media-breakpoint-up(lg) {
+    justify-content: flex-end;
+  }
+}
+.no-js {
+  .offer-pagination {
+    justify-content: center;
+  }
+}
+
+[data-browser='IE'] {
+  .trend-infos {
+    .delivery .icon,
+    .shopinfo .link {
+      margin-right: 10px;
+    }
+  }
+}

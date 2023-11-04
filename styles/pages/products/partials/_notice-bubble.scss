@@ -1,0 +1,90 @@
+.notice-bubble {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease-out 0s;
+  max-width: 270px;
+  background: rgba($color-blue-70, 0.9);
+  border-radius: 4px;
+  color: $color-white;
+  z-index: 10;
+  line-height: 1.4;
+  padding: 10px;
+
+  .content {
+    margin: 0;
+    text-align: center;
+  }
+
+  &:before,
+  &:after {
+    position: absolute;
+    content: '';
+    display: block;
+  }
+  @include media-breakpoint-up(md) {
+    max-width: 250px;
+  }
+
+  &[data-position='top'] {
+    &:before {
+      left: 50%;
+      z-index: 2;
+      bottom: -10px;
+    }
+    &:after {
+      left: 44%;
+      z-index: 1;
+      bottom: -10px;
+      border-top: 11px solid rgba($color-blue-70, 0.9);
+      border-left: 11px solid transparent;
+      border-right: 11px solid transparent;
+    }
+  }
+
+  &[data-position='bottom'] {
+    &:before {
+      left: 50%;
+      z-index: 2;
+      top: -10px;
+    }
+    &:after {
+      right: 11px;
+      z-index: 1;
+      top: -11px;
+      border-bottom: 11px solid rgba($color-blue-70, 0.9);
+      border-left: 11px solid transparent;
+      border-right: 11px solid transparent;
+
+      @include media-breakpoint-up(md) {
+        right: initial;
+        left: 44%;
+      }
+    }
+  }
+
+  &.-show {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &.-fade {
+    animation: opacity 1s linear;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+  }
+
+  &.-shown {
+    animation: none;
+  }
+
+  @keyframes opacity {
+    from {
+      opacity: 1;
+      visibility: visible;
+    }
+    to {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+}

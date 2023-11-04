@@ -1,0 +1,917 @@
+{
+  "product": {
+    "offerContext": {
+      "maxPage": 36,
+      "currentPage": 1,
+      "pageSize": 24,
+      "offerCount": 856,
+      "offerEnergyLabel": null,
+      "offerFilterSet": {
+        "fastDeliveryFilter": {
+          "selectedValue": false,
+          "showFilter": true,
+          "enableFilter": true
+        },
+        "inclusiveDelivery": {
+          "selectedValue": true,
+          "showFilter": true,
+          "enableFilter": true
+        },
+        "bStockOnlyFilter": {
+          "selectedValue": false,
+          "showFilter": true,
+          "enableFilter": true
+        },
+        "paymentIdFilter": {
+          "showFilter": true,
+          "values": [
+            {
+              "id": "10",
+              "name": "Rechnung",
+              "position": 1,
+              "isSelected": false
+            },
+            {
+              "id": "14",
+              "name": "PayPal",
+              "position": 2,
+              "isSelected": false
+            },
+            {
+              "id": "4",
+              "name": "Kreditkarte",
+              "position": 3,
+              "isSelected": false
+            },
+            {
+              "id": "5",
+              "name": "Bankeinzug / Lastschrift",
+              "position": 4,
+              "isSelected": false
+            },
+            {
+              "id": "2",
+              "name": "Nachnahme",
+              "position": 5,
+              "isSelected": false
+            },
+            {
+              "id": "3",
+              "name": "Vorkasse",
+              "position": 6,
+              "isSelected": false
+            },
+            {
+              "id": "16",
+              "name": "Sofortüberweisung",
+              "position": 7,
+              "isSelected": false
+            },
+            {
+              "id": "1",
+              "name": "Click`n Buy",
+              "position": 8,
+              "isSelected": false
+            },
+            {
+              "id": "8",
+              "name": "Giropay",
+              "position": 9,
+              "isSelected": false
+            },
+            {
+              "id": "17",
+              "name": "EPS",
+              "position": 15,
+              "isSelected": false
+            },
+            {
+              "id": "19",
+              "name": "Amazon Payment",
+              "position": 19,
+              "isSelected": false
+            }
+          ]
+        }
+      },
+      "offers": [
+        {
+          "id": "3437151912841970586",
+          "name": "iPhone 13 128 GB Rot Ohne Vertrag I 24 M. Gratis Garantie",
+          "voucherCode": null,
+          "baseprice": null,
+          "shopImageUrl": "https://d1eh9yux7w8iql.cloudfront.net/product_images/512320_4c82c422-1bf3-4d63-a01d-72ff78a1d340.jpg",
+          "modified": "13.02.2023, 02:48",
+          "badges": [{ "name": "used", "value": "true" }],
+          "price": { "euro": "623", "cent": "90" },
+          "minShippingCost": { "price": 0.0, "formattedPrice": "0,00 €" },
+          "priceWithShippingCosts": {
+            "euro": "623",
+            "cent": "90",
+            "formattedPrice": "623,90 €"
+          },
+          "formerPrice": { "formattedPrice": "623,90 €" },
+          "openerOutLink": "/opener_out.htm?SEC=product&PA=1&B=1&OKEY=fa71f70d053116918565cee6300163c6&V=0&EL=product&PID=11406&AKT=product&AID=3437151912841970586&QID=0&CID=8155003",
+          "shopInfoUrl": "/haendler/backmarket-de/11406.html",
+          "shop": {
+            "name": "backmarket.de",
+            "mobileFriendly": false,
+            "shippingNames": ["DHL", "UPS", "Hermes", "DPD"],
+            "image": {
+              "sd": "https://cdn.preis.de/shop/logo/11406/80x30/85/1/backmarket-de.png",
+              "hd": "https://cdn.preis.de/shop/logo/11406/160x60/90/1/backmarket-de.png"
+            }
+          },
+          "shopRating": null,
+          "merchantName": null,
+          "delivery": { "color": "green", "text": "lieferbar" },
+          "deliveryText": "Lieferzeit 2-5 Tage",
+          "freeReturnDays": "30",
+          "hasFreeReturnShipping": true
+        },
+        {
+          "id": "3513506223565570532",
+          "name": "Apple iPhone 13 - 128GB - PINK - ROSA - NEU & OVP",
+          "voucherCode": null,
+          "baseprice": null,
+          "shopImageUrl": "https://i.ebayimg.com/images/g/bLQAAOSwQD1hZq0R/s-l1600.jpg",
+          "modified": "13.02.2023, 00:29",
+          "badges": [],
+          "price": { "euro": "718", "cent": "00" },
+          "minShippingCost": { "price": 0.0, "formattedPrice": "0,00 €" },
+          "priceWithShippingCosts": {
+            "euro": "718",
+            "cent": "00",
+            "formattedPrice": "718,00 €"
+          },
+          "formerPrice": null,
+          "openerOutLink": "/opener_out.htm?SEC=product&PA=1&B=1&OKEY=cbdecedc63a0c469cf450404b079d2c3&V=0&EL=product&PID=745&AKT=product&AID=3513506223565570532&QID=0&CID=8155003",
+          "shopInfoUrl": "http://rover.ebay.com/rover/1/707-53477-19255-0/1/?ff3=4&pub=5574635388&toolid=10001&campid=5337771981&mpre=https%3A%2F%2Ffeedback.ebay.de%2Fws%2FeBayISAPI.dll%3FViewFeedback2%26userid%3Dikauf66",
+          "shop": {
+            "name": "eBay",
+            "mobileFriendly": true,
+            "shippingNames": [],
+            "image": {
+              "sd": "https://cdn.preis.de/shop/logo/745/80x30/85/1/ebay.png",
+              "hd": "https://cdn.preis.de/shop/logo/745/160x60/90/1/ebay.png"
+            }
+          },
+          "shopRating": { "rating": 100.0, "ratingCount": 205561 },
+          "merchantName": "ikauf66",
+          "delivery": { "color": "yellow", "text": "mit Lieferzeit" },
+          "deliveryText": "Lieferung innerhalb von 4 - 9 Werktagen nach Zahlungseingang.",
+          "freeReturnDays": null,
+          "hasFreeReturnShipping": false
+        },
+        {
+          "id": "3513505871090942222",
+          "name": "Apple iPhone 13 - 128GB - BLAU - NEU & OVP",
+          "voucherCode": null,
+          "baseprice": null,
+          "shopImageUrl": "https://i.ebayimg.com/images/g/~UMAAOSwSNRiqlwB/s-l1600.jpg",
+          "modified": "13.02.2023, 11:35",
+          "badges": [],
+          "price": { "euro": "718", "cent": "00" },
+          "minShippingCost": { "price": 0.0, "formattedPrice": "0,00 €" },
+          "priceWithShippingCosts": {
+            "euro": "718",
+            "cent": "00",
+            "formattedPrice": "718,00 €"
+          },
+          "formerPrice": null,
+          "openerOutLink": "/opener_out.htm?SEC=product&PA=1&B=1&OKEY=8e45fd96380dafc1cffacdbd439bbdba&V=0&EL=product&PID=745&AKT=product&AID=3513505871090942222&QID=0&CID=8155003",
+          "shopInfoUrl": "http://rover.ebay.com/rover/1/707-53477-19255-0/1/?ff3=4&pub=5574635388&toolid=10001&campid=5337771981&mpre=https%3A%2F%2Ffeedback.ebay.de%2Fws%2FeBayISAPI.dll%3FViewFeedback2%26userid%3Dikauf66",
+          "shop": {
+            "name": "eBay",
+            "mobileFriendly": true,
+            "shippingNames": [],
+            "image": {
+              "sd": "https://cdn.preis.de/shop/logo/745/80x30/85/1/ebay.png",
+              "hd": "https://cdn.preis.de/shop/logo/745/160x60/90/1/ebay.png"
+            }
+          },
+          "shopRating": { "rating": 100.0, "ratingCount": 205561 },
+          "merchantName": "ikauf66",
+          "delivery": { "color": "darkgreen", "text": "schnell lieferbar" },
+          "deliveryText": "Lieferung innerhalb von 2 - 3 Werktagen nach Zahlungseingang.",
+          "freeReturnDays": null,
+          "hasFreeReturnShipping": false
+        },
+        {
+          "id": "3513506012273312084",
+          "name": "Apple iPhone 13 - 128GB - SCHWARZ - MITTERNACHT - NEU & OVP",
+          "voucherCode": null,
+          "baseprice": null,
+          "shopImageUrl": "https://i.ebayimg.com/images/g/~Q4AAOSwEC9hVGQX/s-l1600.jpg",
+          "modified": "13.02.2023, 12:34",
+          "badges": [],
+          "price": { "euro": "718", "cent": "00" },
+          "minShippingCost": { "price": 0.0, "formattedPrice": "0,00 €" },
+          "priceWithShippingCosts": {
+            "euro": "718",
+            "cent": "00",
+            "formattedPrice": "718,00 €"
+          },
+          "formerPrice": null,
+          "openerOutLink": "/opener_out.htm?SEC=product&PA=1&B=1&OKEY=ffbe1bde1e2eba3b9a4a98b01bdba7a9&V=0&EL=product&PID=745&AKT=product&AID=3513506012273312084&QID=0&CID=8155003",
+          "shopInfoUrl": "http://rover.ebay.com/rover/1/707-53477-19255-0/1/?ff3=4&pub=5574635388&toolid=10001&campid=5337771981&mpre=https%3A%2F%2Ffeedback.ebay.de%2Fws%2FeBayISAPI.dll%3FViewFeedback2%26userid%3Dikauf66",
+          "shop": {
+            "name": "eBay",
+            "mobileFriendly": true,
+            "shippingNames": [],
+            "image": {
+              "sd": "https://cdn.preis.de/shop/logo/745/80x30/85/1/ebay.png",
+              "hd": "https://cdn.preis.de/shop/logo/745/160x60/90/1/ebay.png"
+            }
+          },
+          "shopRating": { "rating": 100.0, "ratingCount": 205561 },
+          "merchantName": "ikauf66",
+          "delivery": { "color": "darkgreen", "text": "schnell lieferbar" },
+          "deliveryText": "Lieferung innerhalb von 2 - 3 Werktagen nach Zahlungseingang.",
+          "freeReturnDays": null,
+          "hasFreeReturnShipping": false
+        },
+        {
+          "id": "3513505869555826802",
+          "name": "Apple iPhone 13 - 128GB - Grün - Green - NEU & OVP",
+          "voucherCode": null,
+          "baseprice": null,
+          "shopImageUrl": "https://i.ebayimg.com/images/g/Yb0AAOSwhV1ip7-2/s-l1600.jpg",
+          "modified": "13.02.2023, 02:25",
+          "badges": [],
+          "price": { "euro": "724", "cent": "00" },
+          "minShippingCost": { "price": 0.0, "formattedPrice": "0,00 €" },
+          "priceWithShippingCosts": {
+            "euro": "724",
+            "cent": "00",
+            "formattedPrice": "724,00 €"
+          },
+          "formerPrice": null,
+          "openerOutLink": "/opener_out.htm?SEC=product&PA=1&B=1&OKEY=5168b73984823fad333dd912ef4ce9f9&V=0&EL=product&PID=745&AKT=product&AID=3513505869555826802&QID=0&CID=8155003",
+          "shopInfoUrl": "http://rover.ebay.com/rover/1/707-53477-19255-0/1/?ff3=4&pub=5574635388&toolid=10001&campid=5337771981&mpre=https%3A%2F%2Ffeedback.ebay.de%2Fws%2FeBayISAPI.dll%3FViewFeedback2%26userid%3Dikauf66",
+          "shop": {
+            "name": "eBay",
+            "mobileFriendly": true,
+            "shippingNames": [],
+            "image": {
+              "sd": "https://cdn.preis.de/shop/logo/745/80x30/85/1/ebay.png",
+              "hd": "https://cdn.preis.de/shop/logo/745/160x60/90/1/ebay.png"
+            }
+          },
+          "shopRating": { "rating": 100.0, "ratingCount": 205561 },
+          "merchantName": "ikauf66",
+          "delivery": { "color": "darkgreen", "text": "schnell lieferbar" },
+          "deliveryText": "Lieferung innerhalb von 2 - 3 Werktagen nach Zahlungseingang.",
+          "freeReturnDays": null,
+          "hasFreeReturnShipping": false
+        },
+        {
+          "id": "3514714355901923862",
+          "name": "Apple iPhone 13 - 128GB - GRÜN- GREEN- NEU & OVP - MNGK3ZD/A",
+          "voucherCode": null,
+          "baseprice": null,
+          "shopImageUrl": "https://i.ebayimg.com/images/g/sSkAAOSwMuFj5MYU/s-l1600.jpg",
+          "modified": "09.02.2023, 13:47",
+          "badges": [],
+          "price": { "euro": "725", "cent": "00" },
+          "minShippingCost": { "price": 0.0, "formattedPrice": "0,00 €" },
+          "priceWithShippingCosts": {
+            "euro": "725",
+            "cent": "00",
+            "formattedPrice": "725,00 €"
+          },
+          "formerPrice": null,
+          "openerOutLink": "/opener_out.htm?SEC=product&PA=1&B=1&OKEY=286d4adde94887386f62dc9ab2b0b610&V=0&EL=product&PID=745&AKT=product&AID=3514714355901923862&QID=0&CID=8155003",
+          "shopInfoUrl": "http://rover.ebay.com/rover/1/707-53477-19255-0/1/?ff3=4&pub=5574635388&toolid=10001&campid=5337771981&mpre=https%3A%2F%2Ffeedback.ebay.de%2Fws%2FeBayISAPI.dll%3FViewFeedback2%26userid%3Dkabkar24-de",
+          "shop": {
+            "name": "eBay",
+            "mobileFriendly": true,
+            "shippingNames": [],
+            "image": {
+              "sd": "https://cdn.preis.de/shop/logo/745/80x30/85/1/ebay.png",
+              "hd": "https://cdn.preis.de/shop/logo/745/160x60/90/1/ebay.png"
+            }
+          },
+          "shopRating": { "rating": 98.0, "ratingCount": 4249 },
+          "merchantName": "kabkar24-de",
+          "delivery": { "color": "yellow", "text": "mit Lieferzeit" },
+          "deliveryText": "Lieferung innerhalb von 5 - 9 Werktagen nach Zahlungseingang.",
+          "freeReturnDays": null,
+          "hasFreeReturnShipping": false
+        },
+        {
+          "id": "3502807297764098368",
+          "name": "Apple iPhone 13 128GB Blau Blue 6,1\" A2633 IOS Smartphone NEU OVP",
+          "voucherCode": null,
+          "baseprice": null,
+          "shopImageUrl": "https://i.ebayimg.com/images/g/rhUAAOSwcM9hWgfy/s-l1600.jpg",
+          "modified": "13.02.2023, 12:33",
+          "badges": [],
+          "price": { "euro": "725", "cent": "00" },
+          "minShippingCost": { "price": 0.0, "formattedPrice": "0,00 €" },
+          "priceWithShippingCosts": {
+            "euro": "725",
+            "cent": "00",
+            "formattedPrice": "725,00 €"
+          },
+          "formerPrice": null,
+          "openerOutLink": "/opener_out.htm?SEC=product&PA=1&B=1&OKEY=3f3298e9a343b81157d19bc605a9f575&V=0&EL=product&PID=745&AKT=product&AID=3502807297764098368&QID=0&CID=8155003",
+          "shopInfoUrl": "http://rover.ebay.com/rover/1/707-53477-19255-0/1/?ff3=4&pub=5574635388&toolid=10001&campid=5337771981&mpre=https%3A%2F%2Ffeedback.ebay.de%2Fws%2FeBayISAPI.dll%3FViewFeedback2%26userid%3Dsmartphones24-store",
+          "shop": {
+            "name": "eBay",
+            "mobileFriendly": true,
+            "shippingNames": [],
+            "image": {
+              "sd": "https://cdn.preis.de/shop/logo/745/80x30/85/1/ebay.png",
+              "hd": "https://cdn.preis.de/shop/logo/745/160x60/90/1/ebay.png"
+            }
+          },
+          "shopRating": { "rating": 99.9, "ratingCount": 24436 },
+          "merchantName": "smartphones24-store",
+          "delivery": { "color": "darkgreen", "text": "schnell lieferbar" },
+          "deliveryText": "Lieferung innerhalb von 2 - 3 Werktagen nach Zahlungseingang.",
+          "freeReturnDays": null,
+          "hasFreeReturnShipping": false
+        },
+        {
+          "id": "3505842388100710827",
+          "name": "Apple iPhone 13 128GB Pink Rose 5G 6,1\" IOS Smartphone NEU OVP",
+          "voucherCode": null,
+          "baseprice": null,
+          "shopImageUrl": "https://i.ebayimg.com/images/g/D2kAAOSw-jhhjPAe/s-l1600.jpg",
+          "modified": "13.02.2023, 13:30",
+          "badges": [],
+          "price": { "euro": "725", "cent": "00" },
+          "minShippingCost": { "price": 0.0, "formattedPrice": "0,00 €" },
+          "priceWithShippingCosts": {
+            "euro": "725",
+            "cent": "00",
+            "formattedPrice": "725,00 €"
+          },
+          "formerPrice": null,
+          "openerOutLink": "/opener_out.htm?SEC=product&PA=1&B=1&OKEY=31e8e2ee4e1c567219effeb5749b6706&V=0&EL=product&PID=745&AKT=product&AID=3505842388100710827&QID=0&CID=8155003",
+          "shopInfoUrl": "http://rover.ebay.com/rover/1/707-53477-19255-0/1/?ff3=4&pub=5574635388&toolid=10001&campid=5337771981&mpre=https%3A%2F%2Ffeedback.ebay.de%2Fws%2FeBayISAPI.dll%3FViewFeedback2%26userid%3Dsmartphones24-store",
+          "shop": {
+            "name": "eBay",
+            "mobileFriendly": true,
+            "shippingNames": [],
+            "image": {
+              "sd": "https://cdn.preis.de/shop/logo/745/80x30/85/1/ebay.png",
+              "hd": "https://cdn.preis.de/shop/logo/745/160x60/90/1/ebay.png"
+            }
+          },
+          "shopRating": { "rating": 99.9, "ratingCount": 24436 },
+          "merchantName": "smartphones24-store",
+          "delivery": { "color": "darkgreen", "text": "schnell lieferbar" },
+          "deliveryText": "Lieferung innerhalb von 2 - 3 Werktagen nach Zahlungseingang.",
+          "freeReturnDays": null,
+          "hasFreeReturnShipping": false
+        },
+        {
+          "id": "3499930438812566083",
+          "name": "Apple iPhone 13 128GB Grün Green 6,1\" IOS NEU OVP",
+          "voucherCode": null,
+          "baseprice": null,
+          "shopImageUrl": "https://i.ebayimg.com/images/g/438AAOSwDHFiOzAe/s-l1600.jpg",
+          "modified": "10.02.2023, 12:38",
+          "badges": [],
+          "price": { "euro": "725", "cent": "00" },
+          "minShippingCost": { "price": 0.0, "formattedPrice": "0,00 €" },
+          "priceWithShippingCosts": {
+            "euro": "725",
+            "cent": "00",
+            "formattedPrice": "725,00 €"
+          },
+          "formerPrice": null,
+          "openerOutLink": "/opener_out.htm?SEC=product&PA=1&B=1&OKEY=2fbee741920c4aa997253994f189c28e&V=0&EL=product&PID=745&AKT=product&AID=3499930438812566083&QID=0&CID=8155003",
+          "shopInfoUrl": "http://rover.ebay.com/rover/1/707-53477-19255-0/1/?ff3=4&pub=5574635388&toolid=10001&campid=5337771981&mpre=https%3A%2F%2Ffeedback.ebay.de%2Fws%2FeBayISAPI.dll%3FViewFeedback2%26userid%3Dsmartphones24-store",
+          "shop": {
+            "name": "eBay",
+            "mobileFriendly": true,
+            "shippingNames": [],
+            "image": {
+              "sd": "https://cdn.preis.de/shop/logo/745/80x30/85/1/ebay.png",
+              "hd": "https://cdn.preis.de/shop/logo/745/160x60/90/1/ebay.png"
+            }
+          },
+          "shopRating": { "rating": 99.9, "ratingCount": 24436 },
+          "merchantName": "smartphones24-store",
+          "delivery": { "color": "green", "text": "lieferbar" },
+          "deliveryText": "Lieferung innerhalb von 3 - 5 Werktagen nach Zahlungseingang.",
+          "freeReturnDays": null,
+          "hasFreeReturnShipping": false
+        },
+        {
+          "id": "3508076481787986180",
+          "name": "Apple iPhone 13 128GB Schwarz Mitternacht Midnight Black Smartphone ungeöffnet",
+          "voucherCode": null,
+          "baseprice": null,
+          "shopImageUrl": "https://i.ebayimg.com/images/g/6A4AAOSwGHxiyD15/s-l1600.jpg",
+          "modified": "08.02.2023, 12:36",
+          "badges": [],
+          "price": { "euro": "728", "cent": "89" },
+          "minShippingCost": { "price": 0.0, "formattedPrice": "0,00 €" },
+          "priceWithShippingCosts": {
+            "euro": "728",
+            "cent": "89",
+            "formattedPrice": "728,89 €"
+          },
+          "formerPrice": null,
+          "openerOutLink": "/opener_out.htm?SEC=product&PA=1&B=1&OKEY=eeefc5c18262dd54d6f6136e6e51d24b&V=0&EL=product&PID=745&AKT=product&AID=3508076481787986180&QID=0&CID=8155003",
+          "shopInfoUrl": "http://rover.ebay.com/rover/1/707-53477-19255-0/1/?ff3=4&pub=5574635388&toolid=10001&campid=5337771981&mpre=https%3A%2F%2Ffeedback.ebay.de%2Fws%2FeBayISAPI.dll%3FViewFeedback2%26userid%3Dawindi",
+          "shop": {
+            "name": "eBay",
+            "mobileFriendly": true,
+            "shippingNames": [],
+            "image": {
+              "sd": "https://cdn.preis.de/shop/logo/745/80x30/85/1/ebay.png",
+              "hd": "https://cdn.preis.de/shop/logo/745/160x60/90/1/ebay.png"
+            }
+          },
+          "shopRating": { "rating": 100.0, "ratingCount": 926 },
+          "merchantName": "awindi",
+          "delivery": { "color": "darkgreen", "text": "schnell lieferbar" },
+          "deliveryText": "Lieferung innerhalb von 2 - 3 Werktagen nach Zahlungseingang.",
+          "freeReturnDays": null,
+          "hasFreeReturnShipping": false
+        },
+        {
+          "id": "3513505873007739526",
+          "name": "Apple iPhone 13 - 128GB - POLARSTERN - STARLIGHT - WEIß - NEU & OVP",
+          "voucherCode": null,
+          "baseprice": null,
+          "shopImageUrl": "https://i.ebayimg.com/images/g/-VUAAOSwHGZimf7h/s-l1600.jpg",
+          "modified": "13.02.2023, 11:34",
+          "badges": [],
+          "price": { "euro": "729", "cent": "00" },
+          "minShippingCost": { "price": 0.0, "formattedPrice": "0,00 €" },
+          "priceWithShippingCosts": {
+            "euro": "729",
+            "cent": "00",
+            "formattedPrice": "729,00 €"
+          },
+          "formerPrice": null,
+          "openerOutLink": "/opener_out.htm?SEC=product&PA=1&B=1&OKEY=6471d4e120acb1e5827a0e1c3f25d84f&V=0&EL=product&PID=745&AKT=product&AID=3513505873007739526&QID=0&CID=8155003",
+          "shopInfoUrl": "http://rover.ebay.com/rover/1/707-53477-19255-0/1/?ff3=4&pub=5574635388&toolid=10001&campid=5337771981&mpre=https%3A%2F%2Ffeedback.ebay.de%2Fws%2FeBayISAPI.dll%3FViewFeedback2%26userid%3Dikauf66",
+          "shop": {
+            "name": "eBay",
+            "mobileFriendly": true,
+            "shippingNames": [],
+            "image": {
+              "sd": "https://cdn.preis.de/shop/logo/745/80x30/85/1/ebay.png",
+              "hd": "https://cdn.preis.de/shop/logo/745/160x60/90/1/ebay.png"
+            }
+          },
+          "shopRating": { "rating": 100.0, "ratingCount": 205561 },
+          "merchantName": "ikauf66",
+          "delivery": { "color": "yellow", "text": "mit Lieferzeit" },
+          "deliveryText": "Lieferung innerhalb von 4 - 9 Werktagen nach Zahlungseingang.",
+          "freeReturnDays": null,
+          "hasFreeReturnShipping": false
+        },
+        {
+          "id": "3513084334984659884",
+          "name": "Apple iPhone 13 - 128GB - Grün - Green - NEU & OVP - SIMLOCK FREI - DE HÄNDLER",
+          "voucherCode": null,
+          "baseprice": null,
+          "shopImageUrl": "https://i.ebayimg.com/images/g/EVoAAOSwwypj2Od4/s-l1600.jpg",
+          "modified": "11.02.2023, 05:32",
+          "badges": [],
+          "price": { "euro": "739", "cent": "90" },
+          "minShippingCost": { "price": 4.9, "formattedPrice": "4,90 €" },
+          "priceWithShippingCosts": {
+            "euro": "739",
+            "cent": "90",
+            "formattedPrice": "739,90 €"
+          },
+          "formerPrice": null,
+          "openerOutLink": "/opener_out.htm?SEC=product&PA=1&B=1&OKEY=3df3d6736d5a35fe201e5559fe9722fa&V=0&EL=product&PID=745&AKT=product&AID=3513084334984659884&QID=0&CID=8155003",
+          "shopInfoUrl": "http://rover.ebay.com/rover/1/707-53477-19255-0/1/?ff3=4&pub=5574635388&toolid=10001&campid=5337771981&mpre=https%3A%2F%2Ffeedback.ebay.de%2Fws%2FeBayISAPI.dll%3FViewFeedback2%26userid%3Dkabkar24-de",
+          "shop": {
+            "name": "eBay",
+            "mobileFriendly": true,
+            "shippingNames": [],
+            "image": {
+              "sd": "https://cdn.preis.de/shop/logo/745/80x30/85/1/ebay.png",
+              "hd": "https://cdn.preis.de/shop/logo/745/160x60/90/1/ebay.png"
+            }
+          },
+          "shopRating": { "rating": 98.0, "ratingCount": 4249 },
+          "merchantName": "kabkar24-de",
+          "delivery": { "color": "yellow", "text": "mit Lieferzeit" },
+          "deliveryText": "Lieferung innerhalb von 4 - 9 Werktagen nach Zahlungseingang.",
+          "freeReturnDays": null,
+          "hasFreeReturnShipping": false
+        },
+        {
+          "id": "3515241499847557678",
+          "name": "Apple iPhone 13 128GB grün (Neu differenzbesteuert)",
+          "voucherCode": null,
+          "baseprice": null,
+          "shopImageUrl": "https://www.zoxs.de/data/pic/10875456_medium.jpg",
+          "modified": "12.02.2023, 11:32",
+          "badges": [],
+          "price": { "euro": "748", "cent": "88" },
+          "minShippingCost": { "price": 0.0, "formattedPrice": "0,00 €" },
+          "priceWithShippingCosts": {
+            "euro": "748",
+            "cent": "88",
+            "formattedPrice": "748,88 €"
+          },
+          "formerPrice": { "formattedPrice": "748,88 €" },
+          "openerOutLink": "/opener_out.htm?SEC=product&PA=1&B=1&OKEY=2332f50cb9baa2a34d966c18ab94b399&V=0&EL=product&PID=6827&AKT=product&AID=3515241499847557678&QID=0&CID=8155003",
+          "shopInfoUrl": "/haendler/ZOXS-GmbH/6827.html",
+          "shop": {
+            "name": "buyzoxs.de",
+            "mobileFriendly": true,
+            "shippingNames": ["Post", "DHL"],
+            "image": {
+              "sd": "https://cdn.preis.de/shop/logo/6827/80x30/85/1/buyzoxs-de.png",
+              "hd": "https://cdn.preis.de/shop/logo/6827/160x60/90/1/buyzoxs-de.png"
+            }
+          },
+          "shopRating": null,
+          "merchantName": null,
+          "delivery": { "color": "darkgreen", "text": "schnell lieferbar" },
+          "deliveryText": "Geliefert in 1-3 Werktagen nach Zahlungseingang.",
+          "freeReturnDays": null,
+          "hasFreeReturnShipping": null
+        },
+        {
+          "id": "3514365967123612456",
+          "name": "Apple iPhone 13 128GB Grün - Neuware (Differenzbesteuert)",
+          "voucherCode": "REZILLA5 (5,00 Euro Rabatt ab 250,- Euro Einkaufswert / gültig bis 31.12.2022)",
+          "baseprice": null,
+          "shopImageUrl": "https://www.rezilla.com/media/image/product/9610/lg/apple-iphone-13-128gb-gruen.png",
+          "modified": "12.02.2023, 03:40",
+          "badges": [{ "name": "voucher", "value": null }],
+          "price": { "euro": "749", "cent": "00" },
+          "minShippingCost": { "price": 0.0, "formattedPrice": "0,00 €" },
+          "priceWithShippingCosts": {
+            "euro": "749",
+            "cent": "00",
+            "formattedPrice": "749,00 €"
+          },
+          "formerPrice": { "formattedPrice": "754,00 €" },
+          "openerOutLink": "/opener_out.htm?SEC=product&PA=1&B=1&OKEY=6b1d7f2adeae6edcdf2e3e6963239036&V=1&EL=product&PID=14030&AKT=product&AID=3514365967123612456&QID=0&CID=8155003",
+          "shopInfoUrl": "/haendler/rezilla-com/14030.html",
+          "shop": {
+            "name": "rezilla.com",
+            "mobileFriendly": false,
+            "shippingNames": ["DHL"],
+            "image": {
+              "sd": "https://cdn.preis.de/shop/logo/14030/80x30/85/1/rezilla-com.png",
+              "hd": "https://cdn.preis.de/shop/logo/14030/160x60/90/1/rezilla-com.png"
+            }
+          },
+          "shopRating": null,
+          "merchantName": null,
+          "delivery": { "color": "darkgreen", "text": "schnell lieferbar" },
+          "deliveryText": "Sofort lieferbar (2-3 Werktage)",
+          "freeReturnDays": "30",
+          "hasFreeReturnShipping": true
+        },
+        {
+          "id": "3493911186657772073",
+          "name": "Apple IPHONE 13 5G 128GB Neu Original Smartphone Blau",
+          "voucherCode": null,
+          "baseprice": null,
+          "shopImageUrl": "https://i.ebayimg.com/images/g/zBgAAOSwtFdhVXlb/s-l1600.jpg",
+          "modified": "13.02.2023, 11:36",
+          "badges": [],
+          "price": { "euro": "749", "cent": "19" },
+          "minShippingCost": { "price": 0.0, "formattedPrice": "0,00 €" },
+          "priceWithShippingCosts": {
+            "euro": "749",
+            "cent": "19",
+            "formattedPrice": "749,19 €"
+          },
+          "formerPrice": null,
+          "openerOutLink": "/opener_out.htm?SEC=product&PA=1&B=1&OKEY=c803eda45478deba337bb707b3f89f8c&V=0&EL=product&PID=745&AKT=product&AID=3493911186657772073&QID=0&CID=8155003",
+          "shopInfoUrl": "http://rover.ebay.com/rover/1/707-53477-19255-0/1/?ff3=4&pub=5574635388&toolid=10001&campid=5337771981&mpre=https%3A%2F%2Ffeedback.ebay.de%2Fws%2FeBayISAPI.dll%3FViewFeedback2%26userid%3Deshopping.srl",
+          "shop": {
+            "name": "eBay",
+            "mobileFriendly": true,
+            "shippingNames": [],
+            "image": {
+              "sd": "https://cdn.preis.de/shop/logo/745/80x30/85/1/ebay.png",
+              "hd": "https://cdn.preis.de/shop/logo/745/160x60/90/1/ebay.png"
+            }
+          },
+          "shopRating": { "rating": 99.3, "ratingCount": 79769 },
+          "merchantName": "eshopping.srl",
+          "delivery": { "color": "green", "text": "lieferbar" },
+          "deliveryText": "Lieferung innerhalb von 3 - 7 Werktagen nach Zahlungseingang.",
+          "freeReturnDays": null,
+          "hasFreeReturnShipping": false
+        },
+        {
+          "id": "3488807495829291299",
+          "name": "Apple IPHONE 13 5G 128GB Neu Original Smartphone Weiß Galassia Starlight",
+          "voucherCode": null,
+          "baseprice": null,
+          "shopImageUrl": "https://i.ebayimg.com/images/g/fWMAAOSwCH1iApzT/s-l1600.jpg",
+          "modified": "11.02.2023, 17:29",
+          "badges": [],
+          "price": { "euro": "749", "cent": "19" },
+          "minShippingCost": { "price": 0.0, "formattedPrice": "0,00 €" },
+          "priceWithShippingCosts": {
+            "euro": "749",
+            "cent": "19",
+            "formattedPrice": "749,19 €"
+          },
+          "formerPrice": null,
+          "openerOutLink": "/opener_out.htm?SEC=product&PA=1&B=1&OKEY=3551e6398705e9057d3f115eef01184c&V=0&EL=product&PID=745&AKT=product&AID=3488807495829291299&QID=0&CID=8155003",
+          "shopInfoUrl": "http://rover.ebay.com/rover/1/707-53477-19255-0/1/?ff3=4&pub=5574635388&toolid=10001&campid=5337771981&mpre=https%3A%2F%2Ffeedback.ebay.de%2Fws%2FeBayISAPI.dll%3FViewFeedback2%26userid%3Deshopping.srl",
+          "shop": {
+            "name": "eBay",
+            "mobileFriendly": true,
+            "shippingNames": [],
+            "image": {
+              "sd": "https://cdn.preis.de/shop/logo/745/80x30/85/1/ebay.png",
+              "hd": "https://cdn.preis.de/shop/logo/745/160x60/90/1/ebay.png"
+            }
+          },
+          "shopRating": { "rating": 99.3, "ratingCount": 79769 },
+          "merchantName": "eshopping.srl",
+          "delivery": { "color": "yellow", "text": "mit Lieferzeit" },
+          "deliveryText": "Lieferung innerhalb von 4 - 9 Werktagen nach Zahlungseingang.",
+          "freeReturnDays": null,
+          "hasFreeReturnShipping": false
+        },
+        {
+          "id": "3488807478506815589",
+          "name": "Apple IPHONE 13 5G 128GB Neu Original Smartphone Pink",
+          "voucherCode": null,
+          "baseprice": null,
+          "shopImageUrl": "https://i.ebayimg.com/images/g/d4oAAOSwe3hiOF8T/s-l1600.jpg",
+          "modified": "13.02.2023, 11:35",
+          "badges": [],
+          "price": { "euro": "749", "cent": "19" },
+          "minShippingCost": { "price": 0.0, "formattedPrice": "0,00 €" },
+          "priceWithShippingCosts": {
+            "euro": "749",
+            "cent": "19",
+            "formattedPrice": "749,19 €"
+          },
+          "formerPrice": null,
+          "openerOutLink": "/opener_out.htm?SEC=product&PA=1&B=1&OKEY=5f82c953fc8c0f87a4cd54364685aad1&V=0&EL=product&PID=745&AKT=product&AID=3488807478506815589&QID=0&CID=8155003",
+          "shopInfoUrl": "http://rover.ebay.com/rover/1/707-53477-19255-0/1/?ff3=4&pub=5574635388&toolid=10001&campid=5337771981&mpre=https%3A%2F%2Ffeedback.ebay.de%2Fws%2FeBayISAPI.dll%3FViewFeedback2%26userid%3Deshopping.srl",
+          "shop": {
+            "name": "eBay",
+            "mobileFriendly": true,
+            "shippingNames": [],
+            "image": {
+              "sd": "https://cdn.preis.de/shop/logo/745/80x30/85/1/ebay.png",
+              "hd": "https://cdn.preis.de/shop/logo/745/160x60/90/1/ebay.png"
+            }
+          },
+          "shopRating": { "rating": 99.3, "ratingCount": 79769 },
+          "merchantName": "eshopping.srl",
+          "delivery": { "color": "yellow", "text": "mit Lieferzeit" },
+          "deliveryText": "Lieferung innerhalb von 4 - 8 Werktagen nach Zahlungseingang.",
+          "freeReturnDays": null,
+          "hasFreeReturnShipping": false
+        },
+        {
+          "id": "3492854108923101662",
+          "name": "Apple IPHONE 13 5G 128GB Neu Original Smartphone (Product) Rot",
+          "voucherCode": null,
+          "baseprice": null,
+          "shopImageUrl": "https://i.ebayimg.com/images/g/YqYAAOSwAFpiUDo7/s-l1600.jpg",
+          "modified": "11.02.2023, 23:24",
+          "badges": [],
+          "price": { "euro": "749", "cent": "19" },
+          "minShippingCost": { "price": 0.0, "formattedPrice": "0,00 €" },
+          "priceWithShippingCosts": {
+            "euro": "749",
+            "cent": "19",
+            "formattedPrice": "749,19 €"
+          },
+          "formerPrice": null,
+          "openerOutLink": "/opener_out.htm?SEC=product&PA=1&B=1&OKEY=53a2cd232ce95e70e9a501fe3fe1bf07&V=0&EL=product&PID=745&AKT=product&AID=3492854108923101662&QID=0&CID=8155003",
+          "shopInfoUrl": "http://rover.ebay.com/rover/1/707-53477-19255-0/1/?ff3=4&pub=5574635388&toolid=10001&campid=5337771981&mpre=https%3A%2F%2Ffeedback.ebay.de%2Fws%2FeBayISAPI.dll%3FViewFeedback2%26userid%3Deshopping.srl",
+          "shop": {
+            "name": "eBay",
+            "mobileFriendly": true,
+            "shippingNames": [],
+            "image": {
+              "sd": "https://cdn.preis.de/shop/logo/745/80x30/85/1/ebay.png",
+              "hd": "https://cdn.preis.de/shop/logo/745/160x60/90/1/ebay.png"
+            }
+          },
+          "shopRating": { "rating": 99.3, "ratingCount": 79769 },
+          "merchantName": "eshopping.srl",
+          "delivery": { "color": "yellow", "text": "mit Lieferzeit" },
+          "deliveryText": "Lieferung innerhalb von 5 - 9 Werktagen nach Zahlungseingang.",
+          "freeReturnDays": null,
+          "hasFreeReturnShipping": false
+        },
+        {
+          "id": "3495926371511697606",
+          "name": "Apple IPHONE 13 5G 128GB Neu Original Smartphone Schwarz Midnight",
+          "voucherCode": null,
+          "baseprice": null,
+          "shopImageUrl": "https://i.ebayimg.com/images/g/JaQAAOSw58NiOF-D/s-l1600.jpg",
+          "modified": "12.02.2023, 18:29",
+          "badges": [],
+          "price": { "euro": "749", "cent": "19" },
+          "minShippingCost": { "price": 0.0, "formattedPrice": "0,00 €" },
+          "priceWithShippingCosts": {
+            "euro": "749",
+            "cent": "19",
+            "formattedPrice": "749,19 €"
+          },
+          "formerPrice": null,
+          "openerOutLink": "/opener_out.htm?SEC=product&PA=1&B=1&OKEY=73f2221e201e9ca9b52ebbf260b14321&V=0&EL=product&PID=745&AKT=product&AID=3495926371511697606&QID=0&CID=8155003",
+          "shopInfoUrl": "http://rover.ebay.com/rover/1/707-53477-19255-0/1/?ff3=4&pub=5574635388&toolid=10001&campid=5337771981&mpre=https%3A%2F%2Ffeedback.ebay.de%2Fws%2FeBayISAPI.dll%3FViewFeedback2%26userid%3Deshopping.srl",
+          "shop": {
+            "name": "eBay",
+            "mobileFriendly": true,
+            "shippingNames": [],
+            "image": {
+              "sd": "https://cdn.preis.de/shop/logo/745/80x30/85/1/ebay.png",
+              "hd": "https://cdn.preis.de/shop/logo/745/160x60/90/1/ebay.png"
+            }
+          },
+          "shopRating": { "rating": 99.3, "ratingCount": 79769 },
+          "merchantName": "eshopping.srl",
+          "delivery": { "color": "yellow", "text": "mit Lieferzeit" },
+          "deliveryText": "Lieferung innerhalb von 4 - 8 Werktagen nach Zahlungseingang.",
+          "freeReturnDays": null,
+          "hasFreeReturnShipping": false
+        },
+        {
+          "id": "3515321648630727657",
+          "name": "Apple iPhone 13 128GB blau (Neu differenzbesteuert)",
+          "voucherCode": null,
+          "baseprice": null,
+          "shopImageUrl": "https://www.zoxs.de/data/pic/10863628_medium.jpg",
+          "modified": "12.02.2023, 22:10",
+          "badges": [],
+          "price": { "euro": "749", "cent": "99" },
+          "minShippingCost": { "price": 0.0, "formattedPrice": "0,00 €" },
+          "priceWithShippingCosts": {
+            "euro": "749",
+            "cent": "99",
+            "formattedPrice": "749,99 €"
+          },
+          "formerPrice": { "formattedPrice": "749,99 €" },
+          "openerOutLink": "/opener_out.htm?SEC=product&PA=1&B=1&OKEY=a0851a07717d5f725bc6152d9ace0cd3&V=0&EL=product&PID=6827&AKT=product&AID=3515321648630727657&QID=0&CID=8155003",
+          "shopInfoUrl": "/haendler/ZOXS-GmbH/6827.html",
+          "shop": {
+            "name": "buyzoxs.de",
+            "mobileFriendly": true,
+            "shippingNames": ["Post", "DHL"],
+            "image": {
+              "sd": "https://cdn.preis.de/shop/logo/6827/80x30/85/1/buyzoxs-de.png",
+              "hd": "https://cdn.preis.de/shop/logo/6827/160x60/90/1/buyzoxs-de.png"
+            }
+          },
+          "shopRating": null,
+          "merchantName": null,
+          "delivery": { "color": "darkgreen", "text": "schnell lieferbar" },
+          "deliveryText": "Geliefert in 1-3 Werktagen nach Zahlungseingang.",
+          "freeReturnDays": null,
+          "hasFreeReturnShipping": null
+        },
+        {
+          "id": "3486636983499883246",
+          "name": "iPhone 13 128GB Mitternacht",
+          "voucherCode": null,
+          "baseprice": null,
+          "shopImageUrl": "https://media.mdm.freenet-mobilfunk.de/cdn?name=iphone-13-128gb-mitternacht-vorderseite&version=b352c5b6839b7d1f7ee44c16fe2b548aaf2988a4&subType=png&width=750&height=1000",
+          "modified": "09.02.2023, 11:12",
+          "badges": [],
+          "price": { "euro": "753", "cent": "95" },
+          "minShippingCost": { "price": 4.95, "formattedPrice": "4,95 €" },
+          "priceWithShippingCosts": {
+            "euro": "753",
+            "cent": "95",
+            "formattedPrice": "753,95 €"
+          },
+          "formerPrice": { "formattedPrice": "749,00 €" },
+          "openerOutLink": "/opener_out.htm?SEC=product&PA=1&B=1&OKEY=f0de7487cc75c74315e218575a8e23bb&V=0&EL=product&PID=7935&AKT=product&AID=3486636983499883246&QID=0&CID=8155003",
+          "shopInfoUrl": "/haendler/freenet-mobilfunk-de/7935.html",
+          "shop": {
+            "name": "freenet-mobilfunk.de",
+            "mobileFriendly": true,
+            "shippingNames": ["DHL", "Abholung möglich"],
+            "image": {
+              "sd": "https://cdn.preis.de/shop/logo/7935/80x30/85/1/mobilcom-debitel-de.png",
+              "hd": "https://cdn.preis.de/shop/logo/7935/160x60/90/1/mobilcom-debitel-de.png"
+            }
+          },
+          "shopRating": null,
+          "merchantName": null,
+          "delivery": { "color": "green", "text": "lieferbar" },
+          "deliveryText": "Lieferbar in 3-5 Werktagen",
+          "freeReturnDays": "14",
+          "hasFreeReturnShipping": true
+        },
+        {
+          "id": "3466688757290238683",
+          "name": "iPhone 13 128GB Blau",
+          "voucherCode": null,
+          "baseprice": null,
+          "shopImageUrl": "https://media.mdm.freenet-mobilfunk.de/cdn?name=iphone-13-128gb-blau-vorderseite&version=6a3b158a65dcc6878ac655c2e1c775b506dd4ae8&subType=png&width=750&height=1000",
+          "modified": "09.02.2023, 11:12",
+          "badges": [],
+          "price": { "euro": "753", "cent": "95" },
+          "minShippingCost": { "price": 4.95, "formattedPrice": "4,95 €" },
+          "priceWithShippingCosts": {
+            "euro": "753",
+            "cent": "95",
+            "formattedPrice": "753,95 €"
+          },
+          "formerPrice": { "formattedPrice": "749,00 €" },
+          "openerOutLink": "/opener_out.htm?SEC=product&PA=1&B=1&OKEY=a9887f5c06b27483f178d42f12f0c6b5&V=0&EL=product&PID=7935&AKT=product&AID=3466688757290238683&QID=0&CID=8155003",
+          "shopInfoUrl": "/haendler/freenet-mobilfunk-de/7935.html",
+          "shop": {
+            "name": "freenet-mobilfunk.de",
+            "mobileFriendly": true,
+            "shippingNames": ["DHL", "Abholung möglich"],
+            "image": {
+              "sd": "https://cdn.preis.de/shop/logo/7935/80x30/85/1/mobilcom-debitel-de.png",
+              "hd": "https://cdn.preis.de/shop/logo/7935/160x60/90/1/mobilcom-debitel-de.png"
+            }
+          },
+          "shopRating": null,
+          "merchantName": null,
+          "delivery": { "color": "darkgreen", "text": "schnell lieferbar" },
+          "deliveryText": "Lieferbar in 1-3 Werktagen",
+          "freeReturnDays": "14",
+          "hasFreeReturnShipping": true
+        },
+        {
+          "id": "3457779351162978971",
+          "name": "iPhone 13 128GB Grün",
+          "voucherCode": null,
+          "baseprice": null,
+          "shopImageUrl": "https://media.mdm.freenet-mobilfunk.de/cdn?name=iphone-13-128gb-gruen-vorderseite&version=5e7b73c984242afe69df54ee39ed5fb9615bf305&subType=png&width=750&height=1000",
+          "modified": "09.02.2023, 11:12",
+          "badges": [],
+          "price": { "euro": "753", "cent": "95" },
+          "minShippingCost": { "price": 4.95, "formattedPrice": "4,95 €" },
+          "priceWithShippingCosts": {
+            "euro": "753",
+            "cent": "95",
+            "formattedPrice": "753,95 €"
+          },
+          "formerPrice": { "formattedPrice": "749,00 €" },
+          "openerOutLink": "/opener_out.htm?SEC=product&PA=1&B=1&OKEY=f29eefeadc7de465a00a449c27d7ab62&V=0&EL=product&PID=7935&AKT=product&AID=3457779351162978971&QID=0&CID=8155003",
+          "shopInfoUrl": "/haendler/freenet-mobilfunk-de/7935.html",
+          "shop": {
+            "name": "freenet-mobilfunk.de",
+            "mobileFriendly": true,
+            "shippingNames": ["DHL", "Abholung möglich"],
+            "image": {
+              "sd": "https://cdn.preis.de/shop/logo/7935/80x30/85/1/mobilcom-debitel-de.png",
+              "hd": "https://cdn.preis.de/shop/logo/7935/160x60/90/1/mobilcom-debitel-de.png"
+            }
+          },
+          "shopRating": null,
+          "merchantName": null,
+          "delivery": { "color": "darkgreen", "text": "schnell lieferbar" },
+          "deliveryText": "Lieferbar in 1-3 Werktagen",
+          "freeReturnDays": "14",
+          "hasFreeReturnShipping": true
+        },
+        {
+          "id": "3485548725665792629",
+          "name": "iPhone 13 128GB Polarstern",
+          "voucherCode": null,
+          "baseprice": null,
+          "shopImageUrl": "https://media.mdm.freenet-mobilfunk.de/cdn?name=iphone-13-128gb-polarstern-vorderseite&version=24ce92a9fd43d0aca867378fcdd0041f72d0601b&subType=png&width=750&height=1000",
+          "modified": "09.02.2023, 11:12",
+          "badges": [],
+          "price": { "euro": "753", "cent": "95" },
+          "minShippingCost": { "price": 4.95, "formattedPrice": "4,95 €" },
+          "priceWithShippingCosts": {
+            "euro": "753",
+            "cent": "95",
+            "formattedPrice": "753,95 €"
+          },
+          "formerPrice": { "formattedPrice": "749,00 €" },
+          "openerOutLink": "/opener_out.htm?SEC=product&PA=1&B=1&OKEY=eff95d71df3c351436268cff1b2492a9&V=0&EL=product&PID=7935&AKT=product&AID=3485548725665792629&QID=0&CID=8155003",
+          "shopInfoUrl": "/haendler/freenet-mobilfunk-de/7935.html",
+          "shop": {
+            "name": "freenet-mobilfunk.de",
+            "mobileFriendly": true,
+            "shippingNames": ["DHL", "Abholung möglich"],
+            "image": {
+              "sd": "https://cdn.preis.de/shop/logo/7935/80x30/85/1/mobilcom-debitel-de.png",
+              "hd": "https://cdn.preis.de/shop/logo/7935/160x60/90/1/mobilcom-debitel-de.png"
+            }
+          },
+          "shopRating": null,
+          "merchantName": null,
+          "delivery": { "color": "darkgreen", "text": "schnell lieferbar" },
+          "deliveryText": "Lieferbar in 1-3 Werktagen",
+          "freeReturnDays": "14",
+          "hasFreeReturnShipping": true
+        }
+      ]
+    }
+  }
+}

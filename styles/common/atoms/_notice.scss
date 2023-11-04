@@ -1,0 +1,99 @@
+@import '../base/_colors.scss';
+@import '../base/_layout.scss';
+
+.notice-wrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin: 5px auto 18px;
+}
+
+.notice {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: $color-blue-60;
+  color: $color-white;
+  font-size: 0.875rem;
+  padding: 10px 24px;
+  width: 100%;
+  margin: 0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.27);
+
+  > .attention {
+    fill: $color-white;
+    width: 17px;
+    height: 17px;
+    transform: scaleX(-1);
+    flex: 0 0 45px;
+  }
+
+  > .text {
+    margin: 0;
+    line-height: 20px;
+    overflow-wrap: anywhere;
+
+    > .infolink {
+      color: $color-white;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+
+  > .icon {
+    flex-shrink: 0;
+  }
+
+  > .close {
+    fill: $color-white;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    position: absolute;
+    right: 12px;
+    top: 12px;
+  }
+
+  > .close-btn {
+    margin-left: 40px;
+    @include media-breakpoint-down(md) {
+      display: none;
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    padding: 10px 56px;
+  }
+
+  &.-hide {
+    display: none;
+  }
+
+  &.-narrow {
+    width: 80%;
+
+    @include media-breakpoint-down(sm) {
+      width: 100%;
+    }
+  }
+
+  &.-centered {
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 8px 50px 8px 8px;
+
+    @include media-breakpoint-up(lg) {
+      padding: 8px;
+      text-align: center;
+    }
+  }
+
+  &.-error {
+    background-color: $color-error;
+  }
+
+  &.-rounded {
+    border-radius: 3px;
+  }
+}

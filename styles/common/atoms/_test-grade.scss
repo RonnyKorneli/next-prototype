@@ -1,0 +1,16 @@
+.test-grade {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 0.75rem;
+  font-weight: 700;
+
+  > .count {
+    font-weight: 400;
+  }
+
+  &:hover {
+    > .count {
+      text-decoration: underline;
+    }
+  }
+}

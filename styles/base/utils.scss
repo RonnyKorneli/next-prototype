@@ -1,0 +1,302 @@
+@import '../base/colors';
+@import '../base/layout';
+@import '../base/vars';
+
+@mixin text-ellipsis {
+  text-overflow: ellipsis;
+  max-width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@mixin placeholder {
+  &::-webkit-input-placeholder {
+    @content;
+  }
+  &.hasPlaceholder {
+    @content;
+  }
+  &:-moz-placeholder {
+    /* Firefox 18- */
+    @content;
+  }
+
+  &::-moz-placeholder {
+    /* Firefox 19+ */
+    @content;
+  }
+
+  &:-ms-input-placeholder {
+    @content;
+  }
+}
+
+strong,
+dfn,
+b {
+  font-weight: 700;
+}
+
+sup,
+sub {
+  font-size: smaller;
+  line-height: 0;
+}
+
+sup {
+  vertical-align: super;
+}
+
+sub {
+  vertical-align: baseline;
+  bottom: 0;
+}
+
+.touchevents {
+  .show-for-touch {
+    display: block;
+  }
+  .hide-for-touch {
+    display: none;
+  }
+}
+
+@media (pointer: coarse) {
+  .swipe-list {
+    -webkit-overflow-scrolling: touch;
+    overflow-x: scroll;
+  }
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: $base-font-family;
+  font-size: 16px;
+  line-height: 1;
+  color: $color-grey;
+  background-color: $color-grey-5;
+  padding: 0;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  line-height: 1;
+}
+
+button,
+a,
+p,
+span {
+  font-family: $base-font-family;
+}
+
+button {
+  margin: 0;
+  padding: 1px 6px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+
+iframe {
+  border: none;
+}
+table {
+  border-collapse: collapse;
+}
+
+a {
+  cursor: pointer;
+}
+a:focus {
+  outline: none;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+/* LINKS -------------------------------- */
+a {
+  color: $color-grey;
+
+  &:link,
+  &:visited {
+    text-decoration: none;
+  }
+  &:link,
+  &:visited,
+  &:hover,
+  &:active {
+    outline: none;
+  }
+  &:focus,
+  &:hover,
+  &:active {
+    color: darken($color-grey, 10%);
+  }
+  &:focus {
+    outline: thin dotted;
+  }
+  &.underline {
+    text-decoration: underline;
+  }
+}
+
+.skip-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: -999px;
+  top: auto;
+  z-index: -999;
+
+  &:focus,
+  &:active {
+    color: $color-white;
+    background-color: $color-pink;
+    left: 50%;
+    top: 1rem;
+    transform: translate3d(-50%, 0, 0);
+    width: 25%;
+    height: 3rem;
+    border-radius: 8px;
+    z-index: 999;
+    outline: none;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+  }
+}
+
+input,
+textarea {
+  font-family: $base-font-family;
+  @include placeholder {
+    color: lighten($color-grey, 45%) t;
+    font-weight: 400;
+  }
+}
+input[type='search'],
+input[type='text'] {
+  &:focus::-webkit-input-placeholder {
+    color: transparent;
+  }
+  &:focus::-moz-placeholder {
+    color: transparent;
+  }
+  &:focus:-moz-placeholder {
+    color: transparent;
+  }
+}
+//Farbe des Placeholders
+input::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+input:-moz-placeholder {
+  /* Firefox 18- */
+  color: rgba(0, 0, 0, 0.5);
+}
+input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: rgba(0, 0, 0, 0.5);
+}
+input:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+input[type='search']::-webkit-search-decoration,
+input[type='search']::-webkit-search-cancel-button,
+input[type='search']::-webkit-search-results-button,
+input[type='search']::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+}
+
+hr {
+  background: none;
+  height: 1px;
+  border: none;
+  border-top: 1px solid $color-grey-30;
+  clear: both;
+  margin-top: 1rem;
+}
+
+.arrow {
+  &.-left {
+    transform: rotate(180deg);
+  }
+  &.-down {
+    transform: rotate(90deg);
+  }
+  &.-up {
+    transform: rotate(-90deg);
+  }
+  &.-white {
+    fill: $color-white;
+  }
+  &.-blue {
+    fill: $color-blue;
+  }
+  &.-grey {
+    fill: $color-grey-60;
+  }
+}
+
+.-grey-60 {
+  color: $color-grey-60;
+}
+
+.bg-gradientGreenBlue {
+  background: $gradient-greenblue;
+}
+
+/**************************************************************
+    Accessible Focus ring display using focus-visible polyfill
+    https://github.com/WICG/focus-visible
+**************************************************************/
+
+/*
+  This will hide the focus indicator if the element receives focus via the mouse,
+  but it will still show up on keyboard focus.
+*/
+.js-focus-visible :focus:not(.focus-visible) {
+  outline: none;
+}
+/*
+  Optionally: Define a strong focus indicator for keyboard focus.
+  If you choose to skip this step then the browser's default focus
+  indicator will be displayed instead.
+*/
+.js-focus-visible .focus-visible {
+  outline: 2px solid $color-pink;
+}
+
+.js-focus-visible input.focus-visible,
+.js-focus-visible textarea.focus-visible {
+  outline: none;
+}
+
+html {
+  scroll-padding-top: 80px;
+}
+
+:target:before {
+  display: block;
+  position: relative;
+  top: -120px;
+  visibility: hidden;
+}

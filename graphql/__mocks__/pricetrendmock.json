@@ -1,0 +1,3086 @@
+{
+  "data": {
+    "productPriceHistory": [
+      {
+        "id": "5372761306",
+        "date": "09-03-2022",
+        "label": "03.09.2022",
+        "price": {
+          "price": 569,
+          "euro": "569",
+          "cent": "00",
+          "formattedPrice": "569,00 €"
+        },
+        "average": {
+          "price": 960.595,
+          "euro": "960",
+          "cent": "60",
+          "formattedPrice": "960,60 €"
+        }
+      },
+      {
+        "id": "5375842934",
+        "date": "09-04-2022",
+        "label": "04.09.2022",
+        "price": {
+          "price": 569,
+          "euro": "569",
+          "cent": "00",
+          "formattedPrice": "569,00 €"
+        },
+        "average": {
+          "price": 959.99,
+          "euro": "959",
+          "cent": "99",
+          "formattedPrice": "959,99 €"
+        }
+      },
+      {
+        "id": "5378919100",
+        "date": "09-05-2022",
+        "label": "05.09.2022",
+        "price": {
+          "price": 569,
+          "euro": "569",
+          "cent": "00",
+          "formattedPrice": "569,00 €"
+        },
+        "average": {
+          "price": 959.99,
+          "euro": "959",
+          "cent": "99",
+          "formattedPrice": "959,99 €"
+        }
+      },
+      {
+        "id": "5381984934",
+        "date": "09-06-2022",
+        "label": "06.09.2022",
+        "price": {
+          "price": 771.99,
+          "euro": "771",
+          "cent": "99",
+          "formattedPrice": "771,99 €"
+        },
+        "average": {
+          "price": 961.2,
+          "euro": "961",
+          "cent": "20",
+          "formattedPrice": "961,20 €"
+        }
+      },
+      {
+        "id": "5385041323",
+        "date": "09-07-2022",
+        "label": "07.09.2022",
+        "price": {
+          "price": 768.99,
+          "euro": "768",
+          "cent": "99",
+          "formattedPrice": "768,99 €"
+        },
+        "average": {
+          "price": 959,
+          "euro": "959",
+          "cent": "00",
+          "formattedPrice": "959,00 €"
+        }
+      },
+      {
+        "id": "5388089685",
+        "date": "09-08-2022",
+        "label": "08.09.2022",
+        "price": {
+          "price": 765,
+          "euro": "765",
+          "cent": "00",
+          "formattedPrice": "765,00 €"
+        },
+        "average": {
+          "price": 955.305,
+          "euro": "955",
+          "cent": "30",
+          "formattedPrice": "955,30 €"
+        }
+      },
+      {
+        "id": "5391151661",
+        "date": "09-09-2022",
+        "label": "09.09.2022",
+        "price": {
+          "price": 759.99,
+          "euro": "759",
+          "cent": "99",
+          "formattedPrice": "759,99 €"
+        },
+        "average": {
+          "price": 959,
+          "euro": "959",
+          "cent": "00",
+          "formattedPrice": "959,00 €"
+        }
+      },
+      {
+        "id": "5394228998",
+        "date": "09-10-2022",
+        "label": "10.09.2022",
+        "price": {
+          "price": 769,
+          "euro": "769",
+          "cent": "00",
+          "formattedPrice": "769,00 €"
+        },
+        "average": {
+          "price": 958.315,
+          "euro": "958",
+          "cent": "32",
+          "formattedPrice": "958,32 €"
+        }
+      },
+      {
+        "id": "5397308788",
+        "date": "09-11-2022",
+        "label": "11.09.2022",
+        "price": {
+          "price": 768.99,
+          "euro": "768",
+          "cent": "99",
+          "formattedPrice": "768,99 €"
+        },
+        "average": {
+          "price": 959.97,
+          "euro": "959",
+          "cent": "97",
+          "formattedPrice": "959,97 €"
+        }
+      },
+      {
+        "id": "5400392737",
+        "date": "09-12-2022",
+        "label": "12.09.2022",
+        "price": {
+          "price": 760.9,
+          "euro": "760",
+          "cent": "90",
+          "formattedPrice": "760,90 €"
+        },
+        "average": {
+          "price": 961.9,
+          "euro": "961",
+          "cent": "90",
+          "formattedPrice": "961,90 €"
+        }
+      },
+      {
+        "id": "5403470625",
+        "date": "09-13-2022",
+        "label": "13.09.2022",
+        "price": {
+          "price": 774,
+          "euro": "774",
+          "cent": "00",
+          "formattedPrice": "774,00 €"
+        },
+        "average": {
+          "price": 961.945,
+          "euro": "961",
+          "cent": "94",
+          "formattedPrice": "961,95 €"
+        }
+      },
+      {
+        "id": "5406614631",
+        "date": "09-14-2022",
+        "label": "14.09.2022",
+        "price": {
+          "price": 760.9,
+          "euro": "760",
+          "cent": "90",
+          "formattedPrice": "760,90 €"
+        },
+        "average": {
+          "price": 966.395,
+          "euro": "966",
+          "cent": "40",
+          "formattedPrice": "966,39 €"
+        }
+      },
+      {
+        "id": "5409782245",
+        "date": "09-15-2022",
+        "label": "15.09.2022",
+        "price": {
+          "price": 779,
+          "euro": "779",
+          "cent": "00",
+          "formattedPrice": "779,00 €"
+        },
+        "average": {
+          "price": 969,
+          "euro": "969",
+          "cent": "00",
+          "formattedPrice": "969,00 €"
+        }
+      },
+      {
+        "id": "5412948598",
+        "date": "09-16-2022",
+        "label": "16.09.2022",
+        "price": {
+          "price": 761.9,
+          "euro": "761",
+          "cent": "90",
+          "formattedPrice": "761,90 €"
+        },
+        "average": {
+          "price": 969,
+          "euro": "969",
+          "cent": "00",
+          "formattedPrice": "969,00 €"
+        }
+      },
+      {
+        "id": "5416111272",
+        "date": "09-17-2022",
+        "label": "17.09.2022",
+        "price": {
+          "price": 775,
+          "euro": "775",
+          "cent": "00",
+          "formattedPrice": "775,00 €"
+        },
+        "average": {
+          "price": 968.99,
+          "euro": "968",
+          "cent": "99",
+          "formattedPrice": "968,99 €"
+        }
+      },
+      {
+        "id": "5419276013",
+        "date": "09-18-2022",
+        "label": "18.09.2022",
+        "price": {
+          "price": 769,
+          "euro": "769",
+          "cent": "00",
+          "formattedPrice": "769,00 €"
+        },
+        "average": {
+          "price": 969,
+          "euro": "969",
+          "cent": "00",
+          "formattedPrice": "969,00 €"
+        }
+      },
+      {
+        "id": "5422438112",
+        "date": "09-19-2022",
+        "label": "19.09.2022",
+        "price": {
+          "price": 769,
+          "euro": "769",
+          "cent": "00",
+          "formattedPrice": "769,00 €"
+        },
+        "average": {
+          "price": 976.99,
+          "euro": "976",
+          "cent": "99",
+          "formattedPrice": "976,99 €"
+        }
+      },
+      {
+        "id": "5425601920",
+        "date": "09-20-2022",
+        "label": "20.09.2022",
+        "price": {
+          "price": 769,
+          "euro": "769",
+          "cent": "00",
+          "formattedPrice": "769,00 €"
+        },
+        "average": {
+          "price": 976.11,
+          "euro": "976",
+          "cent": "11",
+          "formattedPrice": "976,11 €"
+        }
+      },
+      {
+        "id": "5428755198",
+        "date": "09-21-2022",
+        "label": "21.09.2022",
+        "price": {
+          "price": 769,
+          "euro": "769",
+          "cent": "00",
+          "formattedPrice": "769,00 €"
+        },
+        "average": {
+          "price": 976.99,
+          "euro": "976",
+          "cent": "99",
+          "formattedPrice": "976,99 €"
+        }
+      },
+      {
+        "id": "5431906109",
+        "date": "09-22-2022",
+        "label": "22.09.2022",
+        "price": {
+          "price": 797,
+          "euro": "797",
+          "cent": "00",
+          "formattedPrice": "797,00 €"
+        },
+        "average": {
+          "price": 986.365,
+          "euro": "986",
+          "cent": "36",
+          "formattedPrice": "986,37 €"
+        }
+      },
+      {
+        "id": "5435064008",
+        "date": "09-23-2022",
+        "label": "23.09.2022",
+        "price": {
+          "price": 787.87,
+          "euro": "787",
+          "cent": "87",
+          "formattedPrice": "787,87 €"
+        },
+        "average": {
+          "price": 984,
+          "euro": "984",
+          "cent": "00",
+          "formattedPrice": "984,00 €"
+        }
+      },
+      {
+        "id": "5438225460",
+        "date": "09-24-2022",
+        "label": "24.09.2022",
+        "price": {
+          "price": 798,
+          "euro": "798",
+          "cent": "00",
+          "formattedPrice": "798,00 €"
+        },
+        "average": {
+          "price": 981.23,
+          "euro": "981",
+          "cent": "23",
+          "formattedPrice": "981,23 €"
+        }
+      },
+      {
+        "id": "5441390189",
+        "date": "09-25-2022",
+        "label": "25.09.2022",
+        "price": {
+          "price": 798,
+          "euro": "798",
+          "cent": "00",
+          "formattedPrice": "798,00 €"
+        },
+        "average": {
+          "price": 984,
+          "euro": "984",
+          "cent": "00",
+          "formattedPrice": "984,00 €"
+        }
+      },
+      {
+        "id": "5444552292",
+        "date": "09-26-2022",
+        "label": "26.09.2022",
+        "price": {
+          "price": 798,
+          "euro": "798",
+          "cent": "00",
+          "formattedPrice": "798,00 €"
+        },
+        "average": {
+          "price": 985.49,
+          "euro": "985",
+          "cent": "49",
+          "formattedPrice": "985,49 €"
+        }
+      },
+      {
+        "id": "5447713246",
+        "date": "09-27-2022",
+        "label": "27.09.2022",
+        "price": {
+          "price": 798,
+          "euro": "798",
+          "cent": "00",
+          "formattedPrice": "798,00 €"
+        },
+        "average": {
+          "price": 988.05,
+          "euro": "988",
+          "cent": "05",
+          "formattedPrice": "988,05 €"
+        }
+      },
+      {
+        "id": "5450871642",
+        "date": "09-28-2022",
+        "label": "28.09.2022",
+        "price": {
+          "price": 798,
+          "euro": "798",
+          "cent": "00",
+          "formattedPrice": "798,00 €"
+        },
+        "average": {
+          "price": 989,
+          "euro": "989",
+          "cent": "00",
+          "formattedPrice": "989,00 €"
+        }
+      },
+      {
+        "id": "5454027037",
+        "date": "09-29-2022",
+        "label": "29.09.2022",
+        "price": {
+          "price": 798,
+          "euro": "798",
+          "cent": "00",
+          "formattedPrice": "798,00 €"
+        },
+        "average": {
+          "price": 989,
+          "euro": "989",
+          "cent": "00",
+          "formattedPrice": "989,00 €"
+        }
+      },
+      {
+        "id": "5457180045",
+        "date": "09-30-2022",
+        "label": "30.09.2022",
+        "price": {
+          "price": 798,
+          "euro": "798",
+          "cent": "00",
+          "formattedPrice": "798,00 €"
+        },
+        "average": {
+          "price": 984,
+          "euro": "984",
+          "cent": "00",
+          "formattedPrice": "984,00 €"
+        }
+      },
+      {
+        "id": "5460349428",
+        "date": "10-01-2022",
+        "label": "01.10.2022",
+        "price": {
+          "price": 786,
+          "euro": "786",
+          "cent": "00",
+          "formattedPrice": "786,00 €"
+        },
+        "average": {
+          "price": 984.72,
+          "euro": "984",
+          "cent": "72",
+          "formattedPrice": "984,72 €"
+        }
+      },
+      {
+        "id": "5463520950",
+        "date": "10-02-2022",
+        "label": "02.10.2022",
+        "price": {
+          "price": 786,
+          "euro": "786",
+          "cent": "00",
+          "formattedPrice": "786,00 €"
+        },
+        "average": {
+          "price": 991.405,
+          "euro": "991",
+          "cent": "40",
+          "formattedPrice": "991,40 €"
+        }
+      },
+      {
+        "id": "5466692507",
+        "date": "10-03-2022",
+        "label": "03.10.2022",
+        "price": {
+          "price": 779,
+          "euro": "779",
+          "cent": "00",
+          "formattedPrice": "779,00 €"
+        },
+        "average": {
+          "price": 989.99,
+          "euro": "989",
+          "cent": "99",
+          "formattedPrice": "989,99 €"
+        }
+      },
+      {
+        "id": "5469858900",
+        "date": "10-04-2022",
+        "label": "04.10.2022",
+        "price": {
+          "price": 779,
+          "euro": "779",
+          "cent": "00",
+          "formattedPrice": "779,00 €"
+        },
+        "average": {
+          "price": 991.81,
+          "euro": "991",
+          "cent": "81",
+          "formattedPrice": "991,81 €"
+        }
+      },
+      {
+        "id": "5473025672",
+        "date": "10-05-2022",
+        "label": "05.10.2022",
+        "price": {
+          "price": 779,
+          "euro": "779",
+          "cent": "00",
+          "formattedPrice": "779,00 €"
+        },
+        "average": {
+          "price": 991,
+          "euro": "991",
+          "cent": "00",
+          "formattedPrice": "991,00 €"
+        }
+      },
+      {
+        "id": "5476193243",
+        "date": "10-06-2022",
+        "label": "06.10.2022",
+        "price": {
+          "price": 779,
+          "euro": "779",
+          "cent": "00",
+          "formattedPrice": "779,00 €"
+        },
+        "average": {
+          "price": 990.445,
+          "euro": "990",
+          "cent": "44",
+          "formattedPrice": "990,45 €"
+        }
+      },
+      {
+        "id": "5479360158",
+        "date": "10-07-2022",
+        "label": "07.10.2022",
+        "price": {
+          "price": 789,
+          "euro": "789",
+          "cent": "00",
+          "formattedPrice": "789,00 €"
+        },
+        "average": {
+          "price": 989,
+          "euro": "989",
+          "cent": "00",
+          "formattedPrice": "989,00 €"
+        }
+      },
+      {
+        "id": "5482529239",
+        "date": "10-08-2022",
+        "label": "08.10.2022",
+        "price": {
+          "price": 789,
+          "euro": "789",
+          "cent": "00",
+          "formattedPrice": "789,00 €"
+        },
+        "average": {
+          "price": 987.38,
+          "euro": "987",
+          "cent": "38",
+          "formattedPrice": "987,38 €"
+        }
+      },
+      {
+        "id": "5485698460",
+        "date": "10-09-2022",
+        "label": "09.10.2022",
+        "price": {
+          "price": 779,
+          "euro": "779",
+          "cent": "00",
+          "formattedPrice": "779,00 €"
+        },
+        "average": {
+          "price": 987.4,
+          "euro": "987",
+          "cent": "40",
+          "formattedPrice": "987,40 €"
+        }
+      },
+      {
+        "id": "5488868116",
+        "date": "10-10-2022",
+        "label": "10.10.2022",
+        "price": {
+          "price": 779,
+          "euro": "779",
+          "cent": "00",
+          "formattedPrice": "779,00 €"
+        },
+        "average": {
+          "price": 988.99,
+          "euro": "988",
+          "cent": "99",
+          "formattedPrice": "988,99 €"
+        }
+      },
+      {
+        "id": "5492033163",
+        "date": "10-11-2022",
+        "label": "11.10.2022",
+        "price": {
+          "price": 779,
+          "euro": "779",
+          "cent": "00",
+          "formattedPrice": "779,00 €"
+        },
+        "average": {
+          "price": 987.49,
+          "euro": "987",
+          "cent": "49",
+          "formattedPrice": "987,49 €"
+        }
+      },
+      {
+        "id": "5495200184",
+        "date": "10-12-2022",
+        "label": "12.10.2022",
+        "price": {
+          "price": 779,
+          "euro": "779",
+          "cent": "00",
+          "formattedPrice": "779,00 €"
+        },
+        "average": {
+          "price": 988.175,
+          "euro": "988",
+          "cent": "18",
+          "formattedPrice": "988,17 €"
+        }
+      },
+      {
+        "id": "5498370950",
+        "date": "10-13-2022",
+        "label": "13.10.2022",
+        "price": {
+          "price": 804.74,
+          "euro": "804",
+          "cent": "74",
+          "formattedPrice": "804,74 €"
+        },
+        "average": {
+          "price": 979,
+          "euro": "979",
+          "cent": "00",
+          "formattedPrice": "979,00 €"
+        }
+      },
+      {
+        "id": "5501540410",
+        "date": "10-14-2022",
+        "label": "14.10.2022",
+        "price": {
+          "price": 785,
+          "euro": "785",
+          "cent": "00",
+          "formattedPrice": "785,00 €"
+        },
+        "average": {
+          "price": 980.995,
+          "euro": "980",
+          "cent": "00",
+          "formattedPrice": "981,00 €"
+        }
+      },
+      {
+        "id": "5504713934",
+        "date": "10-15-2022",
+        "label": "15.10.2022",
+        "price": {
+          "price": 745,
+          "euro": "745",
+          "cent": "00",
+          "formattedPrice": "745,00 €"
+        },
+        "average": {
+          "price": 979.56,
+          "euro": "979",
+          "cent": "56",
+          "formattedPrice": "979,56 €"
+        }
+      },
+      {
+        "id": "5507887502",
+        "date": "10-16-2022",
+        "label": "16.10.2022",
+        "price": {
+          "price": 745,
+          "euro": "745",
+          "cent": "00",
+          "formattedPrice": "745,00 €"
+        },
+        "average": {
+          "price": 979,
+          "euro": "979",
+          "cent": "00",
+          "formattedPrice": "979,00 €"
+        }
+      },
+      {
+        "id": "5511058080",
+        "date": "10-17-2022",
+        "label": "17.10.2022",
+        "price": {
+          "price": 745,
+          "euro": "745",
+          "cent": "00",
+          "formattedPrice": "745,00 €"
+        },
+        "average": {
+          "price": 978.31,
+          "euro": "978",
+          "cent": "31",
+          "formattedPrice": "978,31 €"
+        }
+      },
+      {
+        "id": "5514227958",
+        "date": "10-18-2022",
+        "label": "18.10.2022",
+        "price": {
+          "price": 789,
+          "euro": "789",
+          "cent": "00",
+          "formattedPrice": "789,00 €"
+        },
+        "average": {
+          "price": 978.995,
+          "euro": "978",
+          "cent": "00",
+          "formattedPrice": "979,00 €"
+        }
+      },
+      {
+        "id": "5517394354",
+        "date": "10-19-2022",
+        "label": "19.10.2022",
+        "price": {
+          "price": 788,
+          "euro": "788",
+          "cent": "00",
+          "formattedPrice": "788,00 €"
+        },
+        "average": {
+          "price": 973.515,
+          "euro": "973",
+          "cent": "52",
+          "formattedPrice": "973,51 €"
+        }
+      },
+      {
+        "id": "5520563062",
+        "date": "10-20-2022",
+        "label": "20.10.2022",
+        "price": {
+          "price": 788,
+          "euro": "788",
+          "cent": "00",
+          "formattedPrice": "788,00 €"
+        },
+        "average": {
+          "price": 970.795,
+          "euro": "970",
+          "cent": "80",
+          "formattedPrice": "970,79 €"
+        }
+      },
+      {
+        "id": "5523731063",
+        "date": "10-21-2022",
+        "label": "21.10.2022",
+        "price": {
+          "price": 788,
+          "euro": "788",
+          "cent": "00",
+          "formattedPrice": "788,00 €"
+        },
+        "average": {
+          "price": 969,
+          "euro": "969",
+          "cent": "00",
+          "formattedPrice": "969,00 €"
+        }
+      },
+      {
+        "id": "5526893467",
+        "date": "10-22-2022",
+        "label": "22.10.2022",
+        "price": {
+          "price": 788,
+          "euro": "788",
+          "cent": "00",
+          "formattedPrice": "788,00 €"
+        },
+        "average": {
+          "price": 971.52,
+          "euro": "971",
+          "cent": "52",
+          "formattedPrice": "971,52 €"
+        }
+      },
+      {
+        "id": "5530057110",
+        "date": "10-23-2022",
+        "label": "23.10.2022",
+        "price": {
+          "price": 788,
+          "euro": "788",
+          "cent": "00",
+          "formattedPrice": "788,00 €"
+        },
+        "average": {
+          "price": 972,
+          "euro": "972",
+          "cent": "00",
+          "formattedPrice": "972,00 €"
+        }
+      },
+      {
+        "id": "5533216185",
+        "date": "10-24-2022",
+        "label": "24.10.2022",
+        "price": {
+          "price": 788,
+          "euro": "788",
+          "cent": "00",
+          "formattedPrice": "788,00 €"
+        },
+        "average": {
+          "price": 972,
+          "euro": "972",
+          "cent": "00",
+          "formattedPrice": "972,00 €"
+        }
+      },
+      {
+        "id": "5536374611",
+        "date": "10-25-2022",
+        "label": "25.10.2022",
+        "price": {
+          "price": 788,
+          "euro": "788",
+          "cent": "00",
+          "formattedPrice": "788,00 €"
+        },
+        "average": {
+          "price": 972,
+          "euro": "972",
+          "cent": "00",
+          "formattedPrice": "972,00 €"
+        }
+      },
+      {
+        "id": "5539533683",
+        "date": "10-26-2022",
+        "label": "26.10.2022",
+        "price": {
+          "price": 788,
+          "euro": "788",
+          "cent": "00",
+          "formattedPrice": "788,00 €"
+        },
+        "average": {
+          "price": 970.61,
+          "euro": "970",
+          "cent": "61",
+          "formattedPrice": "970,61 €"
+        }
+      },
+      {
+        "id": "5542703116",
+        "date": "10-27-2022",
+        "label": "27.10.2022",
+        "price": {
+          "price": 721.85,
+          "euro": "721",
+          "cent": "85",
+          "formattedPrice": "721,85 €"
+        },
+        "average": {
+          "price": 969,
+          "euro": "969",
+          "cent": "00",
+          "formattedPrice": "969,00 €"
+        }
+      },
+      {
+        "id": "5545868827",
+        "date": "10-28-2022",
+        "label": "28.10.2022",
+        "price": {
+          "price": 788,
+          "euro": "788",
+          "cent": "00",
+          "formattedPrice": "788,00 €"
+        },
+        "average": {
+          "price": 971.52,
+          "euro": "971",
+          "cent": "52",
+          "formattedPrice": "971,52 €"
+        }
+      },
+      {
+        "id": "5549037548",
+        "date": "10-29-2022",
+        "label": "29.10.2022",
+        "price": {
+          "price": 785,
+          "euro": "785",
+          "cent": "00",
+          "formattedPrice": "785,00 €"
+        },
+        "average": {
+          "price": 969,
+          "euro": "969",
+          "cent": "00",
+          "formattedPrice": "969,00 €"
+        }
+      },
+      {
+        "id": "5552205978",
+        "date": "10-30-2022",
+        "label": "30.10.2022",
+        "price": {
+          "price": 784.99,
+          "euro": "784",
+          "cent": "99",
+          "formattedPrice": "784,99 €"
+        },
+        "average": {
+          "price": 969,
+          "euro": "969",
+          "cent": "00",
+          "formattedPrice": "969,00 €"
+        }
+      },
+      {
+        "id": "5555373746",
+        "date": "10-31-2022",
+        "label": "31.10.2022",
+        "price": {
+          "price": 784.99,
+          "euro": "784",
+          "cent": "99",
+          "formattedPrice": "784,99 €"
+        },
+        "average": {
+          "price": 969,
+          "euro": "969",
+          "cent": "00",
+          "formattedPrice": "969,00 €"
+        }
+      },
+      {
+        "id": "5558552519",
+        "date": "11-01-2022",
+        "label": "01.11.2022",
+        "price": {
+          "price": 784.99,
+          "euro": "784",
+          "cent": "99",
+          "formattedPrice": "784,99 €"
+        },
+        "average": {
+          "price": 969,
+          "euro": "969",
+          "cent": "00",
+          "formattedPrice": "969,00 €"
+        }
+      },
+      {
+        "id": "5561729229",
+        "date": "11-02-2022",
+        "label": "02.11.2022",
+        "price": {
+          "price": 784.99,
+          "euro": "784",
+          "cent": "99",
+          "formattedPrice": "784,99 €"
+        },
+        "average": {
+          "price": 969,
+          "euro": "969",
+          "cent": "00",
+          "formattedPrice": "969,00 €"
+        }
+      },
+      {
+        "id": "5564924916",
+        "date": "11-03-2022",
+        "label": "03.11.2022",
+        "price": {
+          "price": 784.99,
+          "euro": "784",
+          "cent": "99",
+          "formattedPrice": "784,99 €"
+        },
+        "average": {
+          "price": 970,
+          "euro": "970",
+          "cent": "00",
+          "formattedPrice": "970,00 €"
+        }
+      },
+      {
+        "id": "5568119359",
+        "date": "11-04-2022",
+        "label": "04.11.2022",
+        "price": {
+          "price": 754,
+          "euro": "754",
+          "cent": "00",
+          "formattedPrice": "754,00 €"
+        },
+        "average": {
+          "price": 969,
+          "euro": "969",
+          "cent": "00",
+          "formattedPrice": "969,00 €"
+        }
+      },
+      {
+        "id": "5571318625",
+        "date": "11-05-2022",
+        "label": "05.11.2022",
+        "price": {
+          "price": 754,
+          "euro": "754",
+          "cent": "00",
+          "formattedPrice": "754,00 €"
+        },
+        "average": {
+          "price": 971.52,
+          "euro": "971",
+          "cent": "52",
+          "formattedPrice": "971,52 €"
+        }
+      },
+      {
+        "id": "5574517380",
+        "date": "11-06-2022",
+        "label": "06.11.2022",
+        "price": {
+          "price": 754,
+          "euro": "754",
+          "cent": "00",
+          "formattedPrice": "754,00 €"
+        },
+        "average": {
+          "price": 974,
+          "euro": "974",
+          "cent": "00",
+          "formattedPrice": "974,00 €"
+        }
+      },
+      {
+        "id": "5577718052",
+        "date": "11-07-2022",
+        "label": "07.11.2022",
+        "price": {
+          "price": 754,
+          "euro": "754",
+          "cent": "00",
+          "formattedPrice": "754,00 €"
+        },
+        "average": {
+          "price": 978.2,
+          "euro": "978",
+          "cent": "20",
+          "formattedPrice": "978,20 €"
+        }
+      },
+      {
+        "id": "5580901967",
+        "date": "11-08-2022",
+        "label": "08.11.2022",
+        "price": {
+          "price": 754,
+          "euro": "754",
+          "cent": "00",
+          "formattedPrice": "754,00 €"
+        },
+        "average": {
+          "price": 975.19,
+          "euro": "975",
+          "cent": "19",
+          "formattedPrice": "975,19 €"
+        }
+      },
+      {
+        "id": "5584071193",
+        "date": "11-09-2022",
+        "label": "09.11.2022",
+        "price": {
+          "price": 754,
+          "euro": "754",
+          "cent": "00",
+          "formattedPrice": "754,00 €"
+        },
+        "average": {
+          "price": 979,
+          "euro": "979",
+          "cent": "00",
+          "formattedPrice": "979,00 €"
+        }
+      },
+      {
+        "id": "5587243844",
+        "date": "11-10-2022",
+        "label": "10.11.2022",
+        "price": {
+          "price": 754,
+          "euro": "754",
+          "cent": "00",
+          "formattedPrice": "754,00 €"
+        },
+        "average": {
+          "price": 979,
+          "euro": "979",
+          "cent": "00",
+          "formattedPrice": "979,00 €"
+        }
+      },
+      {
+        "id": "5590413265",
+        "date": "11-11-2022",
+        "label": "11.11.2022",
+        "price": {
+          "price": 789.99,
+          "euro": "789",
+          "cent": "99",
+          "formattedPrice": "789,99 €"
+        },
+        "average": {
+          "price": 979,
+          "euro": "979",
+          "cent": "00",
+          "formattedPrice": "979,00 €"
+        }
+      },
+      {
+        "id": "5593594866",
+        "date": "11-12-2022",
+        "label": "12.11.2022",
+        "price": {
+          "price": 769,
+          "euro": "769",
+          "cent": "00",
+          "formattedPrice": "769,00 €"
+        },
+        "average": {
+          "price": 979,
+          "euro": "979",
+          "cent": "00",
+          "formattedPrice": "979,00 €"
+        }
+      },
+      {
+        "id": "5596774393",
+        "date": "11-13-2022",
+        "label": "13.11.2022",
+        "price": {
+          "price": 769,
+          "euro": "769",
+          "cent": "00",
+          "formattedPrice": "769,00 €"
+        },
+        "average": {
+          "price": 979,
+          "euro": "979",
+          "cent": "00",
+          "formattedPrice": "979,00 €"
+        }
+      },
+      {
+        "id": "5599954859",
+        "date": "11-14-2022",
+        "label": "14.11.2022",
+        "price": {
+          "price": 769,
+          "euro": "769",
+          "cent": "00",
+          "formattedPrice": "769,00 €"
+        },
+        "average": {
+          "price": 979,
+          "euro": "979",
+          "cent": "00",
+          "formattedPrice": "979,00 €"
+        }
+      },
+      {
+        "id": "5603135583",
+        "date": "11-15-2022",
+        "label": "15.11.2022",
+        "price": {
+          "price": 779,
+          "euro": "779",
+          "cent": "00",
+          "formattedPrice": "779,00 €"
+        },
+        "average": {
+          "price": 979,
+          "euro": "979",
+          "cent": "00",
+          "formattedPrice": "979,00 €"
+        }
+      },
+      {
+        "id": "5606326837",
+        "date": "11-16-2022",
+        "label": "16.11.2022",
+        "price": {
+          "price": 779,
+          "euro": "779",
+          "cent": "00",
+          "formattedPrice": "779,00 €"
+        },
+        "average": {
+          "price": 979,
+          "euro": "979",
+          "cent": "00",
+          "formattedPrice": "979,00 €"
+        }
+      },
+      {
+        "id": "5609525961",
+        "date": "11-17-2022",
+        "label": "17.11.2022",
+        "price": {
+          "price": 797,
+          "euro": "797",
+          "cent": "00",
+          "formattedPrice": "797,00 €"
+        },
+        "average": {
+          "price": 979,
+          "euro": "979",
+          "cent": "00",
+          "formattedPrice": "979,00 €"
+        }
+      },
+      {
+        "id": "5612723807",
+        "date": "11-18-2022",
+        "label": "18.11.2022",
+        "price": {
+          "price": 779.62,
+          "euro": "779",
+          "cent": "62",
+          "formattedPrice": "779,62 €"
+        },
+        "average": {
+          "price": 979,
+          "euro": "979",
+          "cent": "00",
+          "formattedPrice": "979,00 €"
+        }
+      },
+      {
+        "id": "5615924963",
+        "date": "11-19-2022",
+        "label": "19.11.2022",
+        "price": {
+          "price": 779.62,
+          "euro": "779",
+          "cent": "62",
+          "formattedPrice": "779,62 €"
+        },
+        "average": {
+          "price": 979,
+          "euro": "979",
+          "cent": "00",
+          "formattedPrice": "979,00 €"
+        }
+      },
+      {
+        "id": "5619127549",
+        "date": "11-20-2022",
+        "label": "20.11.2022",
+        "price": {
+          "price": 779,
+          "euro": "779",
+          "cent": "00",
+          "formattedPrice": "779,00 €"
+        },
+        "average": {
+          "price": 983.14,
+          "euro": "983",
+          "cent": "14",
+          "formattedPrice": "983,14 €"
+        }
+      },
+      {
+        "id": "5622330857",
+        "date": "11-21-2022",
+        "label": "21.11.2022",
+        "price": {
+          "price": 778.99,
+          "euro": "778",
+          "cent": "99",
+          "formattedPrice": "778,99 €"
+        },
+        "average": {
+          "price": 984.94,
+          "euro": "984",
+          "cent": "94",
+          "formattedPrice": "984,94 €"
+        }
+      },
+      {
+        "id": "5625531109",
+        "date": "11-22-2022",
+        "label": "22.11.2022",
+        "price": {
+          "price": 789,
+          "euro": "789",
+          "cent": "00",
+          "formattedPrice": "789,00 €"
+        },
+        "average": {
+          "price": 979.845,
+          "euro": "979",
+          "cent": "84",
+          "formattedPrice": "979,85 €"
+        }
+      },
+      {
+        "id": "5628728259",
+        "date": "11-23-2022",
+        "label": "23.11.2022",
+        "price": {
+          "price": 789,
+          "euro": "789",
+          "cent": "00",
+          "formattedPrice": "789,00 €"
+        },
+        "average": {
+          "price": 982.4,
+          "euro": "982",
+          "cent": "40",
+          "formattedPrice": "982,40 €"
+        }
+      },
+      {
+        "id": "5631921906",
+        "date": "11-24-2022",
+        "label": "24.11.2022",
+        "price": {
+          "price": 779.62,
+          "euro": "779",
+          "cent": "62",
+          "formattedPrice": "779,62 €"
+        },
+        "average": {
+          "price": 980.04,
+          "euro": "980",
+          "cent": "04",
+          "formattedPrice": "980,04 €"
+        }
+      },
+      {
+        "id": "5635114644",
+        "date": "11-25-2022",
+        "label": "25.11.2022",
+        "price": {
+          "price": 779.62,
+          "euro": "779",
+          "cent": "62",
+          "formattedPrice": "779,62 €"
+        },
+        "average": {
+          "price": 980.35,
+          "euro": "980",
+          "cent": "35",
+          "formattedPrice": "980,35 €"
+        }
+      },
+      {
+        "id": "5638310165",
+        "date": "11-26-2022",
+        "label": "26.11.2022",
+        "price": {
+          "price": 809,
+          "euro": "809",
+          "cent": "00",
+          "formattedPrice": "809,00 €"
+        },
+        "average": {
+          "price": 994.66,
+          "euro": "994",
+          "cent": "66",
+          "formattedPrice": "994,66 €"
+        }
+      },
+      {
+        "id": "5641497403",
+        "date": "11-27-2022",
+        "label": "27.11.2022",
+        "price": {
+          "price": 809,
+          "euro": "809",
+          "cent": "00",
+          "formattedPrice": "809,00 €"
+        },
+        "average": {
+          "price": 992.44,
+          "euro": "992",
+          "cent": "44",
+          "formattedPrice": "992,44 €"
+        }
+      },
+      {
+        "id": "5644684167",
+        "date": "11-28-2022",
+        "label": "28.11.2022",
+        "price": {
+          "price": 809,
+          "euro": "809",
+          "cent": "00",
+          "formattedPrice": "809,00 €"
+        },
+        "average": {
+          "price": 996.28,
+          "euro": "996",
+          "cent": "28",
+          "formattedPrice": "996,28 €"
+        }
+      },
+      {
+        "id": "5647855730",
+        "date": "11-29-2022",
+        "label": "29.11.2022",
+        "price": {
+          "price": 794.43,
+          "euro": "794",
+          "cent": "43",
+          "formattedPrice": "794,43 €"
+        },
+        "average": {
+          "price": 989.95,
+          "euro": "989",
+          "cent": "95",
+          "formattedPrice": "989,95 €"
+        }
+      },
+      {
+        "id": "5651020349",
+        "date": "11-30-2022",
+        "label": "30.11.2022",
+        "price": {
+          "price": 794.43,
+          "euro": "794",
+          "cent": "43",
+          "formattedPrice": "794,43 €"
+        },
+        "average": {
+          "price": 992.22,
+          "euro": "992",
+          "cent": "22",
+          "formattedPrice": "992,22 €"
+        }
+      },
+      {
+        "id": "5654205214",
+        "date": "12-01-2022",
+        "label": "01.12.2022",
+        "price": {
+          "price": 786.24,
+          "euro": "786",
+          "cent": "24",
+          "formattedPrice": "786,24 €"
+        },
+        "average": {
+          "price": 984.04,
+          "euro": "984",
+          "cent": "04",
+          "formattedPrice": "984,04 €"
+        }
+      },
+      {
+        "id": "5657400086",
+        "date": "12-02-2022",
+        "label": "02.12.2022",
+        "price": {
+          "price": 786.24,
+          "euro": "786",
+          "cent": "24",
+          "formattedPrice": "786,24 €"
+        },
+        "average": {
+          "price": 979,
+          "euro": "979",
+          "cent": "00",
+          "formattedPrice": "979,00 €"
+        }
+      },
+      {
+        "id": "5660597916",
+        "date": "12-03-2022",
+        "label": "03.12.2022",
+        "price": {
+          "price": 794.43,
+          "euro": "794",
+          "cent": "43",
+          "formattedPrice": "794,43 €"
+        },
+        "average": {
+          "price": 979,
+          "euro": "979",
+          "cent": "00",
+          "formattedPrice": "979,00 €"
+        }
+      },
+      {
+        "id": "5663793924",
+        "date": "12-04-2022",
+        "label": "04.12.2022",
+        "price": {
+          "price": 794.43,
+          "euro": "794",
+          "cent": "43",
+          "formattedPrice": "794,43 €"
+        },
+        "average": {
+          "price": 979,
+          "euro": "979",
+          "cent": "00",
+          "formattedPrice": "979,00 €"
+        }
+      },
+      {
+        "id": "5666990616",
+        "date": "12-05-2022",
+        "label": "05.12.2022",
+        "price": {
+          "price": 794.43,
+          "euro": "794",
+          "cent": "43",
+          "formattedPrice": "794,43 €"
+        },
+        "average": {
+          "price": 979,
+          "euro": "979",
+          "cent": "00",
+          "formattedPrice": "979,00 €"
+        }
+      },
+      {
+        "id": "5670187713",
+        "date": "12-06-2022",
+        "label": "06.12.2022",
+        "price": {
+          "price": 794.43,
+          "euro": "794",
+          "cent": "43",
+          "formattedPrice": "794,43 €"
+        },
+        "average": {
+          "price": 979,
+          "euro": "979",
+          "cent": "00",
+          "formattedPrice": "979,00 €"
+        }
+      },
+      {
+        "id": "5673380544",
+        "date": "12-07-2022",
+        "label": "07.12.2022",
+        "price": {
+          "price": 794.43,
+          "euro": "794",
+          "cent": "43",
+          "formattedPrice": "794,43 €"
+        },
+        "average": {
+          "price": 979,
+          "euro": "979",
+          "cent": "00",
+          "formattedPrice": "979,00 €"
+        }
+      },
+      {
+        "id": "5676568025",
+        "date": "12-08-2022",
+        "label": "08.12.2022",
+        "price": {
+          "price": 786.24,
+          "euro": "786",
+          "cent": "24",
+          "formattedPrice": "786,24 €"
+        },
+        "average": {
+          "price": 979,
+          "euro": "979",
+          "cent": "00",
+          "formattedPrice": "979,00 €"
+        }
+      },
+      {
+        "id": "5679753098",
+        "date": "12-09-2022",
+        "label": "09.12.2022",
+        "price": {
+          "price": 778,
+          "euro": "778",
+          "cent": "00",
+          "formattedPrice": "778,00 €"
+        },
+        "average": {
+          "price": 975.38,
+          "euro": "975",
+          "cent": "38",
+          "formattedPrice": "975,38 €"
+        }
+      },
+      {
+        "id": "5682934512",
+        "date": "12-10-2022",
+        "label": "10.12.2022",
+        "price": {
+          "price": 769,
+          "euro": "769",
+          "cent": "00",
+          "formattedPrice": "769,00 €"
+        },
+        "average": {
+          "price": 975.98,
+          "euro": "975",
+          "cent": "98",
+          "formattedPrice": "975,98 €"
+        }
+      },
+      {
+        "id": "5686117462",
+        "date": "12-11-2022",
+        "label": "11.12.2022",
+        "price": {
+          "price": 767.99,
+          "euro": "767",
+          "cent": "99",
+          "formattedPrice": "767,99 €"
+        },
+        "average": {
+          "price": 975.87,
+          "euro": "975",
+          "cent": "87",
+          "formattedPrice": "975,87 €"
+        }
+      },
+      {
+        "id": "5689300177",
+        "date": "12-12-2022",
+        "label": "12.12.2022",
+        "price": {
+          "price": 767.99,
+          "euro": "767",
+          "cent": "99",
+          "formattedPrice": "767,99 €"
+        },
+        "average": {
+          "price": 979,
+          "euro": "979",
+          "cent": "00",
+          "formattedPrice": "979,00 €"
+        }
+      },
+      {
+        "id": "5692480823",
+        "date": "12-13-2022",
+        "label": "13.12.2022",
+        "price": {
+          "price": 766.99,
+          "euro": "766",
+          "cent": "99",
+          "formattedPrice": "766,99 €"
+        },
+        "average": {
+          "price": 979,
+          "euro": "979",
+          "cent": "00",
+          "formattedPrice": "979,00 €"
+        }
+      },
+      {
+        "id": "5695659109",
+        "date": "12-14-2022",
+        "label": "14.12.2022",
+        "price": {
+          "price": 766.99,
+          "euro": "766",
+          "cent": "99",
+          "formattedPrice": "766,99 €"
+        },
+        "average": {
+          "price": 978.02,
+          "euro": "978",
+          "cent": "02",
+          "formattedPrice": "978,02 €"
+        }
+      },
+      {
+        "id": "5698830676",
+        "date": "12-15-2022",
+        "label": "15.12.2022",
+        "price": {
+          "price": 766.99,
+          "euro": "766",
+          "cent": "99",
+          "formattedPrice": "766,99 €"
+        },
+        "average": {
+          "price": 975.43,
+          "euro": "975",
+          "cent": "43",
+          "formattedPrice": "975,43 €"
+        }
+      },
+      {
+        "id": "5701996850",
+        "date": "12-16-2022",
+        "label": "16.12.2022",
+        "price": {
+          "price": 764.99,
+          "euro": "764",
+          "cent": "99",
+          "formattedPrice": "764,99 €"
+        },
+        "average": {
+          "price": 975.43,
+          "euro": "975",
+          "cent": "43",
+          "formattedPrice": "975,43 €"
+        }
+      },
+      {
+        "id": "5705162144",
+        "date": "12-17-2022",
+        "label": "17.12.2022",
+        "price": {
+          "price": 799,
+          "euro": "799",
+          "cent": "00",
+          "formattedPrice": "799,00 €"
+        },
+        "average": {
+          "price": 970.9,
+          "euro": "970",
+          "cent": "90",
+          "formattedPrice": "970,90 €"
+        }
+      },
+      {
+        "id": "5708325829",
+        "date": "12-18-2022",
+        "label": "18.12.2022",
+        "price": {
+          "price": 798,
+          "euro": "798",
+          "cent": "00",
+          "formattedPrice": "798,00 €"
+        },
+        "average": {
+          "price": 970.9,
+          "euro": "970",
+          "cent": "90",
+          "formattedPrice": "970,90 €"
+        }
+      },
+      {
+        "id": "5711486545",
+        "date": "12-19-2022",
+        "label": "19.12.2022",
+        "price": {
+          "price": 795,
+          "euro": "795",
+          "cent": "00",
+          "formattedPrice": "795,00 €"
+        },
+        "average": {
+          "price": 970.25,
+          "euro": "970",
+          "cent": "25",
+          "formattedPrice": "970,25 €"
+        }
+      },
+      {
+        "id": "5714641094",
+        "date": "12-20-2022",
+        "label": "20.12.2022",
+        "price": {
+          "price": 799,
+          "euro": "799",
+          "cent": "00",
+          "formattedPrice": "799,00 €"
+        },
+        "average": {
+          "price": 969,
+          "euro": "969",
+          "cent": "00",
+          "formattedPrice": "969,00 €"
+        }
+      },
+      {
+        "id": "5717791851",
+        "date": "12-21-2022",
+        "label": "21.12.2022",
+        "price": {
+          "price": 799,
+          "euro": "799",
+          "cent": "00",
+          "formattedPrice": "799,00 €"
+        },
+        "average": {
+          "price": 969.39,
+          "euro": "969",
+          "cent": "39",
+          "formattedPrice": "969,39 €"
+        }
+      },
+      {
+        "id": "5720937556",
+        "date": "12-22-2022",
+        "label": "22.12.2022",
+        "price": {
+          "price": 778.36,
+          "euro": "778",
+          "cent": "36",
+          "formattedPrice": "778,36 €"
+        },
+        "average": {
+          "price": 961.94,
+          "euro": "961",
+          "cent": "94",
+          "formattedPrice": "961,94 €"
+        }
+      },
+      {
+        "id": "5724085152",
+        "date": "12-23-2022",
+        "label": "23.12.2022",
+        "price": {
+          "price": 778.36,
+          "euro": "778",
+          "cent": "36",
+          "formattedPrice": "778,36 €"
+        },
+        "average": {
+          "price": 959,
+          "euro": "959",
+          "cent": "00",
+          "formattedPrice": "959,00 €"
+        }
+      },
+      {
+        "id": "5727230502",
+        "date": "12-24-2022",
+        "label": "24.12.2022",
+        "price": {
+          "price": 785,
+          "euro": "785",
+          "cent": "00",
+          "formattedPrice": "785,00 €"
+        },
+        "average": {
+          "price": 961.82,
+          "euro": "961",
+          "cent": "82",
+          "formattedPrice": "961,82 €"
+        }
+      },
+      {
+        "id": "5730375363",
+        "date": "12-25-2022",
+        "label": "25.12.2022",
+        "price": {
+          "price": 785,
+          "euro": "785",
+          "cent": "00",
+          "formattedPrice": "785,00 €"
+        },
+        "average": {
+          "price": 963.27,
+          "euro": "963",
+          "cent": "27",
+          "formattedPrice": "963,27 €"
+        }
+      },
+      {
+        "id": "5733521600",
+        "date": "12-26-2022",
+        "label": "26.12.2022",
+        "price": {
+          "price": 787,
+          "euro": "787",
+          "cent": "00",
+          "formattedPrice": "787,00 €"
+        },
+        "average": {
+          "price": 963.99,
+          "euro": "963",
+          "cent": "99",
+          "formattedPrice": "963,99 €"
+        }
+      },
+      {
+        "id": "5736657649",
+        "date": "12-27-2022",
+        "label": "27.12.2022",
+        "price": {
+          "price": 789,
+          "euro": "789",
+          "cent": "00",
+          "formattedPrice": "789,00 €"
+        },
+        "average": {
+          "price": 965.64,
+          "euro": "965",
+          "cent": "64",
+          "formattedPrice": "965,64 €"
+        }
+      },
+      {
+        "id": "5739794600",
+        "date": "12-28-2022",
+        "label": "28.12.2022",
+        "price": {
+          "price": 789,
+          "euro": "789",
+          "cent": "00",
+          "formattedPrice": "789,00 €"
+        },
+        "average": {
+          "price": 965.64,
+          "euro": "965",
+          "cent": "64",
+          "formattedPrice": "965,64 €"
+        }
+      },
+      {
+        "id": "5742928091",
+        "date": "12-29-2022",
+        "label": "29.12.2022",
+        "price": {
+          "price": 788,
+          "euro": "788",
+          "cent": "00",
+          "formattedPrice": "788,00 €"
+        },
+        "average": {
+          "price": 969.35,
+          "euro": "969",
+          "cent": "35",
+          "formattedPrice": "969,35 €"
+        }
+      },
+      {
+        "id": "5746056300",
+        "date": "12-30-2022",
+        "label": "30.12.2022",
+        "price": {
+          "price": 787.99,
+          "euro": "787",
+          "cent": "99",
+          "formattedPrice": "787,99 €"
+        },
+        "average": {
+          "price": 970.9,
+          "euro": "970",
+          "cent": "90",
+          "formattedPrice": "970,90 €"
+        }
+      },
+      {
+        "id": "5749180941",
+        "date": "12-31-2022",
+        "label": "31.12.2022",
+        "price": {
+          "price": 769.69,
+          "euro": "769",
+          "cent": "69",
+          "formattedPrice": "769,69 €"
+        },
+        "average": {
+          "price": 968.9,
+          "euro": "968",
+          "cent": "90",
+          "formattedPrice": "968,90 €"
+        }
+      },
+      {
+        "id": "5752319455",
+        "date": "01-01-2023",
+        "label": "01.01.2023",
+        "price": {
+          "price": 769.69,
+          "euro": "769",
+          "cent": "69",
+          "formattedPrice": "769,69 €"
+        },
+        "average": {
+          "price": 965.63,
+          "euro": "965",
+          "cent": "63",
+          "formattedPrice": "965,63 €"
+        }
+      },
+      {
+        "id": "5755470468",
+        "date": "01-02-2023",
+        "label": "02.01.2023",
+        "price": {
+          "price": 787,
+          "euro": "787",
+          "cent": "00",
+          "formattedPrice": "787,00 €"
+        },
+        "average": {
+          "price": 965.64,
+          "euro": "965",
+          "cent": "64",
+          "formattedPrice": "965,64 €"
+        }
+      },
+      {
+        "id": "5758622100",
+        "date": "01-03-2023",
+        "label": "03.01.2023",
+        "price": {
+          "price": 787,
+          "euro": "787",
+          "cent": "00",
+          "formattedPrice": "787,00 €"
+        },
+        "average": {
+          "price": 965.63,
+          "euro": "965",
+          "cent": "63",
+          "formattedPrice": "965,63 €"
+        }
+      },
+      {
+        "id": "5761773811",
+        "date": "01-04-2023",
+        "label": "04.01.2023",
+        "price": {
+          "price": 786,
+          "euro": "786",
+          "cent": "00",
+          "formattedPrice": "786,00 €"
+        },
+        "average": {
+          "price": 963.26,
+          "euro": "963",
+          "cent": "26",
+          "formattedPrice": "963,26 €"
+        }
+      },
+      {
+        "id": "5764923224",
+        "date": "01-05-2023",
+        "label": "05.01.2023",
+        "price": {
+          "price": 784.99,
+          "euro": "784",
+          "cent": "99",
+          "formattedPrice": "784,99 €"
+        },
+        "average": {
+          "price": 963.27,
+          "euro": "963",
+          "cent": "27",
+          "formattedPrice": "963,27 €"
+        }
+      },
+      {
+        "id": "5768075681",
+        "date": "01-06-2023",
+        "label": "06.01.2023",
+        "price": {
+          "price": 784.99,
+          "euro": "784",
+          "cent": "99",
+          "formattedPrice": "784,99 €"
+        },
+        "average": {
+          "price": 959.5,
+          "euro": "959",
+          "cent": "50",
+          "formattedPrice": "959,50 €"
+        }
+      },
+      {
+        "id": "5771229094",
+        "date": "01-07-2023",
+        "label": "07.01.2023",
+        "price": {
+          "price": 784.99,
+          "euro": "784",
+          "cent": "99",
+          "formattedPrice": "784,99 €"
+        },
+        "average": {
+          "price": 952.99,
+          "euro": "952",
+          "cent": "99",
+          "formattedPrice": "952,99 €"
+        }
+      },
+      {
+        "id": "5774382640",
+        "date": "01-08-2023",
+        "label": "08.01.2023",
+        "price": {
+          "price": 784.99,
+          "euro": "784",
+          "cent": "99",
+          "formattedPrice": "784,99 €"
+        },
+        "average": {
+          "price": 952.595,
+          "euro": "952",
+          "cent": "60",
+          "formattedPrice": "952,60 €"
+        }
+      },
+      {
+        "id": "5777536218",
+        "date": "01-09-2023",
+        "label": "09.01.2023",
+        "price": {
+          "price": 784.99,
+          "euro": "784",
+          "cent": "99",
+          "formattedPrice": "784,99 €"
+        },
+        "average": {
+          "price": 952.2,
+          "euro": "952",
+          "cent": "20",
+          "formattedPrice": "952,20 €"
+        }
+      },
+      {
+        "id": "5780680255",
+        "date": "01-10-2023",
+        "label": "10.01.2023",
+        "price": {
+          "price": 779,
+          "euro": "779",
+          "cent": "00",
+          "formattedPrice": "779,00 €"
+        },
+        "average": {
+          "price": 949.995,
+          "euro": "949",
+          "cent": "00",
+          "formattedPrice": "950,00 €"
+        }
+      },
+      {
+        "id": "5783825792",
+        "date": "01-11-2023",
+        "label": "11.01.2023",
+        "price": {
+          "price": 779,
+          "euro": "779",
+          "cent": "00",
+          "formattedPrice": "779,00 €"
+        },
+        "average": {
+          "price": 949.99,
+          "euro": "949",
+          "cent": "99",
+          "formattedPrice": "949,99 €"
+        }
+      },
+      {
+        "id": "5786973091",
+        "date": "01-12-2023",
+        "label": "12.01.2023",
+        "price": {
+          "price": 759,
+          "euro": "759",
+          "cent": "00",
+          "formattedPrice": "759,00 €"
+        },
+        "average": {
+          "price": 947.45,
+          "euro": "947",
+          "cent": "45",
+          "formattedPrice": "947,45 €"
+        }
+      },
+      {
+        "id": "5790124441",
+        "date": "01-13-2023",
+        "label": "13.01.2023",
+        "price": {
+          "price": 769,
+          "euro": "769",
+          "cent": "00",
+          "formattedPrice": "769,00 €"
+        },
+        "average": {
+          "price": 940.5,
+          "euro": "940",
+          "cent": "50",
+          "formattedPrice": "940,50 €"
+        }
+      },
+      {
+        "id": "5793272075",
+        "date": "01-14-2023",
+        "label": "14.01.2023",
+        "price": {
+          "price": 759,
+          "euro": "759",
+          "cent": "00",
+          "formattedPrice": "759,00 €"
+        },
+        "average": {
+          "price": 939.99,
+          "euro": "939",
+          "cent": "99",
+          "formattedPrice": "939,99 €"
+        }
+      },
+      {
+        "id": "5796419811",
+        "date": "01-15-2023",
+        "label": "15.01.2023",
+        "price": {
+          "price": 759,
+          "euro": "759",
+          "cent": "00",
+          "formattedPrice": "759,00 €"
+        },
+        "average": {
+          "price": 939.145,
+          "euro": "939",
+          "cent": "14",
+          "formattedPrice": "939,14 €"
+        }
+      },
+      {
+        "id": "5799569161",
+        "date": "01-16-2023",
+        "label": "16.01.2023",
+        "price": {
+          "price": 759,
+          "euro": "759",
+          "cent": "00",
+          "formattedPrice": "759,00 €"
+        },
+        "average": {
+          "price": 938.975,
+          "euro": "938",
+          "cent": "98",
+          "formattedPrice": "938,98 €"
+        }
+      },
+      {
+        "id": "5802714130",
+        "date": "01-17-2023",
+        "label": "17.01.2023",
+        "price": {
+          "price": 759,
+          "euro": "759",
+          "cent": "00",
+          "formattedPrice": "759,00 €"
+        },
+        "average": {
+          "price": 935,
+          "euro": "935",
+          "cent": "00",
+          "formattedPrice": "935,00 €"
+        }
+      },
+      {
+        "id": "5805861359",
+        "date": "01-18-2023",
+        "label": "18.01.2023",
+        "price": {
+          "price": 739,
+          "euro": "739",
+          "cent": "00",
+          "formattedPrice": "739,00 €"
+        },
+        "average": {
+          "price": 933.87,
+          "euro": "933",
+          "cent": "87",
+          "formattedPrice": "933,87 €"
+        }
+      },
+      {
+        "id": "5809006765",
+        "date": "01-19-2023",
+        "label": "19.01.2023",
+        "price": {
+          "price": 739,
+          "euro": "739",
+          "cent": "00",
+          "formattedPrice": "739,00 €"
+        },
+        "average": {
+          "price": 936.45,
+          "euro": "936",
+          "cent": "45",
+          "formattedPrice": "936,45 €"
+        }
+      },
+      {
+        "id": "5812153980",
+        "date": "01-20-2023",
+        "label": "20.01.2023",
+        "price": {
+          "price": 739,
+          "euro": "739",
+          "cent": "00",
+          "formattedPrice": "739,00 €"
+        },
+        "average": {
+          "price": 931.78,
+          "euro": "931",
+          "cent": "78",
+          "formattedPrice": "931,78 €"
+        }
+      },
+      {
+        "id": "5815298030",
+        "date": "01-21-2023",
+        "label": "21.01.2023",
+        "price": {
+          "price": 737,
+          "euro": "737",
+          "cent": "00",
+          "formattedPrice": "737,00 €"
+        },
+        "average": {
+          "price": 929.99,
+          "euro": "929",
+          "cent": "99",
+          "formattedPrice": "929,99 €"
+        }
+      },
+      {
+        "id": "5818446573",
+        "date": "01-22-2023",
+        "label": "22.01.2023",
+        "price": {
+          "price": 735,
+          "euro": "735",
+          "cent": "00",
+          "formattedPrice": "735,00 €"
+        },
+        "average": {
+          "price": 929.99,
+          "euro": "929",
+          "cent": "99",
+          "formattedPrice": "929,99 €"
+        }
+      },
+      {
+        "id": "5821597752",
+        "date": "01-23-2023",
+        "label": "23.01.2023",
+        "price": {
+          "price": 737,
+          "euro": "737",
+          "cent": "00",
+          "formattedPrice": "737,00 €"
+        },
+        "average": {
+          "price": 929.99,
+          "euro": "929",
+          "cent": "99",
+          "formattedPrice": "929,99 €"
+        }
+      },
+      {
+        "id": "5824735945",
+        "date": "01-24-2023",
+        "label": "24.01.2023",
+        "price": {
+          "price": 737,
+          "euro": "737",
+          "cent": "00",
+          "formattedPrice": "737,00 €"
+        },
+        "average": {
+          "price": 932.25,
+          "euro": "932",
+          "cent": "25",
+          "formattedPrice": "932,25 €"
+        }
+      },
+      {
+        "id": "5827874847",
+        "date": "01-25-2023",
+        "label": "25.01.2023",
+        "price": {
+          "price": 734,
+          "euro": "734",
+          "cent": "00",
+          "formattedPrice": "734,00 €"
+        },
+        "average": {
+          "price": 937.23,
+          "euro": "937",
+          "cent": "23",
+          "formattedPrice": "937,23 €"
+        }
+      },
+      {
+        "id": "5831016384",
+        "date": "01-26-2023",
+        "label": "26.01.2023",
+        "price": {
+          "price": 729,
+          "euro": "729",
+          "cent": "00",
+          "formattedPrice": "729,00 €"
+        },
+        "average": {
+          "price": 929.99,
+          "euro": "929",
+          "cent": "99",
+          "formattedPrice": "929,99 €"
+        }
+      },
+      {
+        "id": "5834154514",
+        "date": "01-27-2023",
+        "label": "27.01.2023",
+        "price": {
+          "price": 734,
+          "euro": "734",
+          "cent": "00",
+          "formattedPrice": "734,00 €"
+        },
+        "average": {
+          "price": 935,
+          "euro": "935",
+          "cent": "00",
+          "formattedPrice": "935,00 €"
+        }
+      },
+      {
+        "id": "5837288998",
+        "date": "01-28-2023",
+        "label": "28.01.2023",
+        "price": {
+          "price": 729,
+          "euro": "729",
+          "cent": "00",
+          "formattedPrice": "729,00 €"
+        },
+        "average": {
+          "price": 930.445,
+          "euro": "930",
+          "cent": "44",
+          "formattedPrice": "930,45 €"
+        }
+      },
+      {
+        "id": "5840423834",
+        "date": "01-29-2023",
+        "label": "29.01.2023",
+        "price": {
+          "price": 729,
+          "euro": "729",
+          "cent": "00",
+          "formattedPrice": "729,00 €"
+        },
+        "average": {
+          "price": 929.99,
+          "euro": "929",
+          "cent": "99",
+          "formattedPrice": "929,99 €"
+        }
+      },
+      {
+        "id": "5843552630",
+        "date": "01-30-2023",
+        "label": "30.01.2023",
+        "price": {
+          "price": 729,
+          "euro": "729",
+          "cent": "00",
+          "formattedPrice": "729,00 €"
+        },
+        "average": {
+          "price": 929.99,
+          "euro": "929",
+          "cent": "99",
+          "formattedPrice": "929,99 €"
+        }
+      },
+      {
+        "id": "5846658115",
+        "date": "01-31-2023",
+        "label": "31.01.2023",
+        "price": {
+          "price": 729,
+          "euro": "729",
+          "cent": "00",
+          "formattedPrice": "729,00 €"
+        },
+        "average": {
+          "price": 929.99,
+          "euro": "929",
+          "cent": "99",
+          "formattedPrice": "929,99 €"
+        }
+      },
+      {
+        "id": "5849796034",
+        "date": "02-01-2023",
+        "label": "01.02.2023",
+        "price": {
+          "price": 729,
+          "euro": "729",
+          "cent": "00",
+          "formattedPrice": "729,00 €"
+        },
+        "average": {
+          "price": 929.99,
+          "euro": "929",
+          "cent": "99",
+          "formattedPrice": "929,99 €"
+        }
+      },
+      {
+        "id": "5852938071",
+        "date": "02-02-2023",
+        "label": "02.02.2023",
+        "price": {
+          "price": 729,
+          "euro": "729",
+          "cent": "00",
+          "formattedPrice": "729,00 €"
+        },
+        "average": {
+          "price": 932.25,
+          "euro": "932",
+          "cent": "25",
+          "formattedPrice": "932,25 €"
+        }
+      },
+      {
+        "id": "5856082650",
+        "date": "02-03-2023",
+        "label": "03.02.2023",
+        "price": {
+          "price": 729,
+          "euro": "729",
+          "cent": "00",
+          "formattedPrice": "729,00 €"
+        },
+        "average": {
+          "price": 933.935,
+          "euro": "933",
+          "cent": "94",
+          "formattedPrice": "933,93 €"
+        }
+      },
+      {
+        "id": "5859225230",
+        "date": "02-04-2023",
+        "label": "04.02.2023",
+        "price": {
+          "price": 729,
+          "euro": "729",
+          "cent": "00",
+          "formattedPrice": "729,00 €"
+        },
+        "average": {
+          "price": 939,
+          "euro": "939",
+          "cent": "00",
+          "formattedPrice": "939,00 €"
+        }
+      },
+      {
+        "id": "5862374153",
+        "date": "02-05-2023",
+        "label": "05.02.2023",
+        "price": {
+          "price": 729,
+          "euro": "729",
+          "cent": "00",
+          "formattedPrice": "729,00 €"
+        },
+        "average": {
+          "price": 940,
+          "euro": "940",
+          "cent": "00",
+          "formattedPrice": "940,00 €"
+        }
+      },
+      {
+        "id": "5865516300",
+        "date": "02-06-2023",
+        "label": "06.02.2023",
+        "price": {
+          "price": 729,
+          "euro": "729",
+          "cent": "00",
+          "formattedPrice": "729,00 €"
+        },
+        "average": {
+          "price": 942.415,
+          "euro": "942",
+          "cent": "42",
+          "formattedPrice": "942,41 €"
+        }
+      },
+      {
+        "id": "5868657388",
+        "date": "02-07-2023",
+        "label": "07.02.2023",
+        "price": {
+          "price": 729,
+          "euro": "729",
+          "cent": "00",
+          "formattedPrice": "729,00 €"
+        },
+        "average": {
+          "price": 941.9,
+          "euro": "941",
+          "cent": "90",
+          "formattedPrice": "941,90 €"
+        }
+      },
+      {
+        "id": "5871800071",
+        "date": "02-08-2023",
+        "label": "08.02.2023",
+        "price": {
+          "price": 729,
+          "euro": "729",
+          "cent": "00",
+          "formattedPrice": "729,00 €"
+        },
+        "average": {
+          "price": 939,
+          "euro": "939",
+          "cent": "00",
+          "formattedPrice": "939,00 €"
+        }
+      },
+      {
+        "id": "5874942520",
+        "date": "02-09-2023",
+        "label": "09.02.2023",
+        "price": {
+          "price": 718,
+          "euro": "718",
+          "cent": "00",
+          "formattedPrice": "718,00 €"
+        },
+        "average": {
+          "price": 939,
+          "euro": "939",
+          "cent": "00",
+          "formattedPrice": "939,00 €"
+        }
+      },
+      {
+        "id": "5878083346",
+        "date": "02-10-2023",
+        "label": "10.02.2023",
+        "price": {
+          "price": 718,
+          "euro": "718",
+          "cent": "00",
+          "formattedPrice": "718,00 €"
+        },
+        "average": {
+          "price": 935.32,
+          "euro": "935",
+          "cent": "32",
+          "formattedPrice": "935,32 €"
+        }
+      },
+      {
+        "id": "5881224941",
+        "date": "02-11-2023",
+        "label": "11.02.2023",
+        "price": {
+          "price": 718,
+          "euro": "718",
+          "cent": "00",
+          "formattedPrice": "718,00 €"
+        },
+        "average": {
+          "price": 933.875,
+          "euro": "933",
+          "cent": "88",
+          "formattedPrice": "933,88 €"
+        }
+      },
+      {
+        "id": "5884367214",
+        "date": "02-12-2023",
+        "label": "12.02.2023",
+        "price": {
+          "price": 709.99,
+          "euro": "709",
+          "cent": "99",
+          "formattedPrice": "709,99 €"
+        },
+        "average": {
+          "price": 933.875,
+          "euro": "933",
+          "cent": "88",
+          "formattedPrice": "933,88 €"
+        }
+      },
+      {
+        "id": "5887506357",
+        "date": "02-13-2023",
+        "label": "13.02.2023",
+        "price": {
+          "price": 709.99,
+          "euro": "709",
+          "cent": "99",
+          "formattedPrice": "709,99 €"
+        },
+        "average": {
+          "price": 931.95,
+          "euro": "931",
+          "cent": "95",
+          "formattedPrice": "931,95 €"
+        }
+      },
+      {
+        "id": "5890644906",
+        "date": "02-14-2023",
+        "label": "14.02.2023",
+        "price": {
+          "price": 718,
+          "euro": "718",
+          "cent": "00",
+          "formattedPrice": "718,00 €"
+        },
+        "average": {
+          "price": 932.96,
+          "euro": "932",
+          "cent": "96",
+          "formattedPrice": "932,96 €"
+        }
+      },
+      {
+        "id": "5893789629",
+        "date": "02-15-2023",
+        "label": "15.02.2023",
+        "price": {
+          "price": 718,
+          "euro": "718",
+          "cent": "00",
+          "formattedPrice": "718,00 €"
+        },
+        "average": {
+          "price": 931,
+          "euro": "931",
+          "cent": "00",
+          "formattedPrice": "931,00 €"
+        }
+      },
+      {
+        "id": "5896932620",
+        "date": "02-16-2023",
+        "label": "16.02.2023",
+        "price": {
+          "price": 715,
+          "euro": "715",
+          "cent": "00",
+          "formattedPrice": "715,00 €"
+        },
+        "average": {
+          "price": 931.78,
+          "euro": "931",
+          "cent": "78",
+          "formattedPrice": "931,78 €"
+        }
+      },
+      {
+        "id": "5900076530",
+        "date": "02-17-2023",
+        "label": "17.02.2023",
+        "price": {
+          "price": 718,
+          "euro": "718",
+          "cent": "00",
+          "formattedPrice": "718,00 €"
+        },
+        "average": {
+          "price": 935.88,
+          "euro": "935",
+          "cent": "88",
+          "formattedPrice": "935,88 €"
+        }
+      },
+      {
+        "id": "5903223512",
+        "date": "02-18-2023",
+        "label": "18.02.2023",
+        "price": {
+          "price": 713.99,
+          "euro": "713",
+          "cent": "99",
+          "formattedPrice": "713,99 €"
+        },
+        "average": {
+          "price": 934.5,
+          "euro": "934",
+          "cent": "50",
+          "formattedPrice": "934,50 €"
+        }
+      },
+      {
+        "id": "5906373200",
+        "date": "02-19-2023",
+        "label": "19.02.2023",
+        "price": {
+          "price": 715,
+          "euro": "715",
+          "cent": "00",
+          "formattedPrice": "715,00 €"
+        },
+        "average": {
+          "price": 935.48,
+          "euro": "935",
+          "cent": "48",
+          "formattedPrice": "935,48 €"
+        }
+      },
+      {
+        "id": "5909522045",
+        "date": "02-20-2023",
+        "label": "20.02.2023",
+        "price": {
+          "price": 714,
+          "euro": "714",
+          "cent": "00",
+          "formattedPrice": "714,00 €"
+        },
+        "average": {
+          "price": 936.38,
+          "euro": "936",
+          "cent": "38",
+          "formattedPrice": "936,38 €"
+        }
+      },
+      {
+        "id": "5912664895",
+        "date": "02-21-2023",
+        "label": "21.02.2023",
+        "price": {
+          "price": 712.49,
+          "euro": "712",
+          "cent": "49",
+          "formattedPrice": "712,49 €"
+        },
+        "average": {
+          "price": 939,
+          "euro": "939",
+          "cent": "00",
+          "formattedPrice": "939,00 €"
+        }
+      },
+      {
+        "id": "5915809214",
+        "date": "02-22-2023",
+        "label": "22.02.2023",
+        "price": {
+          "price": 714,
+          "euro": "714",
+          "cent": "00",
+          "formattedPrice": "714,00 €"
+        },
+        "average": {
+          "price": 934.27,
+          "euro": "934",
+          "cent": "27",
+          "formattedPrice": "934,27 €"
+        }
+      },
+      {
+        "id": "5918953594",
+        "date": "02-23-2023",
+        "label": "23.02.2023",
+        "price": {
+          "price": 714,
+          "euro": "714",
+          "cent": "00",
+          "formattedPrice": "714,00 €"
+        },
+        "average": {
+          "price": 936.83,
+          "euro": "936",
+          "cent": "83",
+          "formattedPrice": "936,83 €"
+        }
+      },
+      {
+        "id": "5922100586",
+        "date": "02-24-2023",
+        "label": "24.02.2023",
+        "price": {
+          "price": 714,
+          "euro": "714",
+          "cent": "00",
+          "formattedPrice": "714,00 €"
+        },
+        "average": {
+          "price": 937.06,
+          "euro": "937",
+          "cent": "06",
+          "formattedPrice": "937,06 €"
+        }
+      },
+      {
+        "id": "5925245635",
+        "date": "02-25-2023",
+        "label": "25.02.2023",
+        "price": {
+          "price": 713,
+          "euro": "713",
+          "cent": "00",
+          "formattedPrice": "713,00 €"
+        },
+        "average": {
+          "price": 934.725,
+          "euro": "934",
+          "cent": "72",
+          "formattedPrice": "934,73 €"
+        }
+      },
+      {
+        "id": "5928394345",
+        "date": "02-26-2023",
+        "label": "26.02.2023",
+        "price": {
+          "price": 714,
+          "euro": "714",
+          "cent": "00",
+          "formattedPrice": "714,00 €"
+        },
+        "average": {
+          "price": 934.5,
+          "euro": "934",
+          "cent": "50",
+          "formattedPrice": "934,50 €"
+        }
+      },
+      {
+        "id": "5931537368",
+        "date": "02-27-2023",
+        "label": "27.02.2023",
+        "price": {
+          "price": 719,
+          "euro": "719",
+          "cent": "00",
+          "formattedPrice": "719,00 €"
+        },
+        "average": {
+          "price": 934.5,
+          "euro": "934",
+          "cent": "50",
+          "formattedPrice": "934,50 €"
+        }
+      },
+      {
+        "id": "5934671835",
+        "date": "02-28-2023",
+        "label": "28.02.2023",
+        "price": {
+          "price": 719,
+          "euro": "719",
+          "cent": "00",
+          "formattedPrice": "719,00 €"
+        },
+        "average": {
+          "price": 934.47,
+          "euro": "934",
+          "cent": "47",
+          "formattedPrice": "934,47 €"
+        }
+      },
+      {
+        "id": "5937821514",
+        "date": "03-01-2023",
+        "label": "01.03.2023",
+        "price": {
+          "price": 719,
+          "euro": "719",
+          "cent": "00",
+          "formattedPrice": "719,00 €"
+        },
+        "average": {
+          "price": 933.97,
+          "euro": "933",
+          "cent": "97",
+          "formattedPrice": "933,97 €"
+        }
+      },
+      {
+        "id": "5940979082",
+        "date": "03-02-2023",
+        "label": "02.03.2023",
+        "price": {
+          "price": 725,
+          "euro": "725",
+          "cent": "00",
+          "formattedPrice": "725,00 €"
+        },
+        "average": {
+          "price": 931.755,
+          "euro": "931",
+          "cent": "76",
+          "formattedPrice": "931,75 €"
+        }
+      }
+    ],
+    "bestHistoricalProductPriceIndex": 0
+  },
+  "headers": {},
+  "status": 200
+}

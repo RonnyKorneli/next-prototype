@@ -1,0 +1,67 @@
+@import '../base/_colors.scss';
+@import '../base/_layout.scss';
+
+.autocomplete {
+  display: none;
+  position: absolute;
+  font-size: 0.875rem;
+  color: $color-blue;
+  background: $color-white;
+  cursor: default;
+  overflow: auto;
+  box-shadow: 1px 4px 3px rgba($color-grey-80, 0.64);
+
+  &.-show {
+    display: block;
+  }
+
+  .group {
+    display: block;
+    font-size: 0.875rem;
+    color: $color-grey-40;
+    border-bottom: 1px solid $color-grey-40;
+    border-top: 1px solid $color-grey-40;
+    padding: 5px 5px;
+  }
+
+  .suggestion {
+    line-height: 1.3;
+    color: $color-blue;
+    padding: 3px 5px;
+
+    strong {
+      pointer-events: none;
+    }
+
+    &.-selected {
+      background: $color-grey-10;
+    }
+
+    .highlight {
+      color: $color-green;
+      pointer-events: none;
+    }
+  }
+}
+
+.site-header {
+  .autocomplete {
+    z-index: 10;
+    top: 41px;
+    left: 1px;
+    border: 1px solid rgb(0, 55, 97);
+
+    @include media-breakpoint-up(lg) {
+      left: 0;
+    }
+  }
+}
+
+.site-footer {
+  .autocomplete {
+    z-index: 10;
+    top: 50px;
+    left: -1px;
+    border: 1px solid $color-grey-60;
+  }
+}

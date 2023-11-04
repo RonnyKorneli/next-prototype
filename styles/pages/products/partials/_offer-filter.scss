@@ -1,0 +1,368 @@
+.offer-filter {
+  height: 103px;
+
+  @include media-breakpoint-up(md) {
+    height: 111px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    height: 78px;
+  }
+
+  .content-title {
+    margin: 14px 1px 4px;
+    font-size: 1rem;
+
+    .ranking-link {
+      font-weight: 400;
+      text-decoration: underline;
+      font-size: 0.75rem;
+      margin-left: 5px;
+    }
+
+    &.-mobile {
+      @include media-breakpoint-up(lg) {
+        display: none;
+      }
+      .ranking-link {
+        display: block;
+        padding: 12px 0 11px;
+      }
+    }
+
+    &.-desktop {
+      display: none;
+      @include media-breakpoint-up(lg) {
+        margin-top: 18px;
+        display: block;
+      }
+      .ranking-link {
+        margin-left: 5px;
+      }
+    }
+
+    .count {
+      font-weight: 400;
+      font-size: 0.875rem;
+    }
+  }
+  > .filter {
+    > .display {
+      padding: 0 5px;
+
+      @include media-breakpoint-down(sm) {
+        display: none;
+      }
+
+      .display-icon {
+        fill: $color-grey-60;
+        cursor: pointer;
+      }
+      &:hover {
+        .display-icon {
+          fill: $color-blue;
+        }
+      }
+    }
+  }
+}
+
+.filter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+
+  @include media-breakpoint-up(lg) {
+    justify-content: flex-start;
+    height: 58px;
+  }
+}
+
+.filter-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 150px;
+  height: 38px;
+  background-color: $color-white;
+  border: 1px solid $color-grey-40;
+  margin: 5px 0 5px;
+
+  @include media-breakpoint-up(lg) {
+    display: none;
+  }
+
+  .filter-icon {
+    stroke: $color-grey;
+    fill: $color-grey;
+    height: 20px;
+    width: 20px;
+    margin-right: 16px;
+  }
+
+  .filter-text {
+    font-weight: 400;
+    font-size: 0.875rem;
+  }
+
+  .arrow {
+    position: absolute;
+    right: 10px;
+    bottom: 50%;
+    cursor: pointer;
+    z-index: 8;
+    transform: translate3d(0, 50%, 0) rotate(90deg);
+  }
+
+  &.-show {
+    background-color: $color-grey-10;
+
+    .arrow {
+      transform: translate3d(0, 50%, 0) rotate(-90deg);
+    }
+  }
+}
+
+.filter-pill {
+  min-width: 10px;
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: $color-white;
+  line-height: 1.2;
+  text-align: center;
+  border-radius: 10px;
+  vertical-align: baseline;
+  background-color: $color-blue;
+  margin-left: 8px;
+  margin-right: 12px;
+  padding: 3px 7px;
+}
+
+.filter-menu {
+  display: none;
+  position: absolute;
+  width: 100%;
+  top: 42px;
+  left: 0;
+  z-index: 9;
+  font-size: 0.875rem;
+  background-color: $color-grey-10;
+  border: 1px solid $color-grey-40;
+  padding: 25px 17px 15px;
+
+  &.-show {
+    display: block;
+  }
+
+  @include media-breakpoint-only(md) {
+    width: 60%;
+  }
+  @include media-breakpoint-up(lg) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: static;
+    background-color: $color-grey-5;
+    border: none;
+    padding: 0;
+  }
+
+  .menu-close {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    line-height: 1;
+    width: 16px;
+    stroke: $color-grey;
+    fill: $color-grey;
+
+    @include media-breakpoint-up(lg) {
+      display: none;
+    }
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  .overlay-checkbox {
+    margin: 0;
+    padding: 0;
+
+    @include media-breakpoint-up(lg) {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+
+  .payment {
+    line-height: 25px;
+
+    @include media-breakpoint-up(lg) {
+      display: none;
+    }
+  }
+
+  .payment-btn {
+    display: none;
+
+    @include media-breakpoint-up(lg) {
+      display: block;
+      position: relative;
+      height: 38px;
+      width: 240px;
+      cursor: pointer;
+      color: $color-grey;
+      background-color: $color-white;
+      border: 1px solid $color-grey-40;
+      margin-left: 5px;
+    }
+
+    .filter-pill {
+      position: absolute;
+      top: 7px;
+      left: 175px;
+    }
+
+    &.-show {
+      background-color: $color-grey-10;
+
+      .arrow {
+        transform: translate3d(0, 50%, 0) rotate(-90deg);
+      }
+    }
+
+    .arrow {
+      position: absolute;
+      top: 5px;
+      right: 10px;
+      transform: translate3d(0, 50%, 0) rotate(90deg);
+    }
+  }
+
+  .payment-menu {
+    z-index: 9;
+    font-size: 0.875rem;
+    background-color: $color-grey-10;
+
+    @include media-breakpoint-up(lg) {
+      display: none;
+      position: absolute;
+      width: 350px;
+      top: 37px;
+      left: 5px;
+      border: 1px solid $color-grey-40;
+      padding: 25px 17px 15px;
+    }
+
+    &.-show {
+      display: block;
+    }
+
+    .menu-close {
+      display: none;
+      position: absolute;
+      right: 12px;
+      top: 12px;
+      line-height: 1;
+      width: 16px;
+      stroke: $color-grey;
+      fill: $color-grey;
+
+      @include media-breakpoint-up(lg) {
+        display: block;
+      }
+    }
+  }
+
+  .action-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    @include media-breakpoint-up(lg) {
+      display: none;
+    }
+  }
+
+  .btn-basic {
+    text-align: center;
+  }
+}
+
+[data-browser='IE'] {
+  .offer-filter {
+    //workaround for not working alpine -js in IE 11
+    .filter[x-cloak] {
+      display: flex !important;
+      height: 60px;
+
+      #filterBtn {
+        display: none;
+      }
+
+      .display {
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+      }
+      #filterMenu {
+        display: flex;
+
+        .menu-close,
+        hr,
+        .payment,
+        #paymentMenu,
+        .action-btn {
+          display: none;
+        }
+
+        .overlay-checkbox {
+          display: flex;
+          padding: 0;
+
+          .form-field {
+            display: -ms-flexbox !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  margin-bottom: 0;
+
+  input[type='text'],
+  input[type='search'],
+  select,
+  textarea {
+    -webkit-appearance: none;
+    border: 1px solid $color-grey-50;
+    padding: 10px;
+    max-width: 100%;
+    margin-top: 3px;
+    color: $color-grey;
+    border-radius: 0;
+
+    &:focus {
+      border-color: $color-grey-60;
+    }
+  }
+
+  select {
+    -webkit-appearance: listbox;
+  }
+
+  textarea {
+    resize: none;
+    min-height: 150px;
+  }
+}

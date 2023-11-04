@@ -1,0 +1,190 @@
+@import './base/colors';
+@import './base/layout';
+@import './base/utils';
+
+@import 'swiper/scss';
+@import 'swiper/scss/pagination';
+@import 'swiper/scss/navigation';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .w-max-narrow {
+    max-width: 1024px;
+  }
+
+  .w-max-wide {
+    max-width: 1340px;
+  }
+
+  .bg-pde-dark-blue {
+    background-color: rgb(0, 55, 97);
+  }
+
+  .bg-pde-footer {
+    background-color: rgb(102, 135, 160);
+  }
+
+  .border-pde-dark-blue {
+    border-color: rgb(0, 55, 97);
+  }
+}
+
+body {
+  @apply text-gray-600 subpixel-antialiased;
+}
+
+header {
+  &.site-header {
+    @apply flex justify-center;
+
+    &.-minimal {
+      .grid {
+        @apply relative pt-3;
+        grid-template: auto auto/185px auto;
+      }
+
+      .searchbar {
+        @apply pr-0 lg:mr-0 xl:ml-14;
+
+        .remove-searchword {
+          @apply right-28;
+        }
+      }
+    }
+
+    .logo {
+      @apply mb-2.5 flex h-full w-full items-center justify-center md:mb-0 md:items-end md:justify-start;
+      grid-area: 1/1 / span 1 / span 1; /* ??? */
+    }
+
+    .searchbar {
+      @apply ml-10 self-end md:ml-14 lg:ml-8 lg:mr-8 xl:ml-16 xl:mr-16;
+      grid-area: 1/2 / span 1 / span 1;
+    }
+  }
+}
+
+footer {
+  &.site-footer {
+    @apply bg-pde-footer w-full py-4 px-5 text-xs text-white;
+
+    .space-right {
+      margin-right: 15%;
+    }
+
+    .certificate-col {
+      margin-left: 15%;
+    }
+
+    header {
+      @apply mb-2 border-b border-b-white leading-relaxed;
+    }
+
+    ul {
+      li {
+        @apply leading-loose;
+      }
+
+      &.link-list {
+        a {
+          color: $color-white;
+        }
+      }
+      &.-iconlist {
+        li {
+          @apply mr-4 inline-block;
+
+          a {
+            @apply inline-flex h-9;
+            color: $color-white;
+          }
+
+          svg {
+            @apply fill-white;
+          }
+        }
+      }
+    }
+
+    .grid {
+      @apply grid-cols-3 md:text-left;
+    }
+  }
+}
+
+.searchbar {
+  @apply relative flex items-center bg-white;
+
+  &.-blue {
+    .input {
+      @apply border-l-0 border-r-0 lg:border-l;
+    }
+
+    .submit {
+      @apply bg-pde-dark-blue border-pde-dark-blue;
+    }
+  }
+  .input {
+    @apply m-0 inline-block h-11 w-full flex-1 appearance-none overflow-hidden text-ellipsis whitespace-nowrap border-t border-b border-t-gray-300 border-b-gray-300 bg-white py-4 pr-7 pl-2 text-base text-gray-800 focus:outline-none lg:border lg:border-gray-300;
+  }
+
+  .submit {
+    @apply h-11 w-11 cursor-pointer border border-l-0 border-gray-300 bg-black bg-opacity-0 p-0 text-xl outline-none;
+    flex: 0 0 100px;
+
+    .inner-border {
+      @apply pointer-events-none flex items-center justify-center py-1 px-0;
+    }
+
+    svg {
+      @apply fill-white;
+    }
+  }
+  .remove-searchword {
+    @apply absolute right-11 top-0.5 flex h-10 w-6 cursor-pointer items-center justify-center no-underline;
+
+    svg {
+      @apply pointer-events-none fill-gray-500;
+    }
+  }
+}
+
+.container {
+  @apply w-max-wide mx-auto my-0 w-full;
+}
+
+.container-narrow {
+  @apply w-max-narrow mx-auto my-0 w-full;
+}
+
+html,
+body {
+  @apply bg-gray-100;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+.box {
+  @apply rounded-lg border border-gray-300 bg-white p-4 shadow-md;
+  margin-bottom: 30px;
+}

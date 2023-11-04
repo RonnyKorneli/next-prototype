@@ -1,0 +1,20 @@
+query GetPriceTrend($id: ID!, $month: String) {
+  productPriceHistory(productId: $id, month: $month) {
+    id
+    date
+    label
+    price {
+      price
+      euro
+      cent
+      formattedPrice
+    }
+    average {
+      price
+      euro
+      cent
+      formattedPrice
+    }
+  }
+  bestHistoricalProductPriceIndex(productId: $id, month: $month)
+}

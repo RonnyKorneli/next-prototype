@@ -1,0 +1,64 @@
+@import '../../base/colors.scss';
+@import '../../base/layout.scss';
+
+.breadcrumb {
+  overflow: hidden;
+  grid-area: 3 / 1 / span 1 / span 3;
+
+  @include media-breakpoint-up(md) {
+    grid-area: 2 / 1 / span 1 / span 3;
+    margin-top: 10px;
+  }
+
+  @include media-breakpoint-up(md) {
+    margin-top: 5px;
+  }
+}
+
+.breadcrumb-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 20px;
+  width: min-content;
+  padding: 0 15px 0 0;
+  margin: 8px 0 1px 0;
+  color: $color-grey;
+
+  @include media-breakpoint-up(md) {
+    margin-top: 5px;
+  }
+
+  .home {
+    width: 14px;
+    height: 12px;
+    fill: $color-grey;
+
+    @include media-breakpoint-up(md) {
+      height: 14px;
+    }
+  }
+
+  .item {
+    white-space: nowrap;
+    font-size: 0.75rem;
+
+    @include media-breakpoint-up(md) {
+      font-size: 0.875rem;
+    }
+
+    .label {
+      line-height: 20px;
+    }
+    a.label:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .item:before {
+    content: '›';
+    cursor: default;
+    pointer-events: none;
+    padding: 0 5px;
+  }
+}

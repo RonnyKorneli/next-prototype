@@ -1,0 +1,67 @@
+@import '../base/_colors.scss';
+
+.dropdown-container {
+  position: relative;
+  margin-bottom: 0.5rem;
+  max-width: 240px;
+  background-color: $color-white;
+
+  .dropdown-trigger {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    border: 1px solid $color-grey-30;
+
+    .span-label {
+      font-size: 0.75rem;
+      color: $color-grey;
+      user-select: none;
+      padding: 9px 5px 9px 5px;
+      position: relative;
+    }
+    .arrow-default {
+      width: auto;
+      height: auto;
+      position: absolute;
+      right: 10px;
+      transform: translate(0, -50%);
+      .arrow-up {
+        width: auto;
+        height: auto;
+        position: absolute;
+        right: 10px;
+        transform: translate(0, -50%) rotate(180deg);
+      }
+    }
+  }
+  //absolute z-20 bg-white w-full border border-solid border-grey-30  mt-[-1px]
+  .default-dropdown {
+    position: absolute;
+    z-index: 20;
+    width: 100%;
+    border: 1px solid $color-grey-30;
+    margin-top: -1px;
+
+    .dropdown-links {
+      font-size: 0.75rem;
+      display: block;
+      padding: 0.625rem;
+      &:hover {
+        border-left: 2px solid darken($color-grey, 10%);
+        background-color: $color-blue-30;
+        padding-left: 0.5rem;
+      }
+    }
+  }
+  .-green-hover {
+    font-size: 0.75rem;
+    padding: 0.625rem;
+    display: block;
+    color: black;
+    border: none;
+    &:hover {
+      background-color: $color-green;
+      color: white;
+    }
+  }
+}

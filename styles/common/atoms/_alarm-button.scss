@@ -1,0 +1,95 @@
+.alarm-activate {
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+
+  > .alarm-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    background-color: rgba($color-white, 0.9);
+    border-radius: 50%;
+    pointer-events: none;
+
+    > .alarm-outline {
+      width: 26px;
+      height: 26px;
+      fill: $color-grey-60;
+      will-change: tranform;
+      transition: transform 0.2s ease-out;
+      pointer-events: none;
+      @include media-breakpoint-up(md) {
+        width: 22px;
+        height: 22px;
+      }
+    }
+  }
+
+  > .label {
+    display: block;
+    font-size: 0.75rem;
+    pointer-events: none;
+    padding: 5px 0 0;
+  }
+
+  &:hover:not(.-filled) {
+    > .alarm-icon {
+      > .alarm-outline {
+        transform: scale(1.1);
+      }
+    }
+  }
+  &.-filled:hover {
+    > .label {
+      color: $color-blue-60;
+    }
+  }
+
+  &.-active {
+    > .alarm-icon {
+      > .alarm-outline {
+        stroke: $color-green;
+        fill: $color-green;
+      }
+    }
+  }
+  &.-dark:not(.-active) {
+    > .alarm-icon {
+      > .alarm-outline {
+        fill: $color-grey-80;
+      }
+    }
+  }
+  &.-filled {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    > .alarm-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 30px;
+      height: 30px;
+      background-color: $color-blue-40;
+      border-radius: 50%;
+
+      > .alarm-outline {
+        width: 17px;
+        height: 17px;
+        fill: $color-blue;
+      }
+    }
+    > .label {
+      font-size: 0.875rem;
+      text-decoration: underline;
+      color: $color-blue;
+      margin-left: 8px;
+      padding: 0;
+    }
+  }
+}

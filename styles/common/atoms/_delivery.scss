@@ -1,0 +1,119 @@
+@mixin tiny-delivery {
+  > .icon {
+    width: 16px;
+    height: auto;
+    margin-top: 1px;
+  }
+
+  > .text {
+    font-size: 0.625rem;
+  }
+}
+
+@mixin small-delivery {
+  > .icon {
+    width: 22px;
+    height: 22px;
+    margin-top: 0;
+  }
+
+  > .text {
+    font-size: 0.625rem;
+  }
+}
+
+@mixin medium-delivery {
+  > .icon {
+    width: 31px;
+    height: 31px;
+    margin-top: -3px;
+    margin-right: 7px;
+  }
+
+  > .text {
+    font-size: 0.6875rem;
+  }
+}
+
+@mixin large-delivery {
+  > .icon {
+    width: 22px;
+    height: 22px;
+    margin-top: 0;
+  }
+
+  > .text {
+    font-size: 0.75rem;
+  }
+}
+
+.delivery {
+  @include medium-delivery();
+
+  > .icon {
+    &.-darkgreen,
+    &.-green {
+      fill: $color-green;
+    }
+
+    &.-yellow {
+      fill: $color-yellow;
+    }
+
+    &.-gray {
+      fill: $color-grey-40;
+    }
+  }
+
+  &.-tiny {
+    @include tiny-delivery();
+  }
+
+  &.-small {
+    @include small-delivery();
+  }
+
+  &.-medium {
+    @include medium-delivery();
+  }
+
+  &.-large {
+    @include large-delivery();
+  }
+
+  @include media-breakpoint-up(md) {
+    &.md\:-tiny {
+      @include tiny-delivery();
+    }
+
+    &.md\:-small {
+      @include small-delivery();
+    }
+
+    &.md\:-medium {
+      @include medium-delivery();
+    }
+
+    &.md\:-large {
+      @include large-delivery();
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    &.lg\:-tiny {
+      @include tiny-delivery();
+    }
+
+    &.lg\:-small {
+      @include small-delivery();
+    }
+
+    &.lg\:-medium {
+      @include medium-delivery();
+    }
+
+    &.lg\:-large {
+      @include large-delivery();
+    }
+  }
+}

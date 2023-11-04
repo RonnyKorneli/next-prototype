@@ -1,0 +1,130 @@
+query getOfferData(
+  $id: ID!
+  $page: Int!
+  $productId: String!
+  $fastDelivery: Boolean
+  $reduced: Boolean
+  $withShipping: Boolean
+  $onlyUsed: Boolean
+  $paymentIds: [Long]
+  $limit: Int
+  $section: String
+  $action: String
+  $element: String
+) {
+  product(id: $id) {
+    offerContext(
+      page: $page
+      fastDelivery: $fastDelivery
+      discountOnly: $reduced
+      inclusiveDelivery: $withShipping
+      bStockOnly: $onlyUsed
+      paymentIds: $paymentIds
+      limit: $limit
+    ) {
+      maxPage
+      currentPage
+      pageSize
+      offerCount
+      offerEnergyLabel {
+        offerId
+        efficiencyClass
+        efficiencyRangeMin
+        efficiencyRangeMax
+        version
+      }
+      offerFilterSet {
+        fastDeliveryFilter {
+          selectedValue
+          showFilter
+          enableFilter
+        }
+        inclusiveDelivery {
+          selectedValue
+          showFilter
+          enableFilter
+        }
+        bStockOnlyFilter {
+          selectedValue
+          showFilter
+          enableFilter
+        }
+        paymentIdFilter {
+          showFilter
+          values {
+            id
+            name
+            position
+            isSelected
+          }
+        }
+      }
+      offers {
+        id
+        name
+        voucherCode
+        baseprice
+        shopImageUrl
+        modified
+        badges {
+          name
+          value
+        }
+        price {
+          euro
+          cent
+        }
+        minShippingCost {
+          price
+          formattedPrice
+        }
+        priceWithShippingCosts {
+          euro
+          cent
+          formattedPrice
+        }
+        formerPrice {
+          formattedPrice
+        }
+        openerOutLink(
+          productId: $productId
+          pagination: $page
+          section: $section
+          qid: 0
+          action: $action
+          element: $element
+        )
+        shopInfoUrl
+        shop {
+          name
+          mobileFriendly
+          shippingNames
+          image {
+            sd
+            hd
+          }
+        }
+        shopRating {
+          rating
+          ratingCount
+        }
+        merchantName
+        delivery {
+          color
+          text
+        }
+        image {
+          sd
+          hd
+        }
+        imageLarge {
+          sd
+          hd
+        }
+        deliveryText
+        freeReturnDays
+        hasFreeReturnShipping
+      }
+    }
+  }
+}

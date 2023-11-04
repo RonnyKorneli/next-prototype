@@ -1,0 +1,581 @@
+# This file was generated based on ".graphqlconfig". Do not edit manually.
+
+schema {
+  query: Query
+}
+
+"This directive allows results to be deferred during execution"
+directive @defer on FIELD
+
+type AdsensePlace {
+  adLanguage: String
+  adPage: Boolean
+  adTest: Boolean
+  channelId: String!
+  customStyle: String
+  description: String
+  id: String!
+  modified: String
+  noTitleUnderline: Boolean
+  options: String
+  pageType: String
+  pubId: String
+  status: Int!
+}
+
+type AdsensePlaceBlock {
+  adsensePlaceId: String!
+  container: String
+  customStyle: String
+  id: String!
+  modified: String
+  settings: String
+  width: String
+}
+
+type AdsensePlaceInformation {
+  adsensePlace: AdsensePlace
+  adsensePlaceBlockList: [AdsensePlaceBlock]
+}
+
+type AlternativeCategory {
+  categoryList: [Category]
+  subCategoryId: Long
+}
+
+type AmazonRating {
+  asin: String
+  averageRating: Float
+  fiveStarRatingCount: Int
+  fourStarRatingCount: Int
+  id: String!
+  lastAmazonApiCheckAt: String
+  lastAmazonCheckFormatted: String
+  oneStarRatingCount: Int
+  ratingCount: Int
+  "URL zur Amazon-Produkt-Seite inkl. affiliate tag"
+  ratingUrl: String
+  ratio: String
+  status: Int!
+  threeStarRatingCount: Int
+  twoStarRatingCount: Int
+}
+
+type Badge {
+  name: String
+  value: String
+}
+
+type Category {
+  categoryTree: [CategoryTree]
+  directAncestorId: String
+  id: String!
+  imageSlug: String
+  isLeaf: Boolean!
+  layer: Int!
+  matureContent: Boolean!
+  metaDescription: String
+  name: String!
+  oldBreadcrumb: String
+  productFilterStatus: Int!
+  productViewStyle: String!
+  productViewStyleMobile: String!
+  robotsIndex: Int
+  seoTitle: String
+  shortName: String
+  status: Int!
+  subCategories: [Category]
+  subCategoriesBetweenLayers(firstLevel: Int!, secondLevel: Int!): [Category]
+  topAttributeLimit: Int!
+  type: String!
+  url: String!
+  viewStyle: String!
+}
+
+type CategoryRecommendation {
+  category: Category
+  categoryId: String!
+  editor: Editor
+  editorId: String!
+  id: String!
+  name: String
+  status: Int!
+}
+
+type CategoryTree {
+  ancestorId: String
+  categoryList: [Category]
+}
+
+type Delivery {
+  color: String
+  text: String
+}
+
+type Editor {
+  advicerDescription: String
+  advicerSince: String
+  description: String
+  gender: String
+  hobbies: String
+  id: String!
+  image: String
+  imageSlug: String
+  name: String
+  since: String
+  url: String
+}
+
+type Image {
+  hd: String
+  sd: String
+}
+
+type Manufacturer {
+  city: String
+  description: String
+  email: String
+  fax: String
+  fullName: String
+  homepage: String
+  id: String!
+  logoSlug: String
+  name: String!
+  postcode: String
+  "Page startet default mit 1 und muss mindestens 1 sein"
+  products(limit: Int = 30, page: Int = 1): [Product]
+  status: Int!
+  street: String
+  telephone: String
+  url: String!
+}
+
+type ManufacturerDetailPage {
+  "Page startet default mit 1 und muss mindestens 1 sein"
+  categories(limit: Int = 30, page: Int = 1): [Category]
+  manufacturer: Manufacturer
+  manufacturerId: String!
+  "Page startet default mit 1 und muss mindestens 1 sein"
+  products(limit: Int = 30, page: Int = 1): [Product]
+}
+
+type Offer {
+  bStock: Boolean
+  badges: [Badge]
+  "@deprecated(reason: \"It will be replaced by Delivery Object\")"
+  baseprice: String
+  categoryIdIdealo: String
+  contract: Boolean
+  delivery: Delivery
+  deliveryStatusId: Int
+  "@deprecated(reason: \"It will be replaced by Delivery Object\")"
+  deliveryStatusText: String
+  deliveryText: String
+  discount: Float
+  downloadable: Boolean
+  formerPrice: PriceFormat
+  freeReturnDays: String
+  hasCrossedPrice(productId: String!): Boolean
+  hasFreeReturnShipping: Boolean
+  id: String!
+  image: Image
+  imageLarge: Image
+  merchantId: String
+  merchantName: String
+  minShippingCost: PriceFormat
+  modified: String!
+  name: String!
+  openerOutLink(
+    action: String
+    element: String
+    pagination: Int
+    productId: String!
+    qid: Int
+    section: String
+  ): String
+  paymentIdString: String
+  price: PriceFormat
+  priceWithShippingCosts: PriceFormat
+  quantity: Int
+  rebuild: Boolean
+  shop: Shop
+  shopId: String!
+  shopIdIdealo: String!
+  shopImageUrl: String
+  shopInfoUrl: String
+  shopRating: ShopRating
+  shopUrl: String!
+  status: Int! @deprecated(reason: "Das ist nur ein Test-Deprecated")
+  used: Boolean
+  voucherCode: String
+  image: Image
+  imageLarge: Image
+}
+
+type OfferContext {
+  currentPage: Int
+  maxPage: Int
+  offerCount: Int
+  offerEnergyLabel: [OfferEnergylabel]
+  offerFilterSet: OfferFilterSet
+  offers: [Offer]
+  pageSize: Int
+  productId: Long
+}
+
+type OfferDeliveryCosts {
+  label: String
+  offerId: String
+  price: Float
+  priceFormatted: PriceFormat
+  priceWithOffer: Float
+  priceWithOfferFormatted: PriceFormat
+}
+
+type OfferEnergylabel {
+  efficiencyClass: String
+  efficiencyRangeMax: String
+  efficiencyRangeMin: String
+  offerId: Long!
+  tireExternalRollingNoise: Int
+  tireExternalRollingNoiseClass: String
+  tireFuelEfficiency: String
+  tireIceGrip: Boolean
+  tireSnowGrip: Boolean
+  tireWetGripEfficiency: String
+  version: Long
+}
+
+type OfferFilterBoolean {
+  enableFilter: Boolean
+  offerCount: Int
+  selectedValue: Boolean
+  showFilter: Boolean
+}
+
+type OfferFilterSet {
+  bStockOnlyFilter: OfferFilterBoolean
+  discountOnlyFilter: OfferFilterBoolean
+  fastDeliveryFilter: OfferFilterBoolean
+  inclusiveDelivery: OfferFilterBoolean
+  paymentIdFilter: OfferPaymentFilter
+}
+
+type OfferPayment {
+  id: String!
+  isSelected: Boolean!
+  name: String!
+  position: Int!
+}
+
+type OfferPaymentFilter {
+  showFilter: Boolean
+  values: [OfferPayment]
+}
+
+type PaymentProvider {
+  created: String
+  id: String!
+  logoFileName: String
+  name: String
+  type: String
+}
+
+type PriceFormat {
+  cent: String
+  euro: String
+  formattedPrice: String
+  price: Float
+}
+
+type Product {
+  alternativeCategory: [AlternativeCategory]
+  alternativeName: String
+  amazonRating: AmazonRating
+  asinId: String
+  attributes: [TypedJsonAttribute]
+  averagePrice: PriceFormat
+  badges: [Badge]
+  bestDeliveryStatusId: Int
+  bestOffer: Offer
+  breadcrumb: [Category]
+  categoryRank: Int
+  classification: String!
+  created: String
+  defaultDesiredPrice: String
+  description: String
+  energyLabel: ProductEnergyLabel
+  id: String!
+  imageSlug: String
+  "Page startet default mit 1 und muss mindestens 1 sein"
+  images(limit: Int = 30, page: Int = 1): [ProductImage]
+  isGeneralProduct: Boolean!
+  isLightingCategory: Boolean
+  isTireCategory: Boolean
+  manufacturer: Manufacturer
+  manufacturerId: String
+  maxPrice: PriceFormat
+  metaDescription: String
+  minBaseprice: String
+  minPrice: PriceFormat
+  minPriceBStock: PriceFormat
+  name: String!
+  nextCategoryRecommendation: CategoryRecommendation
+  "Enthält alle Offer-Relevanten Informationen und die Offer selbst. Bei Aufruf von offerContext werden bereits alle Offer ermittelt. Page startet default mit 1 und muss mindestens 1 sein"
+  offerContext(
+    bStockOnly: Boolean = false
+    device: String = "desktop"
+    discountOnly: Boolean = false
+    fastDelivery: Boolean = false
+    inclusiveDelivery: Boolean = false
+    limit: Int
+    offerSemOnly: Boolean = false
+    page: Int = 1
+    paymentIds: [Long]
+  ): OfferContext
+  offerCount: Int
+  offerCountBStock: Int
+  offerCountFastDelivery: Int
+  overallRating: String
+  parentCategory: Category
+  parentCategoryId: String!
+  parentProduct: Product
+  parentProductId: String
+  preisdeRank: Int
+  priceTrend: ProductPriceTrend
+  productDepositInfo: ProductWarning
+  productKeyfacts: [ProductKeyfact]
+  productNumbers: [ProductNumber]
+  productProContras: [ProductProContra]
+  productRecommendation: ProductRecommendation
+  "Page startet default mit 1 und muss mindestens 1 sein"
+  productVariants(limit: Int = 100, page: Int = 1): [Product]
+  productWarning: ProductWarning
+  ratingNumber: Int
+  robotsIndex: Boolean
+  savingAbsolute: PriceFormat
+  savingRate: Int
+  seoDescription: String
+  seoTitle: String
+  shortDescription: String
+  status: Int!
+  testContext: TestContext
+  topProductsByCategory: [Product]
+  topProductsByManufacturer: [Product]
+  url: String!
+  userManualUrl: String
+  variantCount: Int!
+  variantName: String
+  "Page startet default mit 1 und muss mindestens 1 sein"
+  videos(limit: Int = 30, page: Int = 1): [ProductVideo]
+}
+
+type ProductDetailPage {
+  product: Product
+  productId: String!
+}
+
+type ProductEnergyLabel {
+  efficiencyClass: String
+  efficiencyRangeMax: String
+  efficiencyRangeMin: String
+  energyDatasheetUrl: String
+  label2021: Boolean
+  labelUrl: String
+  providerId: Long
+  providerType: String
+  tireExternalRollingNoise: Int
+  tireExternalRollingNoiseClass: String
+  tireFuelEfficiency: String
+  tireIceGrip: Boolean
+  tireSnowGrip: Boolean
+  tireWetGripEfficiency: String
+}
+
+type ProductImage {
+  hd: String
+  height: Int
+  imageSlug: String!
+  manuallySelected: Boolean!
+  offerId: String
+  position: Int!
+  productId: String!
+  sd: String
+  setLinkToSource: Boolean
+  shopId: String
+  status: Int!
+  text: String
+  type: String!
+  url: String
+  urlOrigin: String
+  width: Int
+}
+
+type ProductKeyfact {
+  id: Long!
+  keyfact: String
+  productId: Long!
+  sort: Int
+}
+
+type ProductNumber {
+  name: String
+  values: [String]
+}
+
+type ProductPriceHistory {
+  average: PriceFormat
+  date: String
+  id: String!
+  label: String
+  price: PriceFormat
+}
+
+type ProductPriceTrend {
+  id: String!
+  mean: PriceFormat
+  median: PriceFormat
+  productId: String
+  savingAbsolute: PriceFormat
+  savingRate: Int
+}
+
+type ProductProContra {
+  argument: String
+  id: Long!
+  productId: Long!
+  sort: Int
+  type: String
+}
+
+type ProductRecommendation {
+  categoryRecommendationId: String!
+  content: String
+  created: String
+  createdFormatted: String
+  iconFileName: String
+  id: String!
+  name: String
+  productId: String!
+  recommendationLabel: RecommendationLabel
+  recommendationLabelId: String
+  status: Int
+}
+
+type ProductTest {
+  edition: String
+  gradeName: String
+  gradeValue: String
+  id: String!
+  imagehd: String
+  imagesd: String
+  productId: String!
+  publisherLogoSlug: String
+  publisherName: String
+  status: Int
+  testPublisherId: String!
+  text: String
+  url: String
+  value: Float
+}
+
+type ProductVideo {
+  code: String
+  image: String!
+  position: Int
+  productId: String!
+  provider: String
+  providerVideoId: String!
+  status: Int!
+  url: String!
+  videoId: String!
+}
+
+type ProductWarning {
+  name: String
+  value: String
+}
+
+type Query {
+  adsensePlaceInformation(channelId: String): AdsensePlaceInformation
+  bestHistoricalProductPriceIndex(month: String = "3", productId: ID!): Int
+  category(id: ID!): Category
+  editors: [Editor]
+  manufacturer(id: ID!): Manufacturer
+  manufacturerDetailPage(manufacturerId: ID!): ManufacturerDetailPage
+    @deprecated(reason: "No more queries for the entire page")
+  offerDeliveryCosts(offerId: String!): [OfferDeliveryCosts]
+  primaryCategories: [Category]
+  product(id: ID!): Product
+  productDetailPage(productId: ID!): ProductDetailPage
+    @deprecated(reason: "No more queries for the entire page")
+  productPriceHistory(
+    month: String = "3"
+    productId: ID!
+  ): [ProductPriceHistory]
+  products(limit: Int = 30, page: Int = 1, productIds: [Long]!): [Product]
+  shop(id: ID!): Shop
+  splitTest(pagetype: String!): [SplitTest]
+}
+
+type RecommendationLabel {
+  iconmoonClass: String
+  id: String!
+  name: String
+}
+
+type Shop {
+  clickprice: Float
+  creditCardNames: [String]
+  cryptedCPC: Int
+  formattedLastPriceCheck: String
+  id: String!
+  image: Image
+  infoUrl: String
+  lastPricelistCheck: String
+  mobileFriendly: Boolean
+  name: String
+  offersForSem: Boolean
+  paymentProvider: [PaymentProvider]
+  shippingNames: [String]
+  shopLogoSlug: String
+}
+
+type ShopRating {
+  merchantId: String
+  rating: Float
+  ratingCount: Int
+  ratingStars: Float
+  shopId: String!
+  sourceUrl: String
+}
+
+type SplitTest {
+  nGroups: Int!
+  name: String!
+  pagetype: String
+  settings: String
+  trafficPercentage: Int!
+}
+
+type TestContext {
+  gradeName: String
+  gradeValue: String
+  productTestWithText: [ProductTest]
+  productTestWithoutText: [ProductTest]
+  ratio: String
+  testAverageValue: Float
+  testCount: Int
+}
+
+type TypedJsonAttribute {
+  attributeId: String
+  description: String
+  name: String
+  status: Int
+  stringValues: [String]
+  unit: String
+}
+
+"Long type"
+scalar Long

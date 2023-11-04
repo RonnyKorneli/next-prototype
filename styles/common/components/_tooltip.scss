@@ -1,0 +1,198 @@
+@import '../../base/colors';
+@import '../../base/layout';
+
+.tooltip-container {
+  position: relative;
+  margin-left: 6px;
+  display: inline-block;
+
+  > .icon {
+    fill: $color-grey;
+    width: 13px;
+    height: 13px;
+    cursor: pointer;
+    &.-light {
+      fill: $color-grey-60;
+    }
+  }
+
+  &.-light > .icon {
+    fill: $color-grey-60;
+  }
+
+  > .tip {
+    visibility: hidden;
+    position: absolute;
+    transition: opacity 0.5s ease-out 0s;
+    opacity: 0;
+    width: 250px;
+    background-color: $color-white;
+    border: 1px solid $color-grey-30;
+    border-radius: 5px;
+    color: $color-grey;
+    box-shadow: 0 0 3px $color-grey-30;
+    font-size: 0.75rem;
+    line-height: 18px;
+    padding: 10px;
+    font-weight: initial;
+    text-align: left;
+
+    > .close {
+      float: right;
+      width: 26px;
+      display: block;
+      height: 26px;
+      padding: 5px;
+      margin: -3px;
+
+      svg {
+        fill: $color-grey;
+      }
+
+      @media (hover: hover) and (pointer: fine) {
+        display: none;
+      }
+    }
+
+    &.-active {
+      visibility: visible;
+      opacity: 1;
+      z-index: 99;
+    }
+
+    &[data-position='top'] {
+      top: -10px;
+      left: -18px;
+      transform: translateY(-100%);
+    }
+    &[data-position='top-left-200'] {
+      top: -10px;
+      left: -200px;
+      transform: translateY(-100%);
+    }
+    &[data-position='bottom'] {
+      bottom: -10px;
+      left: -50px;
+      transform: translateY(100%);
+    }
+    &[data-position='bottom-left-200'] {
+      bottom: -10px;
+      left: -200px;
+      transform: translateY(100%);
+    }
+    &[data-position='custom'] {
+      top: -10px;
+      left: -25px;
+      transform: translateY(-100%);
+
+      @include media-breakpoint-up(lg) {
+        bottom: -10px;
+        top: auto;
+        left: -200px;
+        transform: translateY(100%);
+      }
+    }
+
+    &:before,
+    &:after {
+      position: absolute;
+      content: '';
+      display: block;
+    }
+
+    &[data-position='top'],
+    &[data-position='top-left-200'] {
+      &:before {
+        z-index: 2;
+        bottom: -10px;
+        border-top: 10px solid $color-white;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+      }
+      &:after {
+        z-index: 1;
+        bottom: -11px;
+        border-top: 11px solid $color-grey-30;
+        border-left: 11px solid transparent;
+        border-right: 11px solid transparent;
+      }
+    }
+    &[data-position='top'] {
+      &:before {
+        left: 13px;
+      }
+      &:after {
+        left: 12px;
+      }
+    }
+    &[data-position='bottom'],
+    &[data-position='bottom-left-200'] {
+      &:before {
+        z-index: 2;
+        top: -10px;
+        border-bottom: 10px solid $color-white;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+      }
+      &:after {
+        z-index: 1;
+        top: -11px;
+        border-bottom: 11px solid $color-grey-30;
+        border-left: 11px solid transparent;
+        border-right: 11px solid transparent;
+      }
+    }
+    &[data-position='bottom'] {
+      &:before {
+        left: 45px;
+      }
+      &:after {
+        left: 44px;
+      }
+    }
+    &[data-position='bottom-left-200'],
+    &[data-position='top-left-200'] {
+      &:before {
+        left: 195px;
+      }
+      &:after {
+        left: 194px;
+      }
+    }
+    &[data-position='custom'] {
+      &:before {
+        left: 20px;
+        z-index: 2;
+        bottom: -10px;
+        border-top: 10px solid $color-white;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+
+        @include media-breakpoint-up(lg) {
+          bottom: auto;
+          left: 196px;
+          top: -10px;
+          border-bottom: 10px solid $color-white;
+          border-top: none;
+        }
+      }
+      &:after {
+        left: 19px;
+        z-index: 1;
+        bottom: -11px;
+        border-top: 11px solid $color-grey-30;
+        border-left: 11px solid transparent;
+        border-right: 11px solid transparent;
+
+        @include media-breakpoint-up(lg) {
+          bottom: auto;
+          left: 195px;
+          z-index: 1;
+          top: -11px;
+          border-bottom: 11px solid $color-grey-30;
+          border-top: none;
+        }
+      }
+    }
+  }
+}

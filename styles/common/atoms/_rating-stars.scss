@@ -1,0 +1,68 @@
+.rating-stars {
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  > .star {
+    stroke: $color-amazon-star-fill;
+    fill: $color-amazon-star-fill;
+    stroke-width: 0.8px;
+    margin: 1px;
+  }
+
+  &.-extrasmall {
+    > .star {
+      width: 12px;
+      height: 12px;
+    }
+  }
+
+  &.-small {
+    > .star {
+      width: 14px;
+      height: 14px;
+    }
+  }
+
+  &.-medium {
+    > .star {
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  &.-large {
+    > .star {
+      width: 20px;
+      height: 20px;
+      stroke-width: 1px;
+    }
+  }
+
+  &.-extralarge {
+    > .star {
+      width: 25px;
+      height: 25px;
+      stroke-width: 0.5px;
+    }
+  }
+
+  &.-grey {
+    > .star {
+      stroke: $color-grey;
+      fill: $color-grey;
+    }
+  }
+
+  &.-pink {
+    > .star {
+      stroke: $color-pink;
+      fill: $color-pink;
+    }
+    &.-large {
+      > .star {
+        stroke-width: 0.2px;
+      }
+    }
+  }
+}
